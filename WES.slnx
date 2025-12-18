@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Commons/">
+    <Project Path="Commons/Common.AspNetCore/Common.AspNetCore.csproj" />
+    <Project Path="Commons\Common.Application\Common.Application.csproj" Type="Classic C#" />
+    <Project Path="Commons\Common.Infrastructure\Common.Infrastructure.csproj" Type="Classic C#" />
+    <Project Path="Commons\Common\Common.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Serivices/">
+    <Project Path="Services/Identity/Identity.csproj" />
+    <Project Path="Services/WCS/WCS.csproj" />
+    <Project Path="Services/WMS/WMS.csproj" />
+  </Folder>
+  <Project Path="Ocelot/API.Host/Gateway.API.csproj" />
+</Solution>

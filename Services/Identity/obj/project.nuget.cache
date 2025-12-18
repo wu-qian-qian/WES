@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sauIC/hfYQ4=",
+  "success": true,
+  "projectFilePath": "D:\\Program\\仓库\\WES\\Services\\Identity\\Identity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.22\\microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.22\\microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.22\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

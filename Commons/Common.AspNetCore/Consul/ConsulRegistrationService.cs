@@ -8,7 +8,8 @@ public class ConsulRegistrationService : IHostedService
     private readonly IHostApplicationLifetime _lifetime;
     private ConsulClient _consulClient;
     private readonly ConsulOptions _consulOptions;
-    public ConsulRegistrationService(IHostApplicationLifetime lifetime,ConsulOptions consulOptions)
+
+    public ConsulRegistrationService(IHostApplicationLifetime lifetime, ConsulOptions consulOptions)
     {
         _lifetime = lifetime;
         _consulOptions = consulOptions;
@@ -16,19 +17,17 @@ public class ConsulRegistrationService : IHostedService
 
     public Task StartAsync(CancellationToken cancellationToken)
     {
-
-        _consulClient = new ConsulClient(c => 
-            { c.Address = new Uri($"http://{_consulOptions.ConsulAddress}:8500"); });
+        _consulClient = new ConsulClient(c => { c.Address = new Uri($"http://{_consulOptions.ConsulAddress}:8500"); });
 
         var registration = new AgentServiceRegistration()
         {
             ID = _consulOptions.ServiceId,
             Name = _consulOptions.ServiceName,
-            Address = _consulOptions.ConsulAddress,   // ⚠️ 关键，使用 IP 避免中文 Node
+            Address = _consulOptions.ConsulAddress, // ⚠️ 关键，使用 IP 避免中文 Node
             Port = _consulOptions.Port,
             Check = new AgentServiceCheck()
             {
-                HTTP = $"http://{_consulOptions.ServiceAddress}:5001/health",  // 关键：使用容器名称
+                HTTP = $"http://{_consulOptions.ServiceAddress}:5001/health", // 关键：使用容器名称
                 Interval = TimeSpan.FromSeconds(10),
                 Timeout = TimeSpan.FromSeconds(5),
                 DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(30)
@@ -45,5 +44,8 @@ public class ConsulRegistrationService : IHostedService
         return Task.CompletedTask;
     }
 
-    public Task StopAsync(CancellationToken cancellationToken) => Task.CompletedTask;
+    public Task StopAsync(CancellationToken cancellationToken)
+    {
+        return Task.CompletedTask;
+    }
 }

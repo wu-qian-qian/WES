@@ -1,7 +1,7 @@
 ﻿namespace Common.Application.FSM;
 
-[AttributeUsage(AttributeTargets.Class, Inherited = false,AllowMultiple = false)]
-public class FsmAttribute:Attribute
+[AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
+public class FsmAttribute : Attribute
 {
     public FsmAttribute(string keyName)
     {

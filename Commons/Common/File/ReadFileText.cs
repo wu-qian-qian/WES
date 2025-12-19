@@ -1,5 +1,4 @@
-﻿
-using System.Text;
+﻿using System.Text;
 
 namespace Common.File;
 
@@ -13,7 +12,6 @@ public static class ReadFileText
     /// <returns>行号与对应内容的字典</returns>
     public static Dictionary<int, string> ReadFixedLinesLargeFile(string filePath, int[] targetLineNumbers)
     {
-        
         // 验证参数
         if (!System.IO.File.Exists(filePath))
             throw new FileNotFoundException("文件不存在", filePath);
@@ -30,7 +28,7 @@ public static class ReadFileText
         var targetIndex = 0; // 当前要匹配的目标行号索引
 
         // 逐行读取，不加载全部内容到内存
-        using (var sr = new StreamReader(filePath, Encoding.UTF8))
+        using (var sr = new StreamReader(filePath, System.Text.Encoding.UTF8))
         {
             string currentLine;
             while ((currentLine = sr.ReadLine()) != null)

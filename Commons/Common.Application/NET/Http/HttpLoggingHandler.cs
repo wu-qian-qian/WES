@@ -1,31 +1,30 @@
 ﻿using System.Text;
+using Common.Encoding;
 
 namespace Common.Application.NET.Http;
 
-public class HttpLoggingHandler: DelegatingHandler
+public class HttpLoggingHandler : DelegatingHandler
 {
     private readonly Action<string> _logAction;
-    
+
     public HttpLoggingHandler(Action<string> logAction) : base(new HttpClientHandler())
     {
         _logAction = logAction ?? throw new ArgumentNullException(nameof(logAction));
     }
-    
+
     private void WriteLine(string message)
     {
         _logAction(message);
     }
 
-    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request,
+        CancellationToken cancellationToken)
     {
         var sb = new StringBuilder();
         sb.AppendLine($"Method: {request.Method}");
         sb.AppendLine($"URL: {request.RequestUri}");
         sb.AppendLine("Request Headers:");
-        foreach (var header in request.Headers)
-        {
-            sb.AppendLine($"  {header.Key}: {string.Join(", ", header.Value)}");
-        }
+        foreach (var header in request.Headers) sb.AppendLine($"  {header.Key}: {string.Join(", ", header.Value)}");
 
         if (request.Content != null)
         {
@@ -34,9 +33,7 @@ public class HttpLoggingHandler: DelegatingHandler
             var requestEncoding = EncodingHelper.GetEncodingFromContentType(requestCharset);
             sb.AppendLine("Request Content Headers:");
             foreach (var header in request.Content.Headers)
-            {
                 sb.AppendLine($"  {header.Key}: {string.Join(", ", header.Value)}");
-            }
             //HTTP Content 数据是一次性所以读取后需要重新赋值
             if (string.IsNullOrWhiteSpace(requestMediaType))
             {
@@ -62,6 +59,7 @@ public class HttpLoggingHandler: DelegatingHandler
         {
             sb.AppendLine("Body: Empty Content");
         }
+
         var response = await base.SendAsync(request, cancellationToken);
         sb.AppendLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - Response:");
         sb.AppendLine($"Status Code: {(int)response.StatusCode} {response.StatusCode}");
@@ -75,11 +73,12 @@ public class HttpLoggingHandler: DelegatingHandler
             sb.AppendLine($"Body: {responseBody}");
             response.Content = new StringContent(responseBody, respEncoding, respMediaType);
         }
+
         sb.AppendLine(new string('*', 50));
         WriteLine(sb.ToString());
         return response;
     }
-    
+
     private static bool IsTextMediaType(string requestMediaType)
     {
         return requestMediaType.StartsWith("text/")

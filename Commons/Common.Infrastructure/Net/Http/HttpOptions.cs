@@ -16,6 +16,7 @@ public sealed class HttpOptions
     public bool EnablePolicy { get; set; }
 
     public Action<string>? HttpLogHandler;
+
     /// <summary>
     ///     重试次数
     /// </summary>

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-
-namespace Common.Infrastructure.EventBus;
+namespace Common.Infrastructure.EventBus.Manager;
 
 /// <summary>
 /// 无返回的事件总线管理中心
@@ -32,4 +31,3 @@ internal sealed partial class EventManager
             throw new AggregateException(eventName + " 已经存在订阅");
     }
 }
-

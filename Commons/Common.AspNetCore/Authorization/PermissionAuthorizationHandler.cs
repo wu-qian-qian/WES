@@ -13,11 +13,8 @@ public class PermissionAuthorizationHandler
         var permissions = context.User
             .FindAll("permission")
             .Select(c => c.Value);
-        
-        if (permissions.Contains(requirement.Permission))
-        {
-            context.Succeed(requirement);
-        }
+
+        if (permissions.Contains(requirement.Permission)) context.Succeed(requirement);
 
         return Task.CompletedTask;
     }

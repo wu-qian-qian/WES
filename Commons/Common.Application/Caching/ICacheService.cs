@@ -4,7 +4,6 @@ public interface ICacheService
 {
     Task<T?> GetAsync<T>(string key, CancellationToken cancellationToken = default);
 
-    
 
     Task<byte[]?> GetAsync(string key, CancellationToken cancellationToken = default);
 
@@ -13,7 +12,7 @@ public interface ICacheService
         byte[] value,
         TimeSpan? expiration = null,
         CancellationToken cancellationToken = default);
-    
+
     Task SetAsync<T>(
         string key,
         T value,

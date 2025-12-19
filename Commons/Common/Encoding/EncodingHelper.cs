@@ -1,23 +1,19 @@
-﻿using System.Text;
-
-namespace Common;
+﻿namespace Common.Encoding;
 
 public static class EncodingHelper
 {
-    public static Encoding GetEncodingFromContentType(string? charset)
+    public static System.Text.Encoding GetEncodingFromContentType(string? charset)
     {
         if (!string.IsNullOrWhiteSpace(charset))
-        {
             try
             {
-                return Encoding.GetEncoding(charset);
+                return System.Text.Encoding.GetEncoding(charset);
             }
             catch
             {
-                return Encoding.UTF8;
+                return System.Text.Encoding.UTF8;
             }
-        }
 
-        return Encoding.UTF8;
+        return System.Text.Encoding.UTF8;
     }
 }

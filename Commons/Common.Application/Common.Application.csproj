@@ -7,15 +7,20 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Behaviors\" />
-      <Folder Include="Exceptions\" />
-      <Folder Include="Messaging\" />
-      <Folder Include="NET\TCP\" />
-      <Folder Include="NET\Udp\" />
+        <Folder Include="Exceptions\"/>
+        <Folder Include="NET\TCP\"/>
+        <Folder Include="NET\Udp\"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Common\Common.csproj" />
+        <ProjectReference Include="..\Common.Domain\Common.Domain.csproj"/>
+        <ProjectReference Include="..\Common\Common.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="11.11.0"/>
+        <PackageReference Include="MediatR" Version="12.2.0"/>
+        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1"/>
     </ItemGroup>
 
 </Project>

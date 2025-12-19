@@ -1,6 +1,9 @@
-﻿namespace Common.Application.Enums;
+﻿using Common.Infrastructure.Enums;
+
+namespace Common.Infrastructure.Attributes;
+
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, Inherited = false)]
-public class DIAttrubite:Attribute
+public class DIAttrubite : Attribute
 {
     public DIAttrubite(DILifeTimeEnum lifeTime, Type baseType)
     {
@@ -10,5 +13,5 @@ public class DIAttrubite:Attribute
 
     public DILifeTimeEnum LifeTime { get; set; }
 
-    public Type BaseType { get; set; } 
+    public Type BaseType { get; set; }
 }

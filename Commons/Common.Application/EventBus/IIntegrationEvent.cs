@@ -5,8 +5,8 @@
 /// </summary>
 public interface IIntegrationEvent
 {
-    
 }
+
 /// <summary>
 /// 有返回值集成事件
 /// </summary>

@@ -6,7 +6,6 @@ public interface IEventHandler<in TEvent, TResponse>
     Task<TResponse> Handle(TEvent @event, CancellationToken cancellationToken = default);
 }
 
-
 public interface IEventHandler<in TEvent>
     where TEvent : IIntegrationEvent
 {

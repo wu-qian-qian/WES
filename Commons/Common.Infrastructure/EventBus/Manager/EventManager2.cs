@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using Common.Application.EventBus;
 
-namespace Common.Infrastructure.EventBus;
+namespace Common.Infrastructure.EventBus.Manager;
 
 /// <summary>
 /// 一些需要触发返回值的本地事件总线

@@ -29,6 +29,7 @@ public static class FsmConfiguration
                 if (att == null) continue;
                 manager.AddStates(att.KeyName, stateMachine);
             }
+
             return manager;
         });
         return serviceCollection;

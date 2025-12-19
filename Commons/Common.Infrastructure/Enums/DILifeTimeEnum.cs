@@ -1,4 +1,4 @@
-﻿namespace Common.Application.Enums;
+﻿namespace Common.Infrastructure.Enums;
 
 public enum DILifeTimeEnum
 {

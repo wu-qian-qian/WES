@@ -23,7 +23,7 @@ public static class EnumHelper
     /// <typeparam name="T"></typeparam>
     /// <param name="thisEnum"></param>
     /// <returns></returns>
-    public static T GetEnumAttribute<T>(this Enum thisEnum) where T : Attribute
+    public static T? GetEnumAttribute<T>(this Enum thisEnum) where T : Attribute
     {
         var type = thisEnum.GetType();
         var fieldInfo = type.GetField(thisEnum.ToString());

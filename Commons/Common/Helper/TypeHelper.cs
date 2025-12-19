@@ -14,7 +14,7 @@ public static class TypeHelper
         if (datatype.IsGenericType && datatype.GetGenericTypeDefinition() == typeof(Nullable<>))
         {
             var underlyingType = Nullable.GetUnderlyingType(datatype);
-            var convertedValue = Convert.ChangeType(value, underlyingType);
+            var convertedValue = Convert.ChangeType(value, underlyingType ?? throw new InvalidOperationException());
             return convertedValue;
         }
         else

@@ -1,12 +1,13 @@
 ﻿using System.Reflection;
-using Common.Application.Enums;
+using Common.Infrastructure.Attributes;
+using Common.Infrastructure.Enums;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Common.AspNetCore.DependencyInjection;
+namespace Common.Infrastructure.DependencyInjection;
 
 public static class AttrubiteInjectionService
 {
-    public static IServiceCollection DependyConfiguration(this IServiceCollection services, Assembly[] assemblies)
+    public static IServiceCollection AddDependyConfiguration(this IServiceCollection services, Assembly[] assemblies)
     {
         foreach (var assembly in assemblies)
         foreach (var type in assembly.GetTypes().Where(p => p.IsClass && !p.IsAbstract))
@@ -28,5 +29,5 @@ public static class AttrubiteInjectionService
         }
 
         return services;
-    } 
+    }
 }

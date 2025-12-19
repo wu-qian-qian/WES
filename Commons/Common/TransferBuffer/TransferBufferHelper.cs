@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Text;
 
 namespace Common.TransferBuffer;
 
@@ -227,20 +226,20 @@ public static class TransferBufferHelper
 
         if (num > reservedLength) num = reservedLength;
 
-        Encoding.ASCII.GetBytes(value, 0, num, array, 0);
+        System.Text.Encoding.ASCII.GetBytes(value, 0, num, array, 0);
         return array;
     }
 
     public static string StringFromByteArray(byte[] bytes)
     {
-        return Encoding.ASCII.GetString(bytes);
+        return System.Text.Encoding.ASCII.GetString(bytes);
     }
 
     #endregion
 
     #region PLC的S7String对应string 此处为Plc S7String类型操作
 
-    public static string S7StringFromByteArray(byte[] bytes, Encoding stringEncoding)
+    public static string S7StringFromByteArray(byte[] bytes, System.Text.Encoding stringEncoding)
     {
         if (bytes.Length < 2) throw new ArgumentException("Malformed S7 String / too short");
 
@@ -260,7 +259,7 @@ public static class TransferBufferHelper
         }
     }
 
-    public static byte[] S7StringToByteArray(string? value, int reservedLength, Encoding stringEncoding)
+    public static byte[] S7StringToByteArray(string? value, int reservedLength, System.Text.Encoding stringEncoding)
     {
         if (value == null) throw new ArgumentNullException("value");
 

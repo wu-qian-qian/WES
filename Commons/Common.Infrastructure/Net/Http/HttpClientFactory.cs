@@ -1,15 +1,12 @@
 ﻿using System.Net;
-using System.Net.Http.Headers;
-using System.Text;
 using Common.JsonExtension;
 
 namespace Common.Infrastructure.Net.Http;
 
-public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFactory
+public sealed class HttpClientFactory : Common.Application.NET.Http.IHttpClientFactory
 {
     private readonly IHttpClientFactory _httpClient;
-    
-    
+
 
     public HttpClientFactory(IHttpClientFactory httpClient)
     {
@@ -31,9 +28,9 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
     /// </summary>
     /// <param name="name">http配置连接名</param>
     /// <param name="keyValuePair"></param>
-    public void AddHeader(string name, KeyValuePair<string,string> keyValuePair)
+    public void AddHeader(string name, KeyValuePair<string, string> keyValuePair)
     {
-        if (HttpHeaderParams.TryGetValue(name,out var headderParams))
+        if (HttpHeaderParams.TryGetValue(name, out var headderParams))
         {
             headderParams[keyValuePair.Key] = keyValuePair.Value;
         }
@@ -41,7 +38,7 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
         {
             headderParams = new Dictionary<string, string>();
             headderParams.Add(keyValuePair);
-            HttpHeaderParams.Add(name,headderParams);
+            HttpHeaderParams.Add(name, headderParams);
         }
     }
 
@@ -55,7 +52,7 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
     {
         var httpRequest = new HttpRequestMessage();
         httpRequest.Method = method;
-        httpRequest.Content = new StringContent(json, Encoding.UTF8, "application/json");
+        httpRequest.Content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
         httpRequest.Headers.Add("Accept", "application/json");
         httpRequest.RequestUri = uri;
         return httpRequest;
@@ -75,18 +72,15 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
     /// <param name="name"></param>
     /// <param name="request"></param>
     /// <returns></returns>
-    private HttpRequestMessage SetHttpRequsetHead(string name,HttpRequestMessage request)
+    private HttpRequestMessage SetHttpRequsetHead(string name, HttpRequestMessage request)
     {
         if (HttpHeaderParams.TryGetValue(name, out var heads))
-        {
             foreach (var head in heads)
-            {
-                request.Headers.Add(head.Key,head.Value);
-            } 
-        }
+                request.Headers.Add(head.Key, head.Value);
         return request;
     }
-    public async Task<HttpResponseMessage> GetAsync(string uri,string name="")
+
+    public async Task<HttpResponseMessage> GetAsync(string uri, string name = "")
     {
         var httpClient = TryGetInstance(name);
         var request = CreateRequest(new Uri(uri), HttpMethod.Get);
@@ -94,16 +88,17 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
         var response = await httpClient.SendAsync(request);
         return response;
     }
-    
-    public  async Task<T> GetAsync<T>(string uri,string name="")
+
+    public async Task<T> GetAsync<T>(string uri, string name = "")
     {
-        HttpResponseMessage response= await GetAsync(uri, name);
-        T? ins = default(T);
+        var response = await GetAsync(uri, name);
+        var ins = default(T);
         if (response.StatusCode == HttpStatusCode.OK)
         {
-            var json =await response.Content.ReadAsStringAsync();
+            var json = await response.Content.ReadAsStringAsync();
             ins = json.NewtonsoftParseJson<T>();
         }
+
         return ins;
     }
 
@@ -118,17 +113,18 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
 
     public async Task<T> DeleteAsync<T>(string uri, string name = "")
     {
-        HttpResponseMessage response= await DeleteAsync(uri, name);
-        T? ins = default(T);
+        var response = await DeleteAsync(uri, name);
+        var ins = default(T);
         if (response.StatusCode == HttpStatusCode.OK)
         {
-            var json =await response.Content.ReadAsStringAsync();
+            var json = await response.Content.ReadAsStringAsync();
             ins = json.NewtonsoftParseJson<T>();
         }
+
         return ins;
     }
 
-    public async Task<HttpResponseMessage> PostAsync(string uri,string name="")
+    public async Task<HttpResponseMessage> PostAsync(string uri, string name = "")
     {
         var httpClient = TryGetInstance(name);
         var request = CreateRequest(new Uri(uri), HttpMethod.Post);
@@ -137,25 +133,26 @@ public sealed class HttpClientFactory:Common.Application.NET.Http.IHttpClientFac
         return response;
     }
 
-    public async Task<HttpResponseMessage> PostAsync<T>(string uri, T obj,string name="")
+    public async Task<HttpResponseMessage> PostAsync<T>(string uri, T obj, string name = "")
     {
         var httpClient = TryGetInstance(name);
         var json = obj.NewtonsoftToJsonString();
-        var request = CreateRequest(json, HttpMethod.Post,new Uri(uri));
+        var request = CreateRequest(json, HttpMethod.Post, new Uri(uri));
         SetHttpRequsetHead(name, request);
         var response = await httpClient.SendAsync(request);
         return response;
     }
 
-    public async Task<TResult> PostAsync<TRequest, TResult>(string uri, TRequest obj,string name="")
+    public async Task<TResult> PostAsync<TRequest, TResult>(string uri, TRequest obj, string name = "")
     {
-        HttpResponseMessage response= await PostAsync<TRequest>(uri,obj, name);
-        TResult? ins = default(TResult);
+        var response = await PostAsync<TRequest>(uri, obj, name);
+        var ins = default(TResult);
         if (response.StatusCode == HttpStatusCode.OK)
         {
-            var json =await response.Content.ReadAsStringAsync();
+            var json = await response.Content.ReadAsStringAsync();
             ins = json.NewtonsoftParseJson<TResult>();
         }
+
         return ins;
     }
 }

@@ -219,7 +219,7 @@ public static class TransferBufferHelper
     public static byte[] StringToByteArray(string value, int reservedLength)
     {
         var array = new byte[reservedLength];
-        if (value == null) return array;
+      
 
         var num = value.Length;
         if (num == 0) return array;
@@ -278,4 +278,21 @@ public static class TransferBufferHelper
     }
 
     #endregion
+
+    /// <summary>
+    /// 将byte 1，2，3，4
+    /// 将他输出为01020304
+    /// 转换为16进制
+    /// </summary>
+    /// <param name="bytes"></param>
+    /// <returns></returns>
+    public static string ByteArrayToString(byte[] bytes)
+    {
+        return BitConverter.ToString(bytes).Replace("-", "");
+    }
+    
+    public static byte[] StringToByteArray(string value)
+    {
+        return Convert.FromHexString(value);
+    }
 }

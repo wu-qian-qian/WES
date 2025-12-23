@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\..\Commons\Common.Application\Common.Application.csproj" />
+      <ProjectReference Include="..\S7.Application\S7.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DataBase\" />
+    </ItemGroup>
+
+</Project>

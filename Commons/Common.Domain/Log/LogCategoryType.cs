@@ -8,5 +8,6 @@ public enum LogCategoryType
     Business,
     Other,
     Exception,
-    Job
+    Job,
+    Communication
 }

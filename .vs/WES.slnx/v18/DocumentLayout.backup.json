@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "D:\\Program\\\u4ED3\u5E93\\WES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\aspnetcoreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\aspnetcoreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.domain\\common.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|solutionrelative:commons\\common.domain\\common.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\swaggerui\\swaggeruiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\swaggerui\\swaggeruiconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\authorization\\authorizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\authorization\\authorizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\authorization\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\authorization\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.infrastructure\\common.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\common.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.infrastructure\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\common.aspnetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\common.aspnetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.infrastructure\\decoratorevent\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\decoratorevent\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.domain\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|solutionrelative:commons\\common.domain\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.infrastructure\\ef\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\ef\\basedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|d:\\program\\\u4ED3\u5E93\\wes\\commons\\common.aspnetcore\\authentication\\authenticationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F7E125C-BFD6-82FC-C2A0-F11E7DB3B607}|Commons\\Common.AspNetCore\\Common.AspNetCore.csproj|solutionrelative:commons\\common.aspnetcore\\authentication\\authenticationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SwaggerUIConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\SwaggerUI\\SwaggerUIConfiguration.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\SwaggerUI\\SwaggerUIConfiguration.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\SwaggerUI\\SwaggerUIConfiguration.cs",
-              "RelativeToolTip": "Commons\\Common.AspNetCore\\SwaggerUI\\SwaggerUIConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:12:49.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PermissionAuthorizationHandler.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authorization\\PermissionAuthorizationHandler.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\Authorization\\PermissionAuthorizationHandler.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authorization\\PermissionAuthorizationHandler.cs",
-              "RelativeToolTip": "Commons\\Common.AspNetCore\\Authorization\\PermissionAuthorizationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:12:39.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorizationConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authorization\\AuthorizationConfiguration.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\Authorization\\AuthorizationConfiguration.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authorization\\AuthorizationConfiguration.cs",
-              "RelativeToolTip": "Commons\\Common.AspNetCore\\Authorization\\AuthorizationConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:08:28.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Common.Infrastructure",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj*",
-              "RelativeToolTip": "Commons\\Common.Infrastructure\\Common.Infrastructure.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-19T09:04:23.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AspNetCoreConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\AspNetCoreConfiguration.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\AspNetCoreConfiguration.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\AspNetCoreConfiguration.cs",
-              "RelativeToolTip": "Commons\\Common.AspNetCore\\AspNetCoreConfiguration.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T08:55:31.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InfrastructureConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\InfrastructureConfiguration.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\InfrastructureConfiguration.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\InfrastructureConfiguration.cs",
-              "RelativeToolTip": "Commons\\Common.Infrastructure\\InfrastructureConfiguration.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAADwvxgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T08:57:12.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Common.AspNetCore.csproj",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
-              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
-              "RelativeToolTip": "Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Title": "Common.Domain",
+              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+              "RelativeDocumentMoniker": "Commons\\Common.Domain\\Common.Domain.csproj",
+              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+              "RelativeToolTip": "Commons\\Common.Domain\\Common.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-19T08:55:59.721Z",
+              "WhenOpened": "2025-12-19T09:26:48.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEntity.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Domain\\IEntity.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.Domain\\IEntity.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Domain\\IEntity.cs",
-              "RelativeToolTip": "Commons\\Common.Domain\\IEntity.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAApwCQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authentication\\AuthenticationConfiguration.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.AspNetCore\\Authentication\\AuthenticationConfiguration.cs",
+              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.AspNetCore\\Authentication\\AuthenticationConfiguration.cs",
+              "RelativeToolTip": "Commons\\Common.AspNetCore\\Authentication\\AuthenticationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T08:53:28.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MediatrDomainEventDispatcher.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
-              "RelativeToolTip": "Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T08:50:12.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaseDbContext.cs",
-              "DocumentMoniker": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\EF\\BaseDbContext.cs",
-              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\EF\\BaseDbContext.cs",
-              "ToolTip": "D:\\Program\\\u4ED3\u5E93\\WES\\Commons\\Common.Infrastructure\\EF\\BaseDbContext.cs",
-              "RelativeToolTip": "Commons\\Common.Infrastructure\\EF\\BaseDbContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAMwCsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T08:49:16.748Z",
+              "WhenOpened": "2025-12-19T09:25:45.812Z",
               "EditorCaption": ""
             }
           ]

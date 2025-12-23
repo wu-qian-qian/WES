@@ -1,4 +1,6 @@
-﻿namespace Common.Domain;
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Common.Domain;
 
 public class Result
 {
@@ -12,12 +14,12 @@ public class Result
 
     public string Message { get; }
 
-    public static Result Success()
+    public static Result? Success()
     {
         return new Result(true, string.Empty);
     }
 
-    public static Result Error(string messsage)
+    public static Result? Error(string messsage)
     {
         return new Result(false, messsage);
     }
@@ -42,4 +44,17 @@ public class Result<TValue> : Result
     {
         _value = value;
     }
+    
+    [NotNull]
+    public TValue Value => IsSuccess
+        ? _value!
+        : throw new InvalidOperationException("The value of a failure result can't be accessed.");
+
+    /// <summary>
+    /// 自动将一个可能为 null 的 TValue? 值转换为 Result<TValue> 类型的对象。
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns></returns>
+    public static implicit operator Result<TValue>(TValue? value) =>
+        value is not null ? Success(value) : Error<TValue>("Error");
 }

@@ -1,5 +1,7 @@
 ﻿using Common.Application.NET.Http;
+using Common.Application.NET.Other.Base;
 using Common.Infrastructure.Net.Http;
+using Common.Infrastructure.Net.Other;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Polly.Extensions.Http;
@@ -41,6 +43,12 @@ internal static class NetConfiguration
             serviceCollection.AddHttpClient();
         }
 
+        return serviceCollection;
+    }
+
+    public static IServiceCollection AddNetClientConfiguration(this IServiceCollection serviceCollection)
+    {
+        serviceCollection.AddSingleton<INetService, NetService>();
         return serviceCollection;
     }
 }

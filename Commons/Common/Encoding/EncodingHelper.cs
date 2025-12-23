@@ -16,4 +16,6 @@ public static class EncodingHelper
 
         return System.Text.Encoding.UTF8;
     }
+    
+    
 }

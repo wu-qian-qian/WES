@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4cyel/zq2TM=",
+  "dgSpecHash": "qkBcKdhelT0=",
   "success": true,
   "projectFilePath": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\吴\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\enums.net\\5.0.0\\enums.net.5.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\extendednumerics.bigdecimal\\2025.1001.2.129\\extendednumerics.bigdecimal.2025.1001.2.129.nupkg.sha512",

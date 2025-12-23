@@ -71,7 +71,12 @@ public static class SerilogLogConfiguration
             .WriteTo.Logger(l => l
                 .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Category") &&
                                              e.Properties["Category"].ToString() == "Other")
-                .WriteTo.File("Logs/others/other-.log", rollingInterval: RollingInterval.Day)).CreateLogger();
+                .WriteTo.File("Logs/others/other-.log", rollingInterval: RollingInterval.Day))
+            .WriteTo.Logger(l => l
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Category") &&
+                                             e.Properties["Category"].ToString() == "Communication")
+                .WriteTo.File("Logs/others/other-.log", rollingInterval: RollingInterval.Day))
+            .CreateLogger();
     }
 
     public static IServiceCollection AddSeriLogConfiguration(this IServiceCollection serviceCollection)

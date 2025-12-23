@@ -14,6 +14,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Common.AspNetCore.EF;
 
 namespace Common.AspNetCore;
 
@@ -45,6 +46,7 @@ public static class AspNetCoreConfiguration
         services.AddInfrastructureConfiguration(assemblies);
         services.AddHttpContextAccessor();
         services.AddSwaggerUIConfiguration();
+        services.AddScoped<LastModificationInterceptor>();
         return app;
     }
 

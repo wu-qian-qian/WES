@@ -8,8 +8,7 @@
 
     <ItemGroup>
         <Folder Include="Exceptions\"/>
-        <Folder Include="NET\TCP\"/>
-        <Folder Include="NET\Udp\"/>
+        <Folder Include="NET\Other\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -18,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
         <PackageReference Include="FluentValidation" Version="11.11.0"/>
         <PackageReference Include="MediatR" Version="12.2.0"/>
         <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1"/>

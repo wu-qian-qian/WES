@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Common.Encoding;
 
-namespace Common.Application.NET.Http;
+namespace Common.Infrastructure.Net.Http;
 
 public class HttpLoggingHandler : DelegatingHandler
 {

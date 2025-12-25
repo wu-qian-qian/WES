@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Common.AspNetCore.EF;
 
-public class AspNetCoreDbContext:BaseDbContext
+public class AspNetCoreDbContext : BaseDbContext
 {
     private readonly LastModificationInterceptor _lastModificationInterceptor;
     public AspNetCoreDbContext(DbContextOptions options, LastModificationInterceptor lastModificationInterceptor,
@@ -16,7 +16,7 @@ public class AspNetCoreDbContext:BaseDbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-         //拦截添加
+        //拦截添加
         optionsBuilder.AddInterceptors(_lastModificationInterceptor);
     }
 

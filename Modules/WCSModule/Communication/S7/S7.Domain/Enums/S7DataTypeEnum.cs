@@ -1,4 +1,4 @@
-﻿using S7.Infrastructure.Attributes;
+﻿using S7.Domain.Attributes;
 
 namespace S7.Domain.Enums;
 

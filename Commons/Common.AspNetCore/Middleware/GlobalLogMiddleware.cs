@@ -1,13 +1,8 @@
 ﻿using Common.Application.Log;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Common.Domain.Log;
+using Microsoft.AspNetCore.Http;
+using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace Common.AspNetCore.Middleware;
 

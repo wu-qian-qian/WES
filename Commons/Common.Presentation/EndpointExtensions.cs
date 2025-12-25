@@ -1,8 +1,8 @@
-﻿using System.Reflection;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Reflection;
 
 namespace Common.Presentation;
 
@@ -43,7 +43,7 @@ public static class EndpointExtensions
 
         IEndpointRouteBuilder builder = routeGroupBuilder is null ? app : routeGroupBuilder;
 
-        foreach (var endpoint in endpoints) 
+        foreach (var endpoint in endpoints)
             endpoint.MapEndpoint(builder);
         return app;
     }

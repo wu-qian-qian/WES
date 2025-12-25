@@ -219,7 +219,7 @@ public static class TransferBufferHelper
     public static byte[] StringToByteArray(string value, int reservedLength)
     {
         var array = new byte[reservedLength];
-      
+
 
         var num = value.Length;
         if (num == 0) return array;
@@ -290,7 +290,7 @@ public static class TransferBufferHelper
     {
         return BitConverter.ToString(bytes).Replace("-", "");
     }
-    
+
     public static byte[] StringToByteArray(string value)
     {
         return Convert.FromHexString(value);

@@ -1,6 +1,6 @@
-﻿using System.Linq.Expressions;
-using Common.Domain;
+﻿using Common.Domain;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Common.Infrastructure.EF;
 

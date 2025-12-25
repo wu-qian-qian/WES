@@ -1,4 +1,4 @@
-﻿namespace S7.Infrastructure.Attributes;
+﻿namespace S7.Domain.Attributes;
 
 [AttributeUsage(AttributeTargets.All, Inherited = false)]
 public class S7DataTypeAttribute : Attribute

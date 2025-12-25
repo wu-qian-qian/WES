@@ -12,8 +12,8 @@ public interface INet
     Task<Result?> ReConnectAsync();
 
     Task<Result?> CloseAsync();
-    
+
     Task<Result<byte[]?>?> ReadAsync(IReadConfig input);
-    
+
     Task<Result> WriteAsync(IWriteConfig bulkItem);
 }

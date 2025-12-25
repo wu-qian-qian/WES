@@ -1,6 +1,6 @@
-﻿using System.Collections.Concurrent;
+﻿using Common.Application.EventBus;
+using System.Collections.Concurrent;
 using System.Linq.Expressions;
-using Common.Application.EventBus;
 
 namespace Common.Infrastructure.EventBus.Manager;
 

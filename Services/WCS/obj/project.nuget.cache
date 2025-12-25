@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bevEhcIrFIo=",
+  "dgSpecHash": "KpDNREG5JUw=",
   "success": true,
   "projectFilePath": "D:\\Program\\仓库\\WES\\Services\\WCS\\WCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\吴\\.nuget\\packages\\consul\\1.7.14.9\\consul.1.7.14.9.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.22\\microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.1\\microsoft.extensions.configuration.10.0.1.nupkg.sha512",

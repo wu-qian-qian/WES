@@ -1,6 +1,6 @@
-﻿using System.Reflection;
-using Common.Application.DecoratorEvent;
+﻿using Common.Application.DecoratorEvent;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace Common.Infrastructure.DecoratorEvent;
 

@@ -1,8 +1,8 @@
-﻿using System.Security.Claims;
-using Common.Domain;
+﻿using Common.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using System.Security.Claims;
 
 namespace Common.AspNetCore.EF;
 

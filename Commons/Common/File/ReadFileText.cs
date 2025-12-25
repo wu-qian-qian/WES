@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace Common.File;
+﻿namespace Common.File;
 
 public static class ReadFileText
 {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ws/JAHbln0g=",
+  "dgSpecHash": "4+WBIvkomH0=",
   "success": true,
   "projectFilePath": "D:\\Program\\仓库\\WES\\Ocelot\\API.Host\\Gateway.API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.15\\microsoft.aspnetcore.jsonpatch.8.0.15.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\8.0.15\\microsoft.aspnetcore.middlewareanalysis.8.0.15.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.15\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.15.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.22\\microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

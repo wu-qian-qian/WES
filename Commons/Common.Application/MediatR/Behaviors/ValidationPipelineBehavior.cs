@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using Common.Application.MediatR.Messaging;
+﻿using Common.Application.MediatR.Messaging;
 using FluentValidation;
 using FluentValidation.Results;
 using MediatR;

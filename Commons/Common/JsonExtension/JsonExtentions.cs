@@ -1,7 +1,7 @@
-﻿using System.Text.Encodings.Web;
+﻿using Newtonsoft.Json;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
-using Newtonsoft.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Common.JsonExtension;

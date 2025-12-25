@@ -1,5 +1,5 @@
 ﻿using Common.AspNetCore.Authentication;
-using Common.AspNetCore.Authorization;
+using Common.AspNetCore.EF;
 using Common.AspNetCore.SwaggerUI;
 using Common.Infrastructure;
 using Common.JsonExtension;
@@ -7,14 +7,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
-using Common.AspNetCore.EF;
 
 namespace Common.AspNetCore;
 

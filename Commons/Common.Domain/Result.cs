@@ -44,7 +44,7 @@ public class Result<TValue> : Result
     {
         _value = value;
     }
-    
+
     [NotNull]
     public TValue Value => IsSuccess
         ? _value!

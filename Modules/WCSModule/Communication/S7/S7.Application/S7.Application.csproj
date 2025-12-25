@@ -13,6 +13,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
       <PackageReference Include="S7netplus" Version="0.20.0" />
     </ItemGroup>
 

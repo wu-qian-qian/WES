@@ -1,7 +1,7 @@
-﻿using System.Reflection;
-using Common.Application.MediatR.Behaviors;
+﻿using Common.Application.MediatR.Behaviors;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace Common.Infrastructure.MediatR;
 

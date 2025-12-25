@@ -1,7 +1,7 @@
-﻿using System.Reflection;
-using Common.Application.EventBus;
+﻿using Common.Application.EventBus;
 using Common.Infrastructure.EventBus.Manager;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace Common.Infrastructure.EventBus;
 

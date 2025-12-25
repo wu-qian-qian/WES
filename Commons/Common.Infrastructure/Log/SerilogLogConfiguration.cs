@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.Design;
-using Common.Application.Log;
+﻿using Common.Application.Log;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 

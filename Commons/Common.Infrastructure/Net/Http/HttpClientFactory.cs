@@ -1,5 +1,5 @@
-﻿using System.Net;
-using Common.JsonExtension;
+﻿using Common.JsonExtension;
+using System.Net;
 
 namespace Common.Infrastructure.Net.Http;
 

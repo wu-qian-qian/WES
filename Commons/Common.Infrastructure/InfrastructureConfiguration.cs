@@ -1,5 +1,6 @@
 ﻿using Common.Application.Caching;
 using Common.Infrastructure.Caching;
+using Common.Infrastructure.DecoratorEvent;
 using Common.Infrastructure.DependencyInjection;
 using Common.Infrastructure.EventBus;
 using Common.Infrastructure.FSM;
@@ -8,12 +9,9 @@ using Common.Infrastructure.MediatR;
 using Common.Infrastructure.Net;
 using Common.Infrastructure.Net.Http;
 using Common.Infrastructure.Quartz;
-using Common.JsonExtension;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using StackExchange.Redis;
 using System.Reflection;
-using Common.Infrastructure.DecoratorEvent;
 
 namespace Common.Infrastructure;
 

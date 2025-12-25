@@ -3,14 +3,14 @@ using S7.Domain.Enums;
 
 namespace S7.Application.Abstractions.Data;
 
-public class NetModel:INetConfig
+public class NetModel : INetConfig
 {
     public string Ip { get; set; }
     public int Port { get; set; }
     /// <summary>
     /// 重试次数
     /// </summary>
-    public int MaxRetries{ get; set; }
+    public int MaxRetries { get; set; }
     /// <summary>
     /// 间隔时间
     /// </summary>
@@ -40,7 +40,7 @@ public class NetModel:INetConfig
     ///     写入超时
     /// </summary>
     public int WriteTimeOut { get; set; }
-    
+
 
     /// <summary>
     ///     读取心跳地址

@@ -8,5 +8,6 @@
     <Import Project="$(NuGetPackageRoot)steeltoe.common.certificates\4.0.0\buildTransitive\net8.0\Steeltoe.Common.Certificates.targets" Condition="Exists('$(NuGetPackageRoot)steeltoe.common.certificates\4.0.0\buildTransitive\net8.0\Steeltoe.Common.Certificates.targets')" />
     <Import Project="$(NuGetPackageRoot)steeltoe.discovery.consul\4.0.0\buildTransitive\net8.0\Steeltoe.Discovery.Consul.targets" Condition="Exists('$(NuGetPackageRoot)steeltoe.discovery.consul\4.0.0\buildTransitive\net8.0\Steeltoe.Discovery.Consul.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.23.0\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.23.0\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\8.0.0\buildTransitive\Microsoft.CodeAnalysis.NetAnalyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers\8.0.0\buildTransitive\Microsoft.CodeAnalysis.NetAnalyzers.targets')" />
   </ImportGroup>
 </Project>

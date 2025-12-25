@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fwuc2s2fnoM=",
+  "dgSpecHash": "jCAfXlpR1hs=",
   "success": true,
   "projectFilePath": "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\吴\\.nuget\\packages\\mathnet.numerics.signed\\5.0.0\\mathnet.numerics.signed.5.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\吴\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\吴\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",

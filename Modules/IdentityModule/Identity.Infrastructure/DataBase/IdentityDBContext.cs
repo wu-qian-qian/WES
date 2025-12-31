@@ -1,6 +1,8 @@
 ﻿using Common.Application.DecoratorEvent;
 using Common.Domain.Entity;
 using Common.Infrastructure.EF;
+using Identity.Domain;
+using Identity.Infrastructure.DataBase.EFExtension;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
@@ -15,15 +17,39 @@ namespace Identity.Infrastructure.DataBase
 {
     internal class IdentityDBContext : BaseDbContext
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
+        public const string SchemasTable = "Identity";
 
+
+        private readonly IHttpContextAccessor _httpContextAccessor;
         public IdentityDBContext(DbContextOptions options,IHttpContextAccessor httpContextAccessor ,IDomainEventDispatcher domainEventDispatcher) : base(options, domainEventDispatcher)
         {
             _httpContextAccessor = httpContextAccessor;
         }
+
+        public DbSet<Menu> Menus { get; set; }
+
+        public DbSet<Permission> Permissions { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Role> Roles { get; set; }
+
+        public DbSet<PermissionMenu> PermissionMenus { get; set; }
+
+        public DbSet<UserRole> UserRoles { get; set; }
+
+        public DbSet<RolePermission> RolePermissions { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //关联关系配置
+            modelBuilder.UserConfiguration();
+            modelBuilder.RoleConfiguration();
+            modelBuilder.PermissionConfiguration();
+            modelBuilder.PermissionMenuConfiguration();
+            modelBuilder.RolePermissionConfiguration();
+            modelBuilder.MenuConfiguration();
+            modelBuilder.UserRoleConfiguration();
         }
 
         protected override Task PreprocessEntities(IEnumerable<EntityEntry<BaseEntity>> entityEntries)

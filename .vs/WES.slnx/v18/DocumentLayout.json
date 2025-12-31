@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\Program\\WES\\WES-Git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.infrastructure\\infranstructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\infranstructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18C47A98-2382-CE90-6585-543570348DBC}|Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.application\\applicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18C47A98-2382-CE90-6585-543570348DBC}|Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj|solutionrelative:modules\\identitymodule\\identity.application\\applicationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\permissionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\permissionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3537D074-3B6F-7957-7471-B9C35463A751}|Services\\Identity\\Identity.csproj|d:\\program\\wes\\wes-git\\services\\identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3537D074-3B6F-7957-7471-B9C35463A751}|Services\\Identity\\Identity.csproj|solutionrelative:services\\identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IdentityDBContext.cs",
+              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:42:39.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:39:20.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T08:35:47.778Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -51,110 +70,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Application\\ApplicationConfiguration.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Application\\ApplicationConfiguration.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Application\\ApplicationConfiguration.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Application\\ApplicationConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:36:13.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfranstructureConfiguration.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:31:22.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\User.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\User.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\User.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:17:03.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\UserRole.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\UserRole.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\UserRole.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:13:34.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Role.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Role.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Role.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:13:24.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:12:46.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PermissionMenu.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\PermissionMenu.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\PermissionMenu.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\PermissionMenu.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\PermissionMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T03:08:38.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Services\\Identity\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Identity\\Program.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Services\\Identity\\Program.cs",
-              "RelativeToolTip": "Services\\Identity\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T02:48:59.541Z",
-              "EditorCaption": ""
             }
           ]
         }

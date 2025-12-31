@@ -20,7 +20,7 @@ namespace Identity.Domain
         public string Username { get; set; }
         public string PasswordHash { get; set; } 
 
-        public string? Nickname { get; set; }
+        public string Nickname { get; set; }
 
         public bool IsEnabled { get; set; }
 

@@ -21,10 +21,9 @@ namespace Identity.Domain
             Id = Guid.NewGuid();
         }
 
-        public int RoleId { get; set; }
-
         public string PermissionCode { get; set;  }
 
-        public ICollection<PermissionMenu> PermissionMenus { get; set; } = new List<PermissionMenu>();
+        public ICollection<PermissionMenu> PermissionMenus { get; set; }
+        public ICollection<RolePermission> RolePermissions { get; set; }
     }
 }

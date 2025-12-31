@@ -26,7 +26,7 @@ namespace Identity.Domain
         public Guid RoleId { get; set; }
 
         // 导航属性
-        public User User { get; set; } = null!;
-        public Role Role { get; set; } = null!;
+        public User User { get; set; }
+        public Role Role { get; set; } 
     }
 }

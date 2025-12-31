@@ -18,13 +18,13 @@ namespace Identity.Domain
             Id=Guid.NewGuid();
         }
 
-        public string MenuName { get; set; } = string.Empty;
+        public string MenuName { get; set; } 
 
 
-        public string? Path { get; set; }
+        public string Path { get; set; }
 
 
-        public string? Icon { get; set; }
+        public string Icon { get; set; }
 
         public int ParentId { get; set; } = 0;
 

@@ -18,15 +18,13 @@ namespace Identity.Domain
             Id=Guid.NewGuid();
         }
 
-        public string RoleName { get; set; } = string.Empty;
+        public string RoleName { get; set; }
         public string? Description { get; set; }
 
-        public bool IsEnabled { get; set; } = true;
-
         // 关联用户
-        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+        public ICollection<UserRole> UserRoles { get; set; }
 
         // 关联权限
-        public ICollection<Permission> RolePermissions { get; set; } = new List<Permission>();
+        public ICollection<RolePermission> RolePermissions { get; set; }
     }
 }

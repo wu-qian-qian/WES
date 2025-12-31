@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 
 namespace Identity.Domain
 {
+    /// <summary>
+    /// 中间表
+    /// 用来连接权限和菜单的关联关系
+    /// </summary>
     public class PermissionMenu:IEntity<Guid>
     {
         public PermissionMenu()

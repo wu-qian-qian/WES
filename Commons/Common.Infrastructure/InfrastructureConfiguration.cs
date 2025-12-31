@@ -60,7 +60,6 @@ public static class InfrastructureConfiguration
         {
             services.AddDistributedMemoryCache();
         }
-
         services.AddSingleton<ICacheService, CacheService>();
         return services;
     }

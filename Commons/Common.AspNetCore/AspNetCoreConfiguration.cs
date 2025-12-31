@@ -1,7 +1,5 @@
 ﻿using Common.AspNetCore.Authentication;
-using Common.AspNetCore.EF;
 using Common.AspNetCore.SwaggerUI;
-using Common.Infrastructure;
 using Common.JsonExtension;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -16,6 +14,7 @@ public static class AspNetCoreConfiguration
 {
     public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app, Assembly[] assemblies)
     {
+        
         // Add AspNetCore related services here
         //json格式设置
         var services = app.Services;
@@ -37,10 +36,10 @@ public static class AspNetCoreConfiguration
                     .AllowCredentials();
             });
         });
-        services.AddInfrastructureConfiguration(assemblies);
+        //HttpContext 注入
+        services.AddHttpContextAccessor();
         services.AddHttpContextAccessor();
         services.AddSwaggerUIConfiguration();
-        services.AddScoped<LastModificationInterceptor>();
         return app;
     }
 
@@ -50,6 +49,12 @@ public static class AspNetCoreConfiguration
         return services;
     }
 
+    /// <summary>
+    /// 权限
+    /// </summary>
+    /// <param name="serviceCollection"></param>
+    /// <param name="act"></param>
+    /// <returns></returns>
     public static IServiceCollection AddAuthorizationConfiguration(this IServiceCollection serviceCollection,
         Action<AuthorizationOptions>? act = null)
     {

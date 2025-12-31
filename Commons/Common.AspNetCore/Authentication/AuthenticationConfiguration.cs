@@ -24,7 +24,9 @@ internal static class AuthenticationConfiguration
                     ValidIssuer = option.Issuer,
                     ValidateAudience = true,
                     ValidAudience = option.Audience,
+                    //生效时间
                     ValidateLifetime = false,
+                    //过期时间
                     RequireExpirationTime = false,
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(

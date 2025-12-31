@@ -1,0 +1,6 @@
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.csproj.AssemblyReference.cache
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.AssemblyInfoInputs.cache
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.AssemblyInfo.cs
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Infrastructure\obj\Debug\net8.0\Identity.Infrastructure.sourcelink.json

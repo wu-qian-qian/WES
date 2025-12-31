@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 
 namespace Identity.Domain
 {
+    /// <summary>
+    /// 权限表
+    /// </summary>
     public class Permission:IEntity<Guid>
     {
         public Permission() 

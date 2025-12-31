@@ -1,0 +1,12 @@
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\bin\Debug\net8.0\Identity.Application.deps.json
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\bin\Debug\net8.0\Identity.Application.dll
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\bin\Debug\net8.0\Identity.Application.pdb
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.AssemblyInfoInputs.cache
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.AssemblyInfo.cs
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.csproj.CoreCompileInputs.cache
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.sourcelink.json
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.dll
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\refint\Identity.Application.dll
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\Identity.Application.pdb
+D:\Program\WES\WES-Git\Modules\IdentityModule\Identity.Application\obj\Debug\net8.0\ref\Identity.Application.dll

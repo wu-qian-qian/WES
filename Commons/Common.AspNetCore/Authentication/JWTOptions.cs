@@ -7,7 +7,8 @@ public class JWTOptions
         Issuer = nameof(Issuer);
         Audience = nameof(Audience);
         Key = Guid.NewGuid().ToString("N");
-        ExpireSeconds = 86400;
+        //默认30天过期时间
+        ExpireSeconds = 2592000;
     }
 
     /// <summary>

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Identity.Domain
 {
-    public class User: DominEntity
+    public class User: DomainEntity
     {
         public User() : base(Guid.NewGuid())
         {

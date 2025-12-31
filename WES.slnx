@@ -12,6 +12,7 @@
     <Project Path="Modules/IdentityModule/Identity.Application/Identity.Application.csproj" />
     <Project Path="Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj" />
     <Project Path="Modules/IdentityModule/Identity.Infrastructure/Identity.Infrastructure.csproj" />
+    <Project Path="Modules/IdentityModule/Identity.Presentation/Identity.Presentation.csproj" Id="41a821f4-db4b-442d-8aea-e3dbda8604b4" />
   </Folder>
   <Folder Name="/Modules/WCSModule/" />
   <Folder Name="/Modules/WCSModule/Communication/" />

@@ -1,4 +1,4 @@
-﻿using Common.Domain;
+﻿using Common.Domain.Event;
 
 namespace Common.Application.DecoratorEvent;
 

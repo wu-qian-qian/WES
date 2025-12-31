@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program\\仓库\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {}
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj",
         "projectName": "Common.Application",
-        "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj",
-        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\Common.Domain.csproj"
               },
-              "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj": {
-                "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj"
+              "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -101,20 +100,20 @@
         }
       }
     },
-    "D:\\Program\\仓库\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\仓库\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
         "projectName": "Common.AspNetCore",
-        "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
-        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\仓库\\WES\\Commons\\Common.AspNetCore\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -123,15 +122,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
-                "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj"
+              "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj"
               }
             }
           }
@@ -198,20 +196,20 @@
         }
       }
     },
-    "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
-        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Domain\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -220,7 +218,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -272,20 +269,20 @@
         }
       }
     },
-    "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "projectName": "Common.Infrastructure",
-        "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Infrastructure\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -294,18 +291,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
-                "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj"
+              "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj": {
-                "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj"
+              "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -397,20 +393,20 @@
         }
       }
     },
-    "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj": {
+    "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\仓库\\WES\\Commons\\Common\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -419,7 +415,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -1363,23 +1363,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\吴\\.nuget\\packages\\": {},
+    "C:\\Users\\BangQCP01\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program\\仓库\\WES\\Services\\WMS\\WMS.csproj",
+      "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Services\\WMS\\WMS.csproj",
       "projectName": "WMS",
-      "projectPath": "D:\\Program\\仓库\\WES\\Services\\WMS\\WMS.csproj",
-      "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-      "outputPath": "D:\\Program\\仓库\\WES\\Services\\WMS\\obj\\",
+      "projectPath": "D:\\Program\\WES\\WES-Git\\Services\\WMS\\WMS.csproj",
+      "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+      "outputPath": "D:\\Program\\WES\\WES-Git\\Services\\WMS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1388,7 +1388,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

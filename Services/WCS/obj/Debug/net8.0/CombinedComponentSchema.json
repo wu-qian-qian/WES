@@ -321,5 +321,5 @@
     }
   },
   "type": "object",
-  "SourceSegments": "C:\\Users\\\u5434\\.nuget\\packages\\steeltoe.common.certificates\\4.0.0\\ConfigurationSchema.json;C:\\Users\\\u5434\\.nuget\\packages\\steeltoe.discovery.consul\\4.0.0\\ConfigurationSchema.json"
+  "SourceSegments": "C:\\Users\\BangQCP01\\.nuget\\packages\\steeltoe.common.certificates\\4.0.0\\ConfigurationSchema.json;C:\\Users\\BangQCP01\\.nuget\\packages\\steeltoe.discovery.consul\\4.0.0\\ConfigurationSchema.json"
 }

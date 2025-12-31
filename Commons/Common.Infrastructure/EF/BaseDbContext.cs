@@ -1,5 +1,5 @@
 ﻿using Common.Application.DecoratorEvent;
-using Common.Domain;
+using Common.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Common.Infrastructure.EF;
@@ -26,7 +26,7 @@ public abstract class BaseDbContext : DbContext
         CancellationToken cancellationToken = default)
     {
         var domainEntities = ChangeTracker
-            .Entries<IEntity>()
+            .Entries<DominEntity>()
             .Where(x => x.Entity.GetDomainEvents().Any());
 
         var domainEvents = domainEntities

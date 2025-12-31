@@ -1,4 +1,4 @@
-﻿using Common.Domain;
+﻿using Common.Domain.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
@@ -22,7 +22,7 @@ public class LastModificationInterceptor : SaveChangesInterceptor
         {
             var user = _httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.Name);
             if (user != null)
-                eventData.Context.ChangeTracker.Entries<IEntity>()
+                eventData.Context.ChangeTracker.Entries<BaseEntity>()
                     .Where(e => e.State != EntityState.Detached && e.State != EntityState.Unchanged).ToList()
                     .ForEach(entry => { entry.Entity.SetLastModification(user); });
         }
@@ -39,7 +39,7 @@ public class LastModificationInterceptor : SaveChangesInterceptor
             //把被软删除的对象从Cache删除，否则FindAsync()还能根据Id获取到这条数据
             //因为FindAsync如果能从本地Cache找到，就不会去数据库上查询，而从本地Cache找的过程中不会管QueryFilter
             //就会造成已经软删除的数据仍然能够通过FindAsync查到的问题，因此这里把对应跟踪对象的state改为Detached，就会从缓存中删除了
-            var softDeletedEntities = eventData.Context.ChangeTracker.Entries<IEntity>()
+            var softDeletedEntities = eventData.Context.ChangeTracker.Entries<BaseEntity>()
                 .Where(e => e.State == EntityState.Modified && e.Entity.IsDeleted)
                 .Select(e => e.Entity).ToList();
 

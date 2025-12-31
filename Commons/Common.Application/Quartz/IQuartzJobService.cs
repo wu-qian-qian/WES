@@ -1,4 +1,4 @@
-﻿using Common.Domain;
+﻿using Common.Domain.Options;
 
 namespace Common.Application.Quartz;
 

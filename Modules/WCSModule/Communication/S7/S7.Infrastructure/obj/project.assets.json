@@ -2634,23 +2634,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\吴\\.nuget\\packages\\": {},
+    "C:\\Users\\BangQCP01\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
       "projectName": "S7.Infrastructure",
-      "projectPath": "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
-      "outputPath": "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\obj\\",
+      "projectPath": "D:\\Program\\WES\\WES-Git\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+      "outputPath": "D:\\Program\\WES\\WES-Git\\Modules\\WCSModule\\Communication\\S7\\S7.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2659,18 +2659,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
-              "projectPath": "D:\\Program\\仓库\\WES\\Commons\\Common.Application\\Common.Application.csproj"
+            "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj": {
+              "projectPath": "D:\\Program\\WES\\WES-Git\\Commons\\Common.Application\\Common.Application.csproj"
             },
-            "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
-              "projectPath": "D:\\Program\\仓库\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
+            "D:\\Program\\WES\\WES-Git\\Modules\\WCSModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+              "projectPath": "D:\\Program\\WES\\WES-Git\\Modules\\WCSModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
             }
           }
         }

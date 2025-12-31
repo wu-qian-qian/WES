@@ -1,4 +1,4 @@
-﻿using Common.Domain;
+﻿using Common.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -9,11 +9,11 @@ public static class EnableSoftDeletionGlobalFilter
     public static void AddSoftDeletionGlobalFilter(this ModelBuilder modelBuilder)
     {
         var entityTypesHasSoftDeletion = modelBuilder.Model.GetEntityTypes()
-            .Where(e => e.ClrType.IsAssignableTo(typeof(IEntity)));
+            .Where(e => e.ClrType.IsAssignableTo(typeof(BaseEntity)));
 
         foreach (var entityType in entityTypesHasSoftDeletion)
         {
-            var isDeletedProperty = entityType.FindProperty(nameof(IEntity.IsDeleted));
+            var isDeletedProperty = entityType.FindProperty(nameof(BaseEntity.IsDeleted));
             var parameter = Expression.Parameter(entityType.ClrType, "p");
             var filter =
                 Expression.Lambda(Expression.Not(Expression.Property(parameter, isDeletedProperty.PropertyInfo)),

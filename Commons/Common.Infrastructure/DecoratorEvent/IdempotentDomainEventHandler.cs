@@ -1,5 +1,5 @@
 ﻿using Common.Application.DecoratorEvent;
-using Common.Domain;
+using Common.Domain.Event;
 
 namespace Common.Infrastructure.DecoratorEvent;
 

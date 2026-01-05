@@ -38,7 +38,6 @@ public static class AspNetCoreConfiguration
         });
         //HttpContext 注入
         services.AddHttpContextAccessor();
-        services.AddHttpContextAccessor();
         services.AddSwaggerUIConfiguration();
         return app;
     }

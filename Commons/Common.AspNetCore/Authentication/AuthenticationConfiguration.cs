@@ -14,7 +14,6 @@ internal static class AuthenticationConfiguration
     /// <returns></returns>
     public static IServiceCollection AddAuthenticationConfiguration(this IServiceCollection services, JWTOptions option)
     {
-        services.AddSingleton<JwtCodeService>();
         services.AddAuthentication("JwtBearer")
             .AddJwtBearer("JwtBearer", options =>
             {
@@ -60,7 +59,6 @@ internal static class AuthenticationConfiguration
     /// <returns></returns>
     public static IServiceCollection AddAuthenticationConfiguration(this IServiceCollection services, string key)
     {
-        services.AddSingleton<JwtCodeService>();
         services.AddAuthentication("JwtBearer")
             .AddJwtBearer("JwtBearer", options =>
             {

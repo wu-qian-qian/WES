@@ -7,9 +7,10 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Common.Infrastructure.Authentication;
 
-public sealed class TokenService(JWTOptions options) : IJwtTokenService
+//编码服务 如 jwt  sha 等一下编码
+internal sealed class TokenService : ITokenService
 {
-    public string BuildJwtString(string name,List<string> roles, List<string> permissions)
+    public string BuildJwtString(string name,List<string> roles, List<string> permissions,JWTOptions options)
     {
         // 创建Claims
         var claims = new List<Claim>();

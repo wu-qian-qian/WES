@@ -19,7 +19,7 @@ public class NetService : INetService
         Result<byte[]?>? result = default;
         if (NetMap.TryGetValue(input.Ip, out var net))
         {
-            if (net.IsConnect) await net.ReadAsync(input);
+            if (net.IsConnect) result=await net.ReadAsync(input);
         }
         return result;
     }

@@ -15,7 +15,7 @@ public static class AspNetCoreConfiguration
     public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app, Assembly[] assemblies)
     {
         
-        // Add AspNetCore related services here
+        //Add AspNetCore related services here
         //json格式设置
         var services = app.Services;
         services.Configure<JsonOptions>(options =>
@@ -48,7 +48,7 @@ public static class AspNetCoreConfiguration
     {
         services.AddAuthenticationConfiguration(issuer,audience,key);
         //添加swagger报文头UI
-        services.Configure<SwaggerGenOptions>(c => { c.AddAuthenticationHeader(); });
+        services.Configure<SwaggerGenOptions>(c => { c.AddSwaggerUIAuthorizationHeard(); });
         return services;
     }
 

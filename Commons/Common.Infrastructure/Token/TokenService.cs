@@ -1,8 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Text;
-using Common.Application.Encodings;
-using Microsoft.Extensions.Options;
+using Common.Application.Token;
+using Common.Infrastructure.Jwt;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Common.Infrastructure.Authentication;
@@ -23,7 +22,7 @@ internal sealed class JwtTokenService(JWTOptions options): IJwtTokenService
         claims.Add(new Claim(ClaimTypes.Name, name));
 
         //构建密钥
-        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(options.Key));
+        var securityKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(options.Key));
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
 
         // 创建令牌

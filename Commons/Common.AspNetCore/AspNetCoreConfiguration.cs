@@ -43,9 +43,10 @@ public static class AspNetCoreConfiguration
     }
 
     //授权
-    public static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services, JWTOptions option)
+    public static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services
+        ,string issuer,string audience,string key)
     {
-        services.AddAuthenticationConfiguration(option);
+        services.AddAuthenticationConfiguration(issuer,audience,key);
         //添加swagger报文头UI
         services.Configure<SwaggerGenOptions>(c => { c.AddAuthenticationHeader(); });
         return services;

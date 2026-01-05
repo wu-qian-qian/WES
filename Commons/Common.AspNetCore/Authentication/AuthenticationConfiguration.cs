@@ -6,13 +6,9 @@ namespace Common.AspNetCore.Authentication;
 
 internal static class AuthenticationConfiguration
 {
-    /// <summary>
-    /// 认证对一些细节进行认证
-    /// </summary>
-    /// <param name="services"></param>
-    /// <param name="option"></param>
-    /// <returns></returns>
-    public static IServiceCollection AddAuthenticationConfiguration(this IServiceCollection services, JWTOptions option)
+    // 一些认证的细节 
+    public static IServiceCollection AddAuthenticationConfiguration(this IServiceCollection services,
+        string issuer,string audience,string key)
     {
         services.AddAuthentication("JwtBearer")
             .AddJwtBearer("JwtBearer", options =>
@@ -20,16 +16,16 @@ internal static class AuthenticationConfiguration
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
-                    ValidIssuer = option.Issuer,
+                    ValidIssuer = issuer,
                     ValidateAudience = true,
-                    ValidAudience = option.Audience,
+                    ValidAudience = audience,
                     //生效时间
-                    ValidateLifetime = false,
+                    ValidateLifetime = true,
                     //过期时间
-                    RequireExpirationTime = false,
+                    RequireExpirationTime = true,
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(
-                        System.Text.Encoding.UTF8.GetBytes(option.Key))
+                        System.Text.Encoding.UTF8.GetBytes(key))
                 };
                 // 处理SignalR的特殊情况：Bearer Token可能通过查询字符串传递
                 options.Events = new JwtBearerEvents

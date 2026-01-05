@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program\\WES\\WES-Git\\Ocelot\\API.Host\\Gateway.API.csproj": {}
+    "/workspaces/WES/Ocelot/API.Host/Gateway.API.csproj": {}
   },
   "projects": {
-    "D:\\Program\\WES\\WES-Git\\Ocelot\\API.Host\\Gateway.API.csproj": {
+    "/workspaces/WES/Ocelot/API.Host/Gateway.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\WES\\WES-Git\\Ocelot\\API.Host\\Gateway.API.csproj",
+        "projectUniqueName": "/workspaces/WES/Ocelot/API.Host/Gateway.API.csproj",
         "projectName": "Gateway.API",
-        "projectPath": "D:\\Program\\WES\\WES-Git\\Ocelot\\API.Host\\Gateway.API.csproj",
-        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\WES\\WES-Git\\Ocelot\\API.Host\\obj\\",
+        "projectPath": "/workspaces/WES/Ocelot/API.Host/Gateway.API.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/WES/Ocelot/API.Host/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -102,7 +96,19 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
               "version": "[8.0.22, 8.0.22]"
             }
           ],
@@ -114,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace Identity.Infrastructure.DataBase
 {
-    internal class IdentityDBContext : BaseDbContext
+    public class IdentityDBContext : BaseDbContext
     {
         public const string SchemasTable = "Identity";
 

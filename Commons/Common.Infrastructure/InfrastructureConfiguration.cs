@@ -44,7 +44,7 @@ public static class InfrastructureConfiguration
 /// <param name="behaviors"></param>
 /// <returns></returns>
     public static IServiceCollection AddMediatRConfiguration(IServiceCollection services,
-        Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[] behaviors)
+        Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[]? behaviors=null)
     {
         return services.AddMediatRConfiguration(moduleAssemblies, behaviors);
     }

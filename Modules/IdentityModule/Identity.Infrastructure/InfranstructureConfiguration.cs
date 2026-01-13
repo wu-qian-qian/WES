@@ -18,9 +18,6 @@ namespace Identity.Infrastructure
 {
     public static class InfranstructureConfiguration
     {
-        public static Assembly[] ModuleAssList = {typeof(ApplicationConfiguration).Assembly
-                ,typeof(InfranstructureConfiguration).Assembly,typeof(AssemblyReference).Assembly };
-
         public static IServiceCollection AddInfranstructureConfiguration(this  IServiceCollection services
         , IConfiguration configuration)
         {
@@ -30,7 +27,7 @@ namespace Identity.Infrastructure
             options.UseSqlServer(connStr, builder =>
             builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable+ HistoryRepository.DefaultTableName));
             });
-           // services.AddMediatRConfiguration()
+            InfrastructureConfiguration.AddMediatRConfiguration(services,[typeof(ApplicationConfiguration).Assembly]);
             return services;
         }
 

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
 using System.Text.Json.Serialization;
 
@@ -12,7 +13,7 @@ namespace Common.AspNetCore;
 
 public static class AspNetCoreConfiguration
 {
-    public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app, Assembly[] assemblies)
+    public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app)
     {
         
         //Add AspNetCore related services here
@@ -42,7 +43,14 @@ public static class AspNetCoreConfiguration
         return app;
     }
 
-    //授权
+    /// <summary>
+    /// 授权
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="issuer"></param>
+    /// <param name="audience"></param>
+    /// <param name="key"></param>
+    /// <returns></returns>
     public static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services
         ,string issuer,string audience,string key)
     {

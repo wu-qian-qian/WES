@@ -15,6 +15,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets/1.23.0/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets/1.23.0/build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/8.0.22/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/8.0.22/build/Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.0/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/8.0.0/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.dotnet.ilcompiler/8.0.22/build/Microsoft.DotNet.ILCompiler.props" Condition="Exists('$(NuGetPackageRoot)microsoft.dotnet.ilcompiler/8.0.22/build/Microsoft.DotNet.ILCompiler.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers/8.0.0/buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.netanalyzers/8.0.0/buildTransitive/Microsoft.CodeAnalysis.NetAnalyzers.props')" />
   </ImportGroup>

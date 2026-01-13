@@ -7,7 +7,7 @@ namespace Common.Infrastructure.DependencyInjection;
 
 public static class AttrubiteInjectionService
 {
-    public static IServiceCollection AddDependyConfiguration(this IServiceCollection services, Assembly[] assemblies)
+    public static IServiceCollection AddDependyConfiguration(this IServiceCollection services,Assembly[] assemblies)
     {
         foreach (var assembly in assemblies)
             foreach (var type in assembly.GetTypes().Where(p => p.IsClass && !p.IsAbstract))

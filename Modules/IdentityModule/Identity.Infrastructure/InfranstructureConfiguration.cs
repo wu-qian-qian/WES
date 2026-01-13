@@ -1,4 +1,6 @@
-﻿using Identity.Application;
+﻿using Common.Infrastructure;
+using Common.Infrastructure.DependencyInjection;
+using Identity.Application;
 using Identity.Presentation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -17,7 +19,8 @@ namespace Identity.Infrastructure
 
         public static IServiceCollection AddInfranstructureConfiguration(this  IServiceCollection services)
         {
-            
+            services.AddDependyConfiguration([typeof(InfranstructureConfiguration).Assembly]);
+           // services.AddMediatRConfiguration()
             return services;
         }
     }

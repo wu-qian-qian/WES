@@ -56,7 +56,7 @@ public static class InfrastructureConfiguration
 /// <param name="options"></param>
 /// <returns></returns>
     public static IServiceCollection AddHttpConfiguration(IServiceCollection serviceCollection,
-        HttpOptions options = null)
+        HttpOptions? options = null)
     {
         return serviceCollection.AddHttpConfiguration(options);
     }

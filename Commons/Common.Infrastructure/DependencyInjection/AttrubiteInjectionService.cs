@@ -7,6 +7,13 @@ namespace Common.Infrastructure.DependencyInjection;
 
 public static class AttrubiteInjectionService
 {
+ 
+ /// <summary>
+ /// 特性自动注入
+ /// </summary>
+ /// <param name="services"></param>
+ /// <param name="assemblies"></param>
+ /// <returns></returns>
     public static IServiceCollection AddDependyConfiguration(this IServiceCollection services,Assembly[] assemblies)
     {
         foreach (var assembly in assemblies)

@@ -11,20 +11,4 @@
 
 # 针对于 visual studio 编译器中可忽略的文件
 /.vs
-*.dll
-*.exe
-*.obj
-*.bin
-*.user
-*.suo
-*.cache
-*.vs
-*.log
-*.tmp
-*.swp
-*.sdf
-*.vcxproj.user
-*.vcxproj.filters
-*.pdb
-*.config
-*.lref
+

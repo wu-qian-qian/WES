@@ -1,15 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\S7.Application\S7.Application.csproj" />
-      <ProjectReference Include="..\S7.Application\S7.ConsumerEvent.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageReference Include="MassTransit" Version="8.2.1"/>
-    </ItemGroup>
+
 </Project>

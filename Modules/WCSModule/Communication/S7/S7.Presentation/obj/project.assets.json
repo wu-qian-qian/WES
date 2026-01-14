@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation/S7.Presentation.csproj",
+      "projectUniqueName": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation.csproj",
       "projectName": "S7.Presentation",
-      "projectPath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation/S7.Presentation.csproj",
+      "projectPath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation/obj/",
+      "outputPath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

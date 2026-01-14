@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "MwMwI/IFaWc=",
-  "success": false,
+  "dgSpecHash": "wlAgk9Ai+z4=",
+  "success": true,
   "projectFilePath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Infrastructure/S7.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
@@ -48,17 +48,5 @@
     "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "项目 S7.Domain 与 net8.0 (.NETCoreApp,Version=v8.0) 不兼容。 项目 S7.Domain 支持: net10.0 (.NETCoreApp,Version=v10.0)",
-      "projectPath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Infrastructure/S7.Infrastructure.csproj",
-      "filePath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Infrastructure/S7.Infrastructure.csproj",
-      "libraryId": "S7.Domain",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

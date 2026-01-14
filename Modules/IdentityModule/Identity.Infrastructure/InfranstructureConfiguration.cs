@@ -22,7 +22,7 @@ namespace Identity.Infrastructure
             options.UseSqlServer(connStr, builder =>
             builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable+ HistoryRepository.DefaultTableName));
             });
-            InfrastructureConfiguration.AddMediatRConfiguration(services,[typeof(ApplicationConfiguration).Assembly]);
+            services.AddMediatRConfiguration(services,[typeof(ApplicationConfiguration).Assembly]);
             services.AddEndpoints(typeof(AssemblyReference).Assembly);
             return services;
         }

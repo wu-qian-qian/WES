@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace Common.Infrastructure.MediatR;
 
-internal static class MediatRConfiguration
+public static class MediatRConfiguration
 {
     /// <summary>
     /// 
@@ -14,7 +14,7 @@ internal static class MediatRConfiguration
     /// <param name="moduleAssemblies"></param>
     /// <param name="behaviors">自定义管道配置</param>
     /// <returns></returns>
-    internal static IServiceCollection AddMediatRConfiguration(this IServiceCollection services,
+    public static IServiceCollection AddMediatRConfiguration(this IServiceCollection services,
         Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[]? behaviors)
     {
         services.AddMediatR(config =>

@@ -35,31 +35,6 @@ public static class InfranstructureConfiguration
         return serviceCollection;
     }
 
-
-/// <summary>
-/// MediatR 中介者注入
-/// </summary>
-/// <param name="services"></param>
-/// <param name="moduleAssemblies"></param>
-/// <param name="behaviors"></param>
-/// <returns></returns>
-    public static IServiceCollection AddMediatRConfiguration(IServiceCollection services,
-        Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[]? behaviors=null)
-    {
-        return services.AddMediatRConfiguration(moduleAssemblies, behaviors);
-    }
-
-/// <summary>
-///  API 请求封装
-/// </summary>
-/// <param name="serviceCollection"></param>
-/// <param name="options"></param>
-/// <returns></returns>
-    public static IServiceCollection AddHttpConfiguration(IServiceCollection serviceCollection,
-        HttpOptions? options = null)
-    {
-        return serviceCollection.AddHttpConfiguration(options);
-    }
 /// <summary>
 /// Redis注入
 /// </summary>

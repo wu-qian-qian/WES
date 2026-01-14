@@ -8,7 +8,7 @@ using Polly.Extensions.Http;
 
 namespace Common.Infrastructure.Net;
 
-internal static class NetConfiguration
+public static class NetConfiguration
 {
     public static IServiceCollection AddHttpConfiguration(this IServiceCollection serviceCollection,
         HttpOptions options = null)

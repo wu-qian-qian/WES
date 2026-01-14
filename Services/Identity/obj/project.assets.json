@@ -8,14 +8,10 @@
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net6.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/AutoMapper.dll": {}
         }
       },
       "Azure.Core/1.25.0": {
@@ -48,27 +44,19 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/netstandard2.0/Azure.Identity.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Azure.Identity.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Azure.Identity.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
       "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
         },
         "runtime": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
         }
       },
       "Consul/1.7.14.7": {
@@ -88,39 +76,31 @@
         "type": "package",
         "compile": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
       "ExtendedNumerics.BigDecimal/2025.1001.2.129": {
         "type": "package",
         "compile": {
-          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {}
         },
         "runtime": {
-          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {}
         }
       },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/FluentValidation.dll": {}
         },
         "runtime": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/FluentValidation.dll": {}
         }
       },
       "FluentValidation.DependencyInjectionExtensions/11.0.0": {
@@ -130,27 +110,19 @@
           "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
         },
         "compile": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "MathNet.Numerics.Signed/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MathNet.Numerics.dll": {}
         },
         "runtime": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MathNet.Numerics.dll": {}
         }
       },
       "MediatR/12.2.0": {
@@ -160,27 +132,19 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net6.0/MediatR.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MediatR.dll": {}
         },
         "runtime": {
-          "lib/net6.0/MediatR.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MediatR.dll": {}
         }
       },
       "MediatR.Contracts/2.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
@@ -204,9 +168,7 @@
           "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.NetAnalyzers/8.0.0": {
@@ -284,12 +246,6 @@
           }
         }
       },
-      "Microsoft.DotNet.ILCompiler/8.0.22": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.DotNet.ILCompiler.props": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -299,14 +255,10 @@
           "Microsoft.Extensions.Logging": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props": {}
@@ -315,14 +267,10 @@
       "Microsoft.EntityFrameworkCore.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.0": {
@@ -341,14 +289,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.SqlServer/8.0.0": {
@@ -358,14 +302,10 @@
           "Microsoft.EntityFrameworkCore.Relational": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
@@ -374,14 +314,10 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -397,14 +333,10 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -419,14 +351,10 @@
           "StackExchange.Redis": "2.6.122"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -436,14 +364,10 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -470,14 +394,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {}
         },
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
@@ -489,14 +409,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -505,14 +421,10 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.1": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
@@ -525,14 +437,10 @@
           "System.Text.Json": "10.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
@@ -546,14 +454,10 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -621,14 +525,10 @@
           "Microsoft.Extensions.Options": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -642,14 +542,10 @@
           "Polly.Extensions.Http": "3.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/8.0.0": {
@@ -660,14 +556,10 @@
           "Microsoft.Extensions.Options": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -695,14 +587,10 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
@@ -718,14 +606,10 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -749,14 +633,10 @@
           "Microsoft.IdentityModel.Abstractions": "6.22.0"
         },
         "compile": {
-          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         }
       },
       "Microsoft.Identity.Client.Extensions.Msal/2.19.3": {
@@ -772,7 +652,7 @@
           "lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Abstractions/7.1.2": {
+      "Microsoft.IdentityModel.Abstractions/8.0.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {}
@@ -781,10 +661,10 @@
           "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {}
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/7.0.3": {
+      "Microsoft.IdentityModel.JsonWebTokens/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.0.3"
+          "Microsoft.IdentityModel.Tokens": "8.0.1"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
@@ -793,10 +673,10 @@
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Logging/7.1.2": {
+      "Microsoft.IdentityModel.Logging/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "7.1.2"
+          "Microsoft.IdentityModel.Abstractions": "8.0.1"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {}
@@ -831,10 +711,10 @@
           "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {}
         }
       },
-      "Microsoft.IdentityModel.Tokens/7.1.2": {
+      "Microsoft.IdentityModel.Tokens/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Logging": "7.1.2"
+          "Microsoft.IdentityModel.Logging": "8.0.1"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {}
@@ -850,12 +730,6 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {}
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/8.0.22": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Microsoft.OpenApi/1.6.14": {
@@ -967,26 +841,22 @@
           "System.IO.Pipelines": "5.0.1"
         },
         "compile": {
-          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {}
         },
         "runtime": {
-          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {}
         }
       },
       "Polly/7.2.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -996,14 +866,10 @@
           "Polly": "7.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {}
         }
       },
       "Quartz/3.8.1": {
@@ -1055,26 +921,22 @@
         },
         "compile": {
           "lib/net8.0/Scrutor.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Scrutor.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
       "Serilog/4.2.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/Serilog.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Serilog.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Serilog.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Serilog.dll": {}
         }
       },
       "Serilog.Sinks.File/7.0.0": {
@@ -1083,14 +945,10 @@
           "Serilog": "4.2.0"
         },
         "compile": {
-          "lib/net8.0/Serilog.Sinks.File.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Serilog.Sinks.File.dll": {}
         },
         "runtime": {
-          "lib/net8.0/Serilog.Sinks.File.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/Serilog.Sinks.File.dll": {}
         }
       },
       "SharpZipLib/1.4.2": {
@@ -1134,14 +992,10 @@
           "Pipelines.Sockets.Unofficial": "2.2.8"
         },
         "compile": {
-          "lib/net6.0/StackExchange.Redis.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/StackExchange.Redis.dll": {}
         },
         "runtime": {
-          "lib/net6.0/StackExchange.Redis.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/StackExchange.Redis.dll": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.6.2": {
@@ -1241,11 +1095,11 @@
           "lib/netstandard2.0/System.Formats.Asn1.dll": {}
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.0.3": {
+      "System.IdentityModel.Tokens.Jwt/8.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.0.3",
-          "Microsoft.IdentityModel.Tokens": "7.0.3"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.1",
+          "Microsoft.IdentityModel.Tokens": "8.0.1"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {}
@@ -1257,14 +1111,10 @@
       "System.IO.Pipelines/10.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.IO.Pipelines.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.IO.Pipelines.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
@@ -1286,14 +1136,10 @@
           "System.Text.Json": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.Data.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.Data.dll": {}
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -1311,14 +1157,10 @@
           "System.Configuration.ConfigurationManager": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
-            "related": ".xml"
-          }
+          "lib/net6.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.Caching.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Runtime.Caching.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -1488,14 +1330,10 @@
       "System.Text.Encodings.Web/10.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Encodings.Web.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Encodings.Web.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
@@ -1514,14 +1352,10 @@
           "System.Text.Encodings.Web": "10.0.0"
         },
         "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Json.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Text.Json.dll": {}
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
@@ -1642,7 +1476,8 @@
           "Polly.Extensions.Http": "3.0.0",
           "Scrutor": "7.0.0",
           "Serilog": "4.2.0",
-          "Serilog.Sinks.File": "7.0.0"
+          "Serilog.Sinks.File": "7.0.0",
+          "System.IdentityModel.Tokens.Jwt": "8.0.1"
         },
         "compile": {
           "bin/placeholder/Common.Infrastructure.dll": {}
@@ -1698,6 +1533,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Common.Infrastructure": "1.0.0",
+          "Common.Presentation": "1.0.0",
           "Identity.Application": "1.0.0",
           "Identity.Domain": "1.0.0",
           "Identity.Presentation": "1.0.0",
@@ -2735,36 +2571,6 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.DotNet.ILCompiler/8.0.22": {
-      "sha512": "4SDEQzYp3d9yVu0iQRFMV4HJCTjDvCt2AclSxMGXZSva5VrdoatwDg5nQVSD42ZuzBY5Y+BzgaexNbwb0/3gHw==",
-      "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.22",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "build/BuildFrameworkNativeObjects.proj",
-        "build/Microsoft.DotNet.ILCompiler.SingleEntry.targets",
-        "build/Microsoft.DotNet.ILCompiler.props",
-        "build/Microsoft.NETCore.Native.Publish.targets",
-        "build/Microsoft.NETCore.Native.Unix.targets",
-        "build/Microsoft.NETCore.Native.Windows.targets",
-        "build/Microsoft.NETCore.Native.targets",
-        "build/NativeAOT.natstepfilter",
-        "build/NativeAOT.natvis",
-        "build/WindowsAPIs.txt",
-        "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512",
-        "microsoft.dotnet.ilcompiler.nuspec",
-        "runtime.json",
-        "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
-        "tools/netstandard/ILCompiler.Build.Tasks.dll",
-        "tools/netstandard/ILCompiler.Build.Tasks.pdb"
-      ]
-    },
     "Microsoft.EntityFrameworkCore/8.0.0": {
       "sha512": "SoODat83pGQUpWB9xULdMX6tuKpq/RTXDuJ2WeC1ldUKcKzLkaFJD1n+I0nOLY58odez/e7z8b6zdp235G/kyg==",
       "type": "package",
@@ -3419,54 +3225,54 @@
         "microsoft.identity.client.extensions.msal.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Abstractions/7.1.2": {
-      "sha512": "33eTIA2uO/L9utJjZWbKsMSVsQf7F8vtd6q5mQX7ZJzNvCpci5fleD6AeANGlbbb7WX7XKxq9+Dkb5e3GNDrmQ==",
+    "Microsoft.IdentityModel.Abstractions/8.0.1": {
+      "sha512": "OtlIWcyX01olfdevPKZdIPfBEvbcioDyBiE/Z2lHsopsMD7twcKtlN9kMevHmI5IIPhFpfwCIiR6qHQz1WHUIw==",
       "type": "package",
-      "path": "microsoft.identitymodel.abstractions/7.1.2",
+      "path": "microsoft.identitymodel.abstractions/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Microsoft.IdentityModel.Abstractions.dll",
         "lib/net462/Microsoft.IdentityModel.Abstractions.dll",
         "lib/net472/Microsoft.IdentityModel.Abstractions.dll",
         "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
         "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
-        "microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
         "microsoft.identitymodel.abstractions.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.JsonWebTokens/7.0.3": {
-      "sha512": "vxjHVZbMKD3rVdbvKhzAW+7UiFrYToUVm3AGmYfKSOAwyhdLl/ELX1KZr+FaLyyS5VReIzWRWJfbOuHM9i6ywg==",
+    "Microsoft.IdentityModel.JsonWebTokens/8.0.1": {
+      "sha512": "s6++gF9x0rQApQzOBbSyp4jUaAlwm+DroKfL8gdOHxs83k8SJfUXhuc46rDB3rNXBQ1MVRxqKUrqFhO/M0E97g==",
       "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/7.0.3",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net462/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Logging/7.1.2": {
-      "sha512": "YCxBt2EeJP8fcXk9desChkWI+0vFqFLvBwrz5hBMsoh0KJE6BC66DnzkdzkJNqMltLromc52dkdT206jJ38cTw==",
+    "Microsoft.IdentityModel.Logging/8.0.1": {
+      "sha512": "UCPF2exZqBXe7v/6sGNiM6zCQOUXXQ9+v5VTb9gPB8ZSUPnX53BxlN78v2jsbIvK9Dq4GovQxo23x8JgWvm/Qg==",
       "type": "package",
-      "path": "microsoft.identitymodel.logging/7.1.2",
+      "path": "microsoft.identitymodel.logging/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Microsoft.IdentityModel.Logging.dll",
         "lib/net462/Microsoft.IdentityModel.Logging.dll",
         "lib/net472/Microsoft.IdentityModel.Logging.dll",
         "lib/net6.0/Microsoft.IdentityModel.Logging.dll",
         "lib/net8.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Logging.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
-        "microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
@@ -3504,20 +3310,20 @@
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.Tokens/7.1.2": {
-      "sha512": "oICJMqr3aNEDZOwnH5SK49bR6Z4aX0zEAnOLuhloumOSuqnNq+GWBdQyrgILnlcT5xj09xKCP/7Y7gJYB+ls/g==",
+    "Microsoft.IdentityModel.Tokens/8.0.1": {
+      "sha512": "kDimB6Dkd3nkW2oZPDkMkVHfQt3IDqO5gL0oa8WVy3OP4uE8Ij+8TXnqg9TOd9ufjsY3IDiGz7pCUbnfL18tjg==",
       "type": "package",
-      "path": "microsoft.identitymodel.tokens/7.1.2",
+      "path": "microsoft.identitymodel.tokens/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
         "lib/net462/Microsoft.IdentityModel.Tokens.dll",
         "lib/net472/Microsoft.IdentityModel.Tokens.dll",
         "lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
         "lib/net8.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net9.0/Microsoft.IdentityModel.Tokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
-        "microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+        "microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
@@ -3534,57 +3340,6 @@
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
         "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
         "microsoft.io.recyclablememorystream.nuspec"
-      ]
-    },
-    "Microsoft.NET.ILLink.Tasks/8.0.22": {
-      "sha512": "MhcMithKEiyyNkD2ZfbDZPmcOdi0GheGfg8saEIIEfD/fol3iHmcV8TsZkD4ZYz5gdUuoX4YtlVySUU7Sxl9SQ==",
-      "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.22",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "Sdk/Sdk.props",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
-        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
-        "build/Microsoft.NET.ILLink.Analyzers.props",
-        "build/Microsoft.NET.ILLink.Tasks.props",
-        "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
-        "microsoft.net.illink.tasks.nuspec",
-        "tools/net472/ILLink.Tasks.dll",
-        "tools/net472/ILLink.Tasks.dll.config",
-        "tools/net472/Mono.Cecil.Mdb.dll",
-        "tools/net472/Mono.Cecil.Pdb.dll",
-        "tools/net472/Mono.Cecil.Rocks.dll",
-        "tools/net472/Mono.Cecil.dll",
-        "tools/net472/Sdk/Sdk.props",
-        "tools/net472/System.Buffers.dll",
-        "tools/net472/System.Collections.Immutable.dll",
-        "tools/net472/System.Memory.dll",
-        "tools/net472/System.Numerics.Vectors.dll",
-        "tools/net472/System.Reflection.Metadata.dll",
-        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net472/build/Microsoft.NET.ILLink.targets",
-        "tools/net8.0/ILLink.Tasks.deps.json",
-        "tools/net8.0/ILLink.Tasks.dll",
-        "tools/net8.0/Mono.Cecil.Mdb.dll",
-        "tools/net8.0/Mono.Cecil.Pdb.dll",
-        "tools/net8.0/Mono.Cecil.Rocks.dll",
-        "tools/net8.0/Mono.Cecil.dll",
-        "tools/net8.0/Sdk/Sdk.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
-        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
-        "tools/net8.0/illink.deps.json",
-        "tools/net8.0/illink.dll",
-        "tools/net8.0/illink.runtimeconfig.json",
-        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.OpenApi/1.6.14": {
@@ -4166,20 +3921,20 @@
         "version.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/7.0.3": {
-      "sha512": "caEe+OpQNYNiyZb+DJpUVROXoVySWBahko2ooNfUcllxa9ZQUM8CgM/mDjP6AoFn6cQU9xMmG+jivXWub8cbGg==",
+    "System.IdentityModel.Tokens.Jwt/8.0.1": {
+      "sha512": "GJw3bYkWpOgvN3tJo5X4lYUeIFA2HD293FPUhKmp7qxS+g5ywAb34Dnd3cDAFLkcMohy5XTpoaZ4uAHuw0uSPQ==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/7.0.3",
+      "path": "system.identitymodel.tokens.jwt/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
-        "system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -4843,8 +4598,6 @@
       "Common.AspNetCore >= 1.0.0",
       "Identity.Infrastructure >= 1.0.0",
       "Microsoft.CodeAnalysis.NetAnalyzers >= 8.0.0",
-      "Microsoft.DotNet.ILCompiler >= 8.0.22",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.23.0"
     ]
   },
@@ -4904,18 +4657,6 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
-          "Microsoft.DotNet.ILCompiler": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[8.0.22, )",
-            "autoReferenced": true
-          },
-          "Microsoft.NET.ILLink.Tasks": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[8.0.22, )",
-            "autoReferenced": true
-          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.23.0, )"
@@ -4943,10 +4684,6 @@
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
             "version": "[8.0.22, 8.0.22]"
           }
         ],

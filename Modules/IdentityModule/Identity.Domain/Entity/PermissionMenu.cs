@@ -21,9 +21,9 @@ namespace Identity.Domain
             Id = Guid.NewGuid();
         }
 
-        public int PermissionId { get; set; }
+        public Guid PermissionId { get; set; }
 
-        public int MenuId { get; set; }
+        public Guid MenuId { get; set; }
 
         public Permission Permission { get; set; }
         public Menu Menu { get; set; }

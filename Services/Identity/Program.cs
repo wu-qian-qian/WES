@@ -1,7 +1,9 @@
 using Common.AspNetCore;
 using Identity.Infrastructure;
+using Common.Presentation;
 
-var builder = WebApplication.CreateSlimBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddEndpointsApiExplorer();
 builder.AddAspNetCore();
 builder.Services.AddInfranstructureConfiguration(builder.Configuration);
 var app = builder.Build();
@@ -9,7 +11,6 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwagger();
-    var sc=app.Services.CreateScope();
-    InfranstructureConfiguration.Initialize(sc);
 }
+app.MapEndpoints();
 app.Run();

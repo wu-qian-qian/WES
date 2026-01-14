@@ -15,9 +15,9 @@ using System.Reflection;
 
 namespace Common.Infrastructure;
 
-public static class InfrastructureConfiguration
+public static class InfranstructureConfiguration
 {
-    public static IServiceCollection AddInfrastructureConfiguration(this IServiceCollection serviceCollection,
+    public static IServiceCollection AddInfranstructureConfiguration(this IServiceCollection serviceCollection,
         params Assembly[] assArray)
     {
         //带有装饰器 的事件总线

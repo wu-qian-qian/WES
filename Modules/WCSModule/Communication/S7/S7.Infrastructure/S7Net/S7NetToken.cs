@@ -37,14 +37,14 @@ public class S7NetToken : INet
         _logAciont?.Invoke(content);
     }
 
-    public async Task<Result?> ConnectAsync()
+    public async Task<Result> ConnectAsync()
     {
         if (Plc.IsConnected == true)
         {
             WriteLog($"{_netConfig.Ip}--重复连接PLC");
             return Result.Success();
         }
-        Result? result = Result.Error("连接失败");
+        Result? result =default;
         for (int i = 0; i < _netConfig.MaxRetries; i++)
         {
             try
@@ -60,18 +60,18 @@ public class S7NetToken : INet
                 WriteLog($"{_netConfig.Ip}--开始重试");
             }
         }
-        return result;
+        return result?? Result.Error($"{_netConfig.Ip}--链接PLC失败");
     }
 
-    public async Task<Result?> ReConnectAsync()
+    public async Task<Result> ReConnectAsync()
     {
         WriteLog($"{_netConfig.Ip}--开始重新连接PLC");
         return await ConnectAsync();
     }
 
-    public Task<Result?> CloseAsync()
+    public Task<Result> CloseAsync()
     {
-        Result? result;
+        Result? result=default;
         try
         {
             Plc.Close();
@@ -84,25 +84,33 @@ public class S7NetToken : INet
         return Task.FromResult<Result>(result);
     }
 
-    public async Task<Result<byte[]?>?> ReadAsync(IReadConfig input)
+    public async Task<Result<byte[]>> ReadAsync(IReadConfig input)
     {
-        byte[]? bufferBlock = default;
+        Result<byte[]>?  result= default;
         if (input is ReadModel readModel)
         {
-            bufferBlock = await
+            try
+            {
+               var bufferBlock = await
                 Plc.ReadBytesAsync(S7.Infrastructure.Helper.EnumHelper.S7BlockTypeToDataType(readModel.S7BlockType)
                     , readModel.DBAddress, readModel.DBStart, readModel.DBCount);
+                result = Result<byte[]>.Success(bufferBlock);
+            }
+            catch (Exception ex)
+            {
+                WriteLog($"{_netConfig.Ip}--读取数据异常:{ex.Message}");
+            }
         }
         else
         {
             WriteLog($"{_netConfig.Ip}--数据模型异常");
         }
-        return Result.Success<byte[]?>(bufferBlock);
+        return result ?? Result.Error<byte[]>($"{_netConfig.Ip}--读取数据失败");
     }
 
     public async Task<Result> WriteAsync(IWriteConfig input)
     {
-        Result result = default;
+        Result? result = default;
         if (input is WriteModel writeModel)
         {
             var dbType = S7.Infrastructure.Helper.EnumHelper.S7BlockTypeToDataType(writeModel.S7BlockType);
@@ -117,7 +125,7 @@ public class S7NetToken : INet
             }
             else
             {
-                Plc.WriteBitAsync(dbType, writeModel.DBAddress, writeModel.DBStart, writeModel.BitAddress.Value,
+               await Plc.WriteBitAsync(dbType, writeModel.DBAddress, writeModel.DBStart, writeModel.BitAddress.Value,
                     writeModel.BitValue.Value);
                 var @bool = Plc.Read(dbType, writeModel.DBAddress, writeModel.DBStart, VarType.Bit, writeModel.BitAddress.Value);
                 if (writeModel.BitValue.Value.Equals(@bool))
@@ -128,8 +136,7 @@ public class S7NetToken : INet
         {
             WriteLog($"{_netConfig.Ip}--数据模型异常");
         }
-
-        return result;
+        return result?? Result.Error($"{_netConfig.Ip}--写入数据失败");
     }
 
 

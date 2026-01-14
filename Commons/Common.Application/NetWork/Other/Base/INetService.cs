@@ -8,13 +8,13 @@ public interface INetService
 {
     ConcurrentDictionary<string, INet> NetMap { get; }
 
-    Task<Result<byte[]?>?> ReadAsync(IReadConfig input);
+    Task<Result<byte[]>> ReadAsync(IReadConfig input);
 
     Task<Result> WriteAsync(IWriteConfig input);
 
-    Task<Result?> ReConnect(INetConfig netDto);
+    Task<Result> ReConnectAsync(INetConfig netDto);
 
-    Task<Result?> AddConnect(INet connect);
+    Task<Result> AddConnectAsync(INet connect);
 
     //todo 心跳操作
 }

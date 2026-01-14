@@ -14,12 +14,12 @@ public class Result
 
     public string Message { get; }
 
-    public static Result? Success()
+    public static Result Success()
     {
         return new Result(true, string.Empty);
     }
 
-    public static Result? Error(string messsage)
+    public static Result Error(string messsage)
     {
         return new Result(false, messsage);
     }

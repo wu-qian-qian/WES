@@ -7,13 +7,13 @@ public interface INet
 {
     bool IsConnect { get; }
     public INetConfig _netConfig { get; }
-    Task<Result?> ConnectAsync();
+    Task<Result> ConnectAsync();
 
-    Task<Result?> ReConnectAsync();
+    Task<Result> ReConnectAsync();
 
-    Task<Result?> CloseAsync();
+    Task<Result> CloseAsync();
 
-    Task<Result<byte[]?>?> ReadAsync(IReadConfig input);
+    Task<Result<byte[]>> ReadAsync(IReadConfig input);
 
     Task<Result> WriteAsync(IWriteConfig bulkItem);
 }

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UNXnWkrcvAY=",
+  "dgSpecHash": "JDg03/Wzv/w=",
   "success": true,
   "projectFilePath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/S7.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

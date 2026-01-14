@@ -1,0 +1,12 @@
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/bin/Debug/net8.0/S7.Presentation.deps.json
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/bin/Debug/net8.0/S7.Presentation.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/bin/Debug/net8.0/S7.Presentation.pdb
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.AssemblyInfoInputs.cache
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.AssemblyInfo.cs
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.csproj.CoreCompileInputs.cache
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.sourcelink.json
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/refint/S7.Presentation.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.pdb
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/ref/S7.Presentation.dll

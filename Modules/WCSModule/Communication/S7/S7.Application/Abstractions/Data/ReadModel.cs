@@ -1,5 +1,5 @@
 ﻿using Common.Application.NET.Other.Config;
-using S7.Domain.Enums;
+using S7.Net;
 
 namespace S7.Application.Abstractions.Data;
 
@@ -24,5 +24,5 @@ public class ReadModel : IReadConfig
     /// </summary>
     public byte? DBBit { get; set; }
 
-    public S7BlockTypeEnum S7BlockType { get; set; }
+    public DataType S7BlockType { get; set; }
 }

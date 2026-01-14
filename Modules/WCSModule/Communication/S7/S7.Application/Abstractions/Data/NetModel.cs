@@ -1,5 +1,5 @@
 ﻿using Common.Application.NET.Other.Config;
-using S7.Domain.Enums;
+using S7.Net;
 
 namespace S7.Application.Abstractions.Data;
 
@@ -19,7 +19,7 @@ public class NetModel : INetConfig
     /// <summary>
     ///     Plc类型
     /// </summary>
-    public S7TypeEnum S7Type { get; set; }
+    public CpuType S7Type { get; set; }
 
     /// <summary>
     ///     槽号

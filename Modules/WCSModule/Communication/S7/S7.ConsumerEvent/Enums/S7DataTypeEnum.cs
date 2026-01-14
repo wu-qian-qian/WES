@@ -5,7 +5,7 @@ namespace S7.Domain.Enums;
 /// <summary>
 ///     PLC数据类型
 /// </summary>
-public enum S7DataTypeEnum
+public enum S7DataTypeEnum1
 {
     [S7DataType(1)] Bool,
     [S7DataType(1)] Byte,

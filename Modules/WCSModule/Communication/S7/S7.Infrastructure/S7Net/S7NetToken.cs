@@ -5,7 +5,6 @@ using Common.Domain;
 using Common.Domain.Log;
 using Common.Helper;
 using S7.Application.Abstractions.Data;
-using S7.Domain.Enums;
 using S7.Net;
 
 namespace S7.Infrastructure.S7Net;
@@ -21,13 +20,7 @@ public class S7NetToken : INet
     {
         _netConfig = netConfig;
         _logAciont = logAciont;
-        var s7Cpu = netConfig.S7Type switch
-        {
-            S7TypeEnum.S71200 => CpuType.S71200,
-            S7TypeEnum.S71500 => CpuType.S71500,
-            _ => throw new ArgumentException("无可用类型")
-        };
-        Plc = new S7.Net.Plc(s7Cpu, netConfig.Ip, netConfig.Port, netConfig.Rack, netConfig.Solt);
+        Plc = new S7.Net.Plc( netConfig.S7Type, netConfig.Ip, netConfig.Port, netConfig.Rack, netConfig.Solt);
         Plc.ReadTimeout = netConfig.ReadTimeOut;
         Plc.WriteTimeout = netConfig.WriteTimeOut;
     }
@@ -92,7 +85,7 @@ public class S7NetToken : INet
             try
             {
                var bufferBlock = await
-                Plc.ReadBytesAsync(S7.Infrastructure.Helper.EnumHelper.S7BlockTypeToDataType(readModel.S7BlockType)
+                Plc.ReadBytesAsync(readModel.S7BlockType
                     , readModel.DBAddress, readModel.DBStart, readModel.DBCount);
                 result = Result<byte[]>.Success(bufferBlock);
             }
@@ -113,11 +106,10 @@ public class S7NetToken : INet
         Result? result = default;
         if (input is WriteModel writeModel)
         {
-            var dbType = S7.Infrastructure.Helper.EnumHelper.S7BlockTypeToDataType(writeModel.S7BlockType);
             if (writeModel.IsBit == false)
             {
-                await Plc.WriteBytesAsync(dbType, writeModel.DBAddress, writeModel.DBStart, writeModel.Buffer);
-                var buffer = Plc.ReadBytes(dbType, writeModel.DBAddress, writeModel.DBStart, writeModel.Buffer.Length);
+                await Plc.WriteBytesAsync(writeModel.S7BlockType, writeModel.DBAddress, writeModel.DBStart, writeModel.Buffer);
+                var buffer = Plc.ReadBytes(writeModel.S7BlockType, writeModel.DBAddress, writeModel.DBStart, writeModel.Buffer.Length);
                 if (SequenceEquals.ByteSequenceEquals(buffer, writeModel.Buffer))
                 {
                     result = Result.Success();
@@ -125,9 +117,9 @@ public class S7NetToken : INet
             }
             else
             {
-               await Plc.WriteBitAsync(dbType, writeModel.DBAddress, writeModel.DBStart, writeModel.BitAddress.Value,
+               await Plc.WriteBitAsync(writeModel.S7BlockType, writeModel.DBAddress, writeModel.DBStart, writeModel.BitAddress.Value,
                     writeModel.BitValue.Value);
-                var @bool = Plc.Read(dbType, writeModel.DBAddress, writeModel.DBStart, VarType.Bit, writeModel.BitAddress.Value);
+                var @bool = Plc.Read(writeModel.S7BlockType, writeModel.DBAddress, writeModel.DBStart, VarType.Bit, writeModel.BitAddress.Value);
                 if (writeModel.BitValue.Value.Equals(@bool))
                     result = Result.Success();
             }

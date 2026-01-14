@@ -1,6 +1,6 @@
 ﻿namespace S7.Domain.Enums;
 
-public enum S7BlockTypeEnum
+public enum S7BlockTypeEnum1
 {
     /// <summary>
     ///     Data block memory (DB1, DB2, ...)

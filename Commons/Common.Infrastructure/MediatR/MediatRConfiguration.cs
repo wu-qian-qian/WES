@@ -15,7 +15,7 @@ public static class MediatRConfiguration
     /// <param name="behaviors">自定义管道配置</param>
     /// <returns></returns>
     public static IServiceCollection AddMediatRConfiguration(this IServiceCollection services,
-        Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[]? behaviors)
+        Assembly[] moduleAssemblies, Action<MediatRServiceConfiguration>[]? behaviors=null)
     {
         services.AddMediatR(config =>
         {

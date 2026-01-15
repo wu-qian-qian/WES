@@ -7,6 +7,4 @@ public class ReadBufferCommand : ICommand
     public string DeviceName { get; set; }
 
     public string ReadKey { get; set; }
-
-    public string EventKey { get; set; }
 }

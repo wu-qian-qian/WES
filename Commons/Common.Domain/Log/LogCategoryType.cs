@@ -9,5 +9,6 @@ public enum LogCategoryType
     Other,
     Exception,
     Job,
-    Communication
+    Communication,
+    Module
 }

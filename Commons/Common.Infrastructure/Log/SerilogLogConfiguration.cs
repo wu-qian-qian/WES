@@ -75,6 +75,10 @@ public static class SerilogLogConfiguration
                 .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Category") &&
                                              e.Properties["Category"].ToString() == "Communication")
                 .WriteTo.File("Logs/others/other-.log", rollingInterval: RollingInterval.Day))
+            .WriteTo.Logger(l => l
+                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Category") &&
+                                             e.Properties["Category"].ToString() == "Module")
+                .WriteTo.File("Logs/others/other-.log", rollingInterval: RollingInterval.Day))
             .CreateLogger();
     }
 

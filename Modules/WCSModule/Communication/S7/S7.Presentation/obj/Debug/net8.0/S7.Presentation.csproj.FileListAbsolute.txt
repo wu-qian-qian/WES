@@ -10,3 +10,4 @@
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/refint/S7.Presentation.dll
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.pdb
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/ref/S7.Presentation.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Presentation/obj/Debug/net8.0/S7.Presentation.csproj.AssemblyReference.cache

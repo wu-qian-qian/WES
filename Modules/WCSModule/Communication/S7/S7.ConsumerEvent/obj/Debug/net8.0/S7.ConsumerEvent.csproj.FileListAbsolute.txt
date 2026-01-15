@@ -1,0 +1,12 @@
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/bin/Debug/net8.0/S7.ConsumerEvent.deps.json
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/bin/Debug/net8.0/S7.ConsumerEvent.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/bin/Debug/net8.0/S7.ConsumerEvent.pdb
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.AssemblyInfoInputs.cache
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.AssemblyInfo.cs
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.csproj.CoreCompileInputs.cache
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.sourcelink.json
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/refint/S7.ConsumerEvent.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/S7.ConsumerEvent.pdb
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.ConsumerEvent/obj/Debug/net8.0/ref/S7.ConsumerEvent.dll

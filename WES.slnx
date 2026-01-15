@@ -20,6 +20,8 @@
     <Project Path="Modules\WCSModule\Communication\S7\S7.Application\S7.Application.csproj" />
     <Project Path="Modules\WCSModule\Communication\S7\S7.Domain\S7.Domain.csproj" />
     <Project Path="Modules\WCSModule\Communication\S7\S7.Infrastructure\S7.Infrastructure.csproj" />
+    <Project Path="Modules\WCSModule\Communication\S7\S7.Presentation\S7.Presentation.csproj" />
+    <Project Path="Modules\WCSModule\Communication\S7\S7.ConsumerEvent\S7.ConsumerEvent.csproj" />
   </Folder>
   <Folder Name="/Modules/WMSModule/" />
   <Folder Name="/Serivices/">

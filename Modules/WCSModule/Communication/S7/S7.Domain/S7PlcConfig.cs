@@ -15,7 +15,7 @@ public class S7PlcConfig:BaseEntity
     public string Ip { get; protected set; }
 
     public int Port { get; protected set; }
-    public S7TypeEnum1 S7Type { get; set; }
+    public S7TypeEnum S7Type { get; set; }
 
     /// <summary>
     ///     槽号

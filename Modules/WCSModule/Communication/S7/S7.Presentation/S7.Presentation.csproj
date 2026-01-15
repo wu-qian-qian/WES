@@ -13,5 +13,6 @@
    <ItemGroup>
       <ProjectReference Include="..\S7.ConsumerEvent\S7.ConsumerEvent.csproj" />
       <ProjectReference Include="..\S7.Application\S7.Application.csproj" />
+      <ProjectReference Include="..\..\..\..\..\Commons\Common.Presentation\Common.Presentation.csproj" />
     </ItemGroup>
 </Project>

@@ -126,6 +126,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
+                "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
+              },
               "/workspaces/WES/Commons/Common/Common.csproj": {
                 "projectPath": "/workspaces/WES/Commons/Common/Common.csproj"
               }

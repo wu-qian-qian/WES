@@ -6,9 +6,9 @@ namespace S7.Domain;
 /// <summary>
 /// dotnet new classlib -n MyMathLibrary
 /// </summary>
-public class PlcConfig:BaseEntity
+public class PlcNetConfig:BaseEntity
 {
-    public PlcConfig()
+    public PlcNetConfig()
     {
         Id=Guid.NewGuid();
     }

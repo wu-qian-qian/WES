@@ -1,0 +1,12 @@
+/workspaces/WES/Commons/Common.Presentation/bin/Debug/net8.0/Common.Presentation.deps.json
+/workspaces/WES/Commons/Common.Presentation/bin/Debug/net8.0/Common.Presentation.dll
+/workspaces/WES/Commons/Common.Presentation/bin/Debug/net8.0/Common.Presentation.pdb
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.AssemblyInfoInputs.cache
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.AssemblyInfo.cs
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.csproj.CoreCompileInputs.cache
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.sourcelink.json
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.dll
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/refint/Common.Presentation.dll
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/Common.Presentation.pdb
+/workspaces/WES/Commons/Common.Presentation/obj/Debug/net8.0/ref/Common.Presentation.dll

@@ -1,5 +1,4 @@
-﻿using Common.Infrastructure;
-using Common.Infrastructure.DependencyInjection;
+﻿using Common.Infrastructure.DependencyInjection;
 using Identity.Application;
 using Identity.Infrastructure.DataBase;
 using Identity.Presentation;
@@ -7,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Common.Presentation;
 using Common.Infrastructure.MediatR;
 using Common.Infrastructure.DecoratorEvent;
+using Common.Presentation;
 
 namespace Identity.Infrastructure
 {
@@ -32,7 +31,7 @@ namespace Identity.Infrastructure
             builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable+ HistoryRepository.DefaultTableName));
             });
             services.AddMediatRConfiguration([typeof(ApplicationConfiguration).Assembly]);
-            services.AddEndpoints(typeof(AssemblyReference).Assembly);
+            services.AddEndpoints([typeof(AssemblyReference).Assembly]);
             return services;
         }
 

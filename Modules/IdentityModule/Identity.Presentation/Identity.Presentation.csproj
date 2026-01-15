@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Commons\Common.Presentation\Common.Presentation.csproj" />
+      <ProjectReference Include="..\..\..\Commons\Common.Presentation\Common.Presentation.csproj" />
      <ProjectReference Include="..\Identity.Application\Identity.Application.csproj" />
   </ItemGroup>
 </Project>

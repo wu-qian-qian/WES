@@ -4,8 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 public static class InfrastructureConfiguration
 {
-  public static void AddInfrastructureConfiguration(this IServiceCollection services)
+  public static IServiceCollection AddInfrastructureConfiguration(this IServiceCollection services)
   {
      services.AddSingleton<INetService, NetService>();    
+     return services;
   }
 }

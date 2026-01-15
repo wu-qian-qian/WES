@@ -15,6 +15,12 @@ namespace Identity.Infrastructure
 {
     public static class InfranstructureConfiguration
     {
+        /// <summary>
+        /// 服务只有一个模块 可直接在基础设施层添加
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection AddInfranstructureConfiguration(this  IServiceCollection services
         , IConfiguration configuration)
         {

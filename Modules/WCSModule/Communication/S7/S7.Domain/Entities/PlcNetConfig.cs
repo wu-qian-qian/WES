@@ -6,9 +6,9 @@ namespace S7.Domain;
 /// <summary>
 /// dotnet new classlib -n MyMathLibrary
 /// </summary>
-public class S7PlcConfig:BaseEntity
+public class PlcConfig:BaseEntity
 {
-    public S7PlcConfig()
+    public PlcConfig()
     {
         Id=Guid.NewGuid();
     }
@@ -52,7 +52,7 @@ public class S7PlcConfig:BaseEntity
     /// </summary>
     public string? WriteHeart { get; set; }
 
-
+    public ICollection<PlcEntityItem> PlcEntityItems { get; set; } 
     public void UpdateIp(string ip)
     {
         Ip = ip;

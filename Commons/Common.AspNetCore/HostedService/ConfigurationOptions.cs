@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-public sealed class ConfigurationService
+public sealed class ConfigurationOptions
 {
     public IEnumerable<Func<IServiceScope,Task>> Configurations{get;private set;}
 

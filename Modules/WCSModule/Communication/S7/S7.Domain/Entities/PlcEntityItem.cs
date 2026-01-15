@@ -1,9 +1,9 @@
 using Common.Domain.Entity;
 using S7.Domain.Enums;
-
-public class S7EntityItem : BaseEntity
+namespace S7.Domain;
+public class PlcEntityItem : BaseEntity
 {
-    public S7EntityItem()
+    public PlcEntityItem()
     {
         Id=Guid.NewGuid();
     }

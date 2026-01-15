@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 /// 主要用来初始化配置服务
 /// </summary>
 public class InitielizeConfigurationService(IServiceScopeFactory _scopeFactory,Logger<InitielizeConfigurationService> logger
-    ,ConfigurationService _configurationService) : IHostedService
+    ,ConfigurationOptions _configurationService) : IHostedService
 {
     public async Task StartAsync(CancellationToken cancellationToken)
     {

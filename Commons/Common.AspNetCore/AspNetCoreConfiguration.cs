@@ -90,7 +90,7 @@ public static class AspNetCoreConfiguration
     public static IServiceCollection AddConfigurationService(this IServiceCollection services,
         params Func<IServiceScope,Task>[] configurations)
     {
-        var configurationService = new ConfigurationService();
+        var configurationService = new ConfigurationOptions();
         configurationService.AddConfiguration(configurations);
         services.AddSingleton(configurationService);
         services.AddHostedService<InitielizeConfigurationService>();

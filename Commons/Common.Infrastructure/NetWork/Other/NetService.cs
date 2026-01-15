@@ -14,7 +14,7 @@ public class NetService : INetService
     {
         NetMap = new ConcurrentDictionary<string, INet>();
     }
-    public async Task<Result<byte[]>> ReadAsync(IReadConfig input)D
+    public async Task<Result<byte[]>> ReadAsync(IReadConfig input)
     {
         Result<byte[]>? result = default;
         if (NetMap.TryGetValue(input.Ip, out var net))

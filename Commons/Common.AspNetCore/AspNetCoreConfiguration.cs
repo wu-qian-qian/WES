@@ -78,4 +78,22 @@ public static class AspNetCoreConfiguration
         serviceCollection.AddAuthorization(act);
         return serviceCollection;
     }
+
+/// <summary>
+/// 配置服务
+/// 当程序被启动时，会依次执行传入的配置服务
+/// 主要用来初始化一些数据，相当于预加载
+/// </summary>
+/// <param name="services"></param>
+/// <param name="configurations"></param>
+/// <returns></returns>
+    public static IServiceCollection AddConfigurationService(this IServiceCollection services,
+        params Func<IServiceScope,Task>[] configurations)
+    {
+        var configurationService = new ConfigurationService();
+        configurationService.AddConfiguration(configurations);
+        services.AddSingleton(configurationService);
+        services.AddHostedService<InitielizeConfigurationService>();
+        return services;
+    }
 }

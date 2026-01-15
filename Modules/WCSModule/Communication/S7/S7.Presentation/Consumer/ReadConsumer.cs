@@ -3,9 +3,9 @@ using MediatR;
 using S7.ConsumerEvent;
 namespace S7.Presentation;
 
-public class ReadConsumerHandler(ISender _sender): IConsumer<ReadConsumerEvent>
+public class ReadConsumer(ISender _sender): IConsumer<ReadMessage>
 {
-    public Task Consume(ConsumeContext<ReadConsumerEvent> context)
+    public Task Consume(ConsumeContext<ReadMessage> context)
     {
         throw new NotImplementedException();
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using MassTransit;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -46,5 +47,31 @@ public static class EndpointExtensions
         foreach (var endpoint in endpoints)
             endpoint.MapEndpoint(builder);
         return app;
+    }
+    /// <summary>
+    ///    /// 注入 MassTransit 端点
+    ///     此方法的调用应放在程序启动时调用，不可放在模块的基础设施层调用；除非该模块为独立运行的服务。
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configureBus">默认使用内存</param>
+    /// <param name="moduleConfigureConsumers"></param>
+    /// <returns></returns>
+    public static IServiceCollection AddMassTransitEndpoints(this IServiceCollection services,
+     Action<IBusRegistrationConfigurator> configureBus=null, 
+     params Action<IRegistrationConfigurator>[] moduleConfigureConsumers)
+    {
+        if(configureBus==null)
+        {
+            configureBus = cfg => {  cfg.UsingInMemory((context, cfg) => { cfg.ConfigureEndpoints(context); }); };
+        }
+         services.AddMassTransit(busConfigurator =>
+         {
+                foreach (var moduleConfigureConsumer in moduleConfigureConsumers)
+                {
+                    moduleConfigureConsumer(busConfigurator);
+                }
+                configureBus(busConfigurator);
+         });
+        return services;
     }
 }

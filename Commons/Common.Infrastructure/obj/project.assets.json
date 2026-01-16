@@ -859,10 +859,14 @@
           "Serilog": "4.2.0"
         },
         "compile": {
-          "lib/net8.0/Serilog.Sinks.File.dll": {}
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net8.0/Serilog.Sinks.File.dll": {}
+          "lib/net8.0/Serilog.Sinks.File.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SharpZipLib/1.4.2": {

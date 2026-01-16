@@ -1,10 +1,12 @@
 using Common.Application.NET.Other.Base;
 using Common.Infrastructure.Net.Other;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using S7.Infrastructure.DataBase;
+using S7.Presentation;
 
 public static class InfrastructureConfiguration
 {
@@ -19,4 +21,10 @@ public static class InfrastructureConfiguration
             });
      return services;
   }
+
+      public static void AddConsumers(IRegistrationConfigurator registrationConfigurator)
+    {
+        registrationConfigurator.AddConsumer<ReadConsumer>();
+        registrationConfigurator.AddConsumer<WriteConsumer>();
+    }
 }

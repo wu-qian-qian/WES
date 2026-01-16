@@ -1,22 +1,10 @@
-﻿using Common.Application.NET.Other.Config;
+﻿using Common.Application.NetWork.Other.Config;
 using S7.Domain.Enums;
-
 
 namespace S7.Application.Abstractions.Data;
 
 public class NetModel : INetConfig
 {
-    public string Ip { get; set; }
-    public int Port { get; set; }
-    /// <summary>
-    /// 重试次数
-    /// </summary>
-    public int MaxRetries { get; set; }
-    /// <summary>
-    /// 间隔时间
-    /// </summary>
-    public int DelayMs { get; set; }
-
     /// <summary>
     ///     Plc类型
     /// </summary>
@@ -52,4 +40,17 @@ public class NetModel : INetConfig
     ///     写入心跳地址
     /// </summary>
     public string? WriteHeart { get; set; }
+
+    public string Ip { get; set; }
+    public int Port { get; set; }
+
+    /// <summary>
+    ///     重试次数
+    /// </summary>
+    public int MaxRetries { get; set; }
+
+    /// <summary>
+    ///     间隔时间
+    /// </summary>
+    public int DelayMs { get; set; }
 }

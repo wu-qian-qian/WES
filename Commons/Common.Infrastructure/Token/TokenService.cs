@@ -1,15 +1,14 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using Common.Application.Token;
-using Common.Infrastructure.Jwt;
+using Common.Application.JwtToken;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Common.Infrastructure.Authentication;
+namespace Common.Infrastructure.Token;
 
 //JWT 编码服务
-internal sealed class JwtTokenService(JWTOptions options): IJwtTokenService
+internal sealed class JwtTokenService(JWTOptions options) : IJwtTokenService
 {
-    public string BuildJwtString(string name,List<string> roles, List<string> permissions)
+    public string BuildJwtString(string name, List<string> roles, List<string> permissions)
     {
         // 创建Claims
         var claims = new List<Claim>();

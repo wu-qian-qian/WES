@@ -3,7 +3,7 @@
 namespace Common.Application.DecoratorEvent;
 
 /// <summary>
-/// 继承使用 类需要为public
+///     继承使用 类需要为public
 /// </summary>
 /// <typeparam name="TDomainEvent"></typeparam>
 public abstract class DomainEventHandler<TDomainEvent> : IDomainEventHandler<TDomainEvent>

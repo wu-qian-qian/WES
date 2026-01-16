@@ -18,7 +18,7 @@ public interface ILogService
     void WriteLog(JobLog log);
 
     /// <summary>
-    /// 日志上传接口
+    ///     日志上传接口
     /// </summary>
     /// <returns></returns>
     public Task UpLoadFileAsync();

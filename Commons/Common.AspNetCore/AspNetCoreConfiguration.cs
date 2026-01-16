@@ -1,4 +1,6 @@
-﻿using Common.AspNetCore.Authentication;
+﻿using System.Text.Json.Serialization;
+using Common.AspNetCore.Authentication;
+using Common.AspNetCore.HostedService;
 using Common.AspNetCore.SwaggerUI;
 using Common.JsonExtension;
 using Microsoft.AspNetCore.Authorization;
@@ -6,8 +8,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using System.Reflection;
-using System.Text.Json.Serialization;
 
 namespace Common.AspNetCore;
 
@@ -15,7 +15,6 @@ public static class AspNetCoreConfiguration
 {
     public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app)
     {
-        
         //Add AspNetCore related services here
         //json格式设置
         var services = app.Services;
@@ -44,7 +43,7 @@ public static class AspNetCoreConfiguration
     }
 
     /// <summary>
-    /// 授权
+    ///     授权
     /// </summary>
     /// <param name="services"></param>
     /// <param name="issuer"></param>
@@ -52,16 +51,16 @@ public static class AspNetCoreConfiguration
     /// <param name="key"></param>
     /// <returns></returns>
     public static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services
-        ,string issuer,string audience,string key)
+        , string issuer, string audience, string key)
     {
-        services.AddAuthenticationConfiguration(issuer,audience,key);
+        services.AddAuthenticationConfiguration(issuer, audience, key);
         //添加swagger报文头UI
         services.Configure<SwaggerGenOptions>(c => { c.AddSwaggerUIAuthorizationHeard(); });
         return services;
     }
 
     /// <summary>
-    /// 权限
+    ///     权限
     /// </summary>
     /// <param name="serviceCollection"></param>
     /// <param name="act"></param>
@@ -79,16 +78,16 @@ public static class AspNetCoreConfiguration
         return serviceCollection;
     }
 
-/// <summary>
-/// 配置服务
-/// 当程序被启动时，会依次执行传入的配置服务
-/// 主要用来初始化一些数据，相当于预加载
-/// </summary>
-/// <param name="services"></param>
-/// <param name="configurations"></param>
-/// <returns></returns>
+    /// <summary>
+    ///     配置服务
+    ///     当程序被启动时，会依次执行传入的配置服务
+    ///     主要用来初始化一些数据，相当于预加载
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="configurations"></param>
+    /// <returns></returns>
     public static IServiceCollection AddConfigurationService(this IServiceCollection services,
-        params Func<IServiceScope,Task>[] configurations)
+        params Func<IServiceScope, Task>[] configurations)
     {
         var configurationService = new ConfigurationOptions();
         configurationService.AddConfiguration(configurations);

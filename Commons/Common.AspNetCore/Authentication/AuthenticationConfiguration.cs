@@ -8,7 +8,7 @@ internal static class AuthenticationConfiguration
 {
     // 一些认证的细节 
     public static IServiceCollection AddAuthenticationConfiguration(this IServiceCollection services,
-        string issuer,string audience,string key)
+        string issuer, string audience, string key)
     {
         services.AddAuthentication("JwtBearer")
             .AddJwtBearer("JwtBearer", options =>
@@ -48,7 +48,7 @@ internal static class AuthenticationConfiguration
     }
 
     /// <summary>
-    /// 只对key进行确认其他不做处理
+    ///     只对key进行确认其他不做处理
     /// </summary>
     /// <param name="services"></param>
     /// <param name="key"></param>

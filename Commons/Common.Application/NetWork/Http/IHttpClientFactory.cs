@@ -1,4 +1,4 @@
-﻿namespace Common.Application.NET.Http;
+﻿namespace Common.Application.NetWork.Http;
 
 public interface IHttpClientFactory
 {

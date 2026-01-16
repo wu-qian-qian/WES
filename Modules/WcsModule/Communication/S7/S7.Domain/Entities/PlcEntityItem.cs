@@ -1,11 +1,13 @@
 using Common.Domain.Entity;
 using S7.Domain.Enums;
-namespace S7.Domain;
+
+namespace S7.Domain.Entities;
+
 public class PlcEntityItem : BaseEntity
 {
     public PlcEntityItem()
     {
-        Id=Guid.NewGuid();
+        Id = Guid.NewGuid();
     }
 
     public string Ip { get; set; }
@@ -24,8 +26,8 @@ public class PlcEntityItem : BaseEntity
 
     /// <summary>
     ///     PLC的byte的偏移量
-    /// db3.2 -- S7DataTypeEnum的特性直
-    /// </summary> 
+    ///     db3.2 -- S7DataTypeEnum的特性直
+    /// </summary>
     public int DataOffset { get; set; }
 
     /// <summary>
@@ -44,7 +46,7 @@ public class PlcEntityItem : BaseEntity
     public int Index { get; set; }
 
     /// <summary>
-    ///    描述
+    ///     描述
     /// </summary>
     public string? Description { get; set; }
 
@@ -63,9 +65,9 @@ public class PlcEntityItem : BaseEntity
     /// </summary>
     public string DeviceName { get; set; }
 
-/// <summary>
-/// 是否启用
-/// </summary>
+    /// <summary>
+    ///     是否启用
+    /// </summary>
     public bool IsUse { get; set; }
 
     /// <summary>

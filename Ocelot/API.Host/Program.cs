@@ -1,7 +1,6 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
-
 var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Configuration.AddJsonFile("ocelot.json", false, true);

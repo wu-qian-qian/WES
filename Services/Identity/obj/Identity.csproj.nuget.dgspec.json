@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1234\\Services\\Identity\\Identity.csproj": {}
+    "D:\\WES\\Services\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj": {
+    "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj",
         "projectName": "Common.Application",
-        "projectPath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.Application\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               },
-              "D:\\1234\\Commons\\Common\\Common.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common\\Common.csproj"
+              "D:\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "D:\\1234\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
+    "D:\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
         "projectName": "Common.AspNetCore",
-        "projectPath": "D:\\1234\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.AspNetCore\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,11 +128,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj"
+              "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "D:\\1234\\Commons\\Common\\Common.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common\\Common.csproj"
+              "D:\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -199,14 +199,14 @@
         }
       }
     },
-    "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
+    "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.Domain\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,14 +272,14 @@
         }
       }
     },
-    "D:\\1234\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+    "D:\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "projectName": "Common.Infrastructure",
-        "projectPath": "D:\\1234\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.Infrastructure\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -300,11 +300,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj"
+              "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "D:\\1234\\Commons\\Common\\Common.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common\\Common.csproj"
+              "D:\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -400,14 +400,14 @@
         }
       }
     },
-    "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
+    "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj",
         "projectName": "Common.Presentation",
-        "projectPath": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.Presentation\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -484,14 +484,14 @@
         }
       }
     },
-    "D:\\1234\\Commons\\Common\\Common.csproj": {
+    "D:\\WES\\Commons\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\1234\\Commons\\Common\\Common.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -565,14 +565,14 @@
         }
       }
     },
-    "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
+    "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj",
+        "projectUniqueName": "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj",
         "projectName": "Identity.Application",
-        "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj",
+        "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\obj\\",
+        "outputPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -593,8 +593,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj"
+              "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               }
             }
           }
@@ -634,14 +634,14 @@
         }
       }
     },
-    "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj": {
+    "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj",
+        "projectUniqueName": "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj",
         "projectName": "Identity.Domain",
-        "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj",
+        "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\obj\\",
+        "outputPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -662,8 +662,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -703,14 +703,14 @@
         }
       }
     },
-    "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj": {
+    "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+        "projectUniqueName": "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
         "projectName": "Identity.Infrastructure",
-        "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+        "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\obj\\",
+        "outputPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -731,20 +731,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj"
+              "D:\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Infrastructure\\Common.Infrastructure.csproj"
               },
-              "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj"
+              "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj"
               },
-              "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
-                "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj"
+              "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
+                "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj"
               },
-              "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj": {
-                "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj"
+              "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj": {
+                "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj"
               },
-              "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj": {
-                "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj"
+              "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj": {
+                "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj"
               }
             }
           }
@@ -796,14 +796,14 @@
         }
       }
     },
-    "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj": {
+    "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
+        "projectUniqueName": "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
         "projectName": "Identity.Presentation",
-        "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
+        "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\obj\\",
+        "outputPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -824,11 +824,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj"
+              "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj"
               },
-              "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
-                "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj"
+              "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj": {
+                "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Application\\Identity.Application.csproj"
               }
             }
           }
@@ -868,14 +868,14 @@
         }
       }
     },
-    "D:\\1234\\Services\\Identity\\Identity.csproj": {
+    "D:\\WES\\Services\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Services\\Identity\\Identity.csproj",
+        "projectUniqueName": "D:\\WES\\Services\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "D:\\1234\\Services\\Identity\\Identity.csproj",
+        "projectPath": "D:\\WES\\Services\\Identity\\Identity.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Services\\Identity\\obj\\",
+        "outputPath": "D:\\WES\\Services\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -896,11 +896,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj"
+              "D:\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.AspNetCore\\Common.AspNetCore.csproj"
               },
-              "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj": {
-                "projectPath": "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj"
+              "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj": {
+                "projectPath": "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj"
               }
             }
           }

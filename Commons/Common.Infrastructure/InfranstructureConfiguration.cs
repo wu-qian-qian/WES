@@ -1,17 +1,14 @@
-﻿using Common.Application.Caching;
+﻿using System.Reflection;
+using Common.Application.Caching;
 using Common.Infrastructure.Caching;
 using Common.Infrastructure.DecoratorEvent;
 using Common.Infrastructure.DependencyInjection;
 using Common.Infrastructure.EventBus;
 using Common.Infrastructure.FSM;
 using Common.Infrastructure.Log;
-using Common.Infrastructure.MediatR;
-using Common.Infrastructure.Net;
-using Common.Infrastructure.Net.Http;
 using Common.Infrastructure.Quartz;
 using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
-using System.Reflection;
 
 namespace Common.Infrastructure;
 
@@ -35,12 +32,12 @@ public static class InfranstructureConfiguration
         return serviceCollection;
     }
 
-/// <summary>
-/// Redis注入
-/// </summary>
-/// <param name="services"></param>
-/// <param name="redisConnectionString"></param>
-/// <returns></returns>
+    /// <summary>
+    ///     Redis注入
+    /// </summary>
+    /// <param name="services"></param>
+    /// <param name="redisConnectionString"></param>
+    /// <returns></returns>
     public static IServiceCollection AddRedisCacheing(IServiceCollection services, string redisConnectionString = "")
     {
         try
@@ -54,6 +51,7 @@ public static class InfranstructureConfiguration
         {
             services.AddDistributedMemoryCache();
         }
+
         services.AddSingleton<ICacheService, CacheService>();
         return services;
     }

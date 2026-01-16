@@ -1,6 +1,8 @@
 using Common.Domain.Repository;
-namespace Identity.Domain;
-public interface IMenuRepository:IRepository<Menu>
+using Identity.Domain.Entities;
+
+namespace Identity.Domain.Repository;
+
+public interface IMenuRepository : IRepository<Menu>
 {
-    
 }

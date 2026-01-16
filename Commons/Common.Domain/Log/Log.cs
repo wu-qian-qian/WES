@@ -9,7 +9,7 @@ public record ExceptionLog(string EventName, Exception ex);
 public record JobLog(string JobName, string Message);
 
 /// <summary>
-/// 模块日志
+///     模块日志
 /// </summary>
 /// <param name="ModuleName"></param>
 /// <param name="Message"></param>

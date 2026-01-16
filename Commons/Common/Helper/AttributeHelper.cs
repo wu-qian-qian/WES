@@ -6,7 +6,7 @@ namespace Common.Helper;
 public static class AttributeHelper
 {
     /// <summary>
-    /// 获取当前堆栈调用类型的特性
+    ///     获取当前堆栈调用类型的特性
     /// </summary>
     /// <param name="index"></param>
     /// <typeparam name="T"></typeparam>

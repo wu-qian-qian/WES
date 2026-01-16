@@ -1,12 +1,11 @@
-﻿using Common.Application.NET.Http;
-using Common.Application.NET.Other.Base;
-using Common.Infrastructure.Net.Http;
-using Common.Infrastructure.Net.Other;
+﻿using Common.Application.NetWork.Other.Base;
+using Common.Infrastructure.NetWork.Http;
+using Common.Infrastructure.NetWork.Other;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
 using Polly.Extensions.Http;
 
-namespace Common.Infrastructure.Net;
+namespace Common.Infrastructure.NetWork;
 
 public static class NetConfiguration
 {

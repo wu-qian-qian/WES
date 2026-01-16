@@ -1,14 +1,14 @@
-﻿using Common.JsonExtension;
-using System.Net;
+﻿using System.Net;
+using Common.JsonExtension;
 
-namespace Common.Infrastructure.Net.Http;
+namespace Common.Infrastructure.NetWork.Http;
 
-public sealed class HttpClientFactory : Common.Application.NET.Http.IHttpClientFactory
+public sealed class HttpClientFactory : Common.Application.NetWork.Http.IHttpClientFactory
 {
-    private readonly IHttpClientFactory _httpClient;
+    private readonly System.Net.Http.IHttpClientFactory _httpClient;
 
 
-    public HttpClientFactory(IHttpClientFactory httpClient)
+    public HttpClientFactory(System.Net.Http.IHttpClientFactory httpClient)
     {
         _httpClient = httpClient;
     }
@@ -17,14 +17,13 @@ public sealed class HttpClientFactory : Common.Application.NET.Http.IHttpClientF
     ///     请求头参数集合
     ///     如携带Cookies或者一些其他信息
     ///     认证 Bearer
-    ///
     /// </summary>
-    private IDictionary<string, IDictionary<string, string>> HttpHeaderParams { get; set; } =
+    private IDictionary<string, IDictionary<string, string>> HttpHeaderParams { get; } =
         new Dictionary<string, IDictionary<string, string>>();
 
 
     /// <summary>
-    /// httpClient name
+    ///     httpClient name
     /// </summary>
     /// <param name="name">http配置连接名</param>
     /// <param name="keyValuePair"></param>
@@ -64,20 +63,6 @@ public sealed class HttpClientFactory : Common.Application.NET.Http.IHttpClientF
         httpRequest.Method = method;
         httpRequest.RequestUri = uri;
         return httpRequest;
-    }
-
-    /// <summary>
-    /// 如 httpRequest.Headers.Add("Authorization", "Bearer ..."); 添加鉴权认证
-    /// </summary>
-    /// <param name="name"></param>
-    /// <param name="request"></param>
-    /// <returns></returns>
-    private HttpRequestMessage SetHttpRequsetHead(string name, HttpRequestMessage request)
-    {
-        if (HttpHeaderParams.TryGetValue(name, out var heads))
-            foreach (var head in heads)
-                request.Headers.Add(head.Key, head.Value);
-        return request;
     }
 
     public async Task<HttpResponseMessage> GetAsync(string uri, string name = "")
@@ -154,5 +139,19 @@ public sealed class HttpClientFactory : Common.Application.NET.Http.IHttpClientF
         }
 
         return ins;
+    }
+
+    /// <summary>
+    ///     如 httpRequest.Headers.Add("Authorization", "Bearer ..."); 添加鉴权认证
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    private HttpRequestMessage SetHttpRequsetHead(string name, HttpRequestMessage request)
+    {
+        if (HttpHeaderParams.TryGetValue(name, out var heads))
+            foreach (var head in heads)
+                request.Headers.Add(head.Key, head.Value);
+        return request;
     }
 }

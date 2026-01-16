@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {}
+    "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {}
   },
   "projects": {
-    "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
+    "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Commons\\Common.Domain\\obj\\",
+        "outputPath": "D:\\WES\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
+    "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
+        "projectUniqueName": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
         "projectName": "Wcs.Domain",
-        "projectPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
+        "projectPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\obj\\",
+        "outputPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,18 +95,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net10.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0": {
-            "targetAlias": "net10.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -119,13 +119,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net10.0": {
-          "targetAlias": "net10.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -137,6 +137,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }

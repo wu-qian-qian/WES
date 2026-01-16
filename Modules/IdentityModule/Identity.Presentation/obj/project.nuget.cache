@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DCfZuN4CLmU=",
+  "dgSpecHash": "r6R5IwW8WHk=",
   "success": true,
-  "projectFilePath": "D:\\1234\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
+  "projectFilePath": "D:\\WES\\Modules\\IdentityModule\\Identity.Presentation\\Identity.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

@@ -1,7 +1,7 @@
-﻿using Common.Application.EventBus;
+﻿using System.Reflection;
+using Common.Application.EventBus;
 using Common.Infrastructure.EventBus.Manager;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
 
 namespace Common.Infrastructure.EventBus;
 
@@ -14,7 +14,7 @@ public static class EventBusConfiguration
         serviceCollection.AddSingleton<IEventBus>(sp =>
         {
             var serviceScope = sp.GetRequiredService<IServiceScopeFactory>();
-            return new EventBus.Bus.EventBus(eventManager, serviceScope);
+            return new Bus.EventBus(eventManager, serviceScope);
         });
         return serviceCollection;
     }
@@ -49,7 +49,7 @@ public static class EventBusConfiguration
             var interfaces = handlerType.GetInterfaces()
                 .Where(i => i.IsGenericType && i.GetGenericTypeDefinition() == typeof(IEventHandler<,>));
 
-            if (interfaces.Any() == false || interfaces.Count() > 1)
+            if (!interfaces.Any() || interfaces.Count() > 1)
                 throw new ArgumentException($"{handlerType.FullName} 必须实现且只能实现一个 IEventHandler<TEvent, TResponse> 接口");
 
             // 获取事件类型 IEventHandler<,> 第一个泛型参数 IEvent 第二个返回类型 TResponse

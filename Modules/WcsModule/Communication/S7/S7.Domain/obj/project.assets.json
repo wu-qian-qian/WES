@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1234\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+      "projectUniqueName": "D:\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
       "projectName": "S7.Domain",
-      "projectPath": "D:\\1234\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+      "projectPath": "D:\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\1234\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\obj\\",
+      "outputPath": "D:\\WES\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "D:\\1234\\Commons\\Common.Domain\\Common.Domain.csproj"
+            "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }

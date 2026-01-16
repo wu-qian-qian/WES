@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9FhXQ/hK2Pk=",
+  "dgSpecHash": "eyrlTLHxwfc=",
   "success": true,
-  "projectFilePath": "D:\\1234\\Services\\WCS\\WCS.csproj",
+  "projectFilePath": "D:\\WES\\Services\\WCS\\WCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\consul\\1.7.14.9\\consul.1.7.14.9.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",

@@ -51,10 +51,12 @@ public class Result<TValue> : Result
         : throw new InvalidOperationException("The value of a failure result can't be accessed.");
 
     /// <summary>
-    /// 自动将一个可能为 null 的 TValue? 值转换为 Result<TValue> 类型的对象。
+    ///     自动将一个可能为 null 的 TValue? 值转换为 Result<TValue> 类型的对象。
     /// </summary>
     /// <param name="value"></param>
     /// <returns></returns>
-    public static implicit operator Result<TValue>(TValue? value) =>
-        value is not null ? Success(value) : Error<TValue>("Error");
+    public static implicit operator Result<TValue>(TValue? value)
+    {
+        return value is not null ? Success(value) : Error<TValue>("Error");
+    }
 }

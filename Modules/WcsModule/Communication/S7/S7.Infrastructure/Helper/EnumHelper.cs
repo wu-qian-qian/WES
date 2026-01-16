@@ -4,8 +4,8 @@ using S7.Net;
 namespace S7.Infrastructure.Helper;
 
 /// <summary>
-/// 枚举转换帮助类
-/// 自定义的类型转换为S7.Net中的类型
+///     枚举转换帮助类
+///     自定义的类型转换为S7.Net中的类型
 /// </summary>
 public class EnumHelper
 {

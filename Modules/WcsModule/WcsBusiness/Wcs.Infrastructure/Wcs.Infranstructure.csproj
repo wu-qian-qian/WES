@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-<ItemGroup>
-      <ProjectReference Include="..\..\..\..\Commons\Common.Infrastructure\Common.Infrastructure.csproj" />
-      <ProjectReference Include="..\..\Communication\S7\S7.Infrastructure\S7.Infrastructure.csproj" />
-      <ProjectReference Include="..\Wcs.Application\Wcs.Application.csproj" />
-      <ProjectReference Include="..\Wcs.Presentation\Wcs.Presentation.csproj" />
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\Commons\Common.Infrastructure\Common.Infrastructure.csproj"/>
+        <ProjectReference Include="..\..\Communication\S7\S7.Infrastructure\S7.Infrastructure.csproj"/>
+        <ProjectReference Include="..\Wcs.Application\Wcs.Application.csproj"/>
+        <ProjectReference Include="..\Wcs.Presentation\Wcs.Presentation.csproj"/>
     </ItemGroup>
 </Project>

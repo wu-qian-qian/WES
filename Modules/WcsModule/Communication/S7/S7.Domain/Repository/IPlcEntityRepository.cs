@@ -1,6 +1,8 @@
 using Common.Domain.Repository;
-namespace S7.Domain;
-public interface IPlcEntityRepository:IRepository<PlcEntityItem>
+using S7.Domain.Entities;
+
+namespace S7.Domain.Repository;
+
+public interface IPlcEntityRepository : IRepository<PlcEntityItem>
 {
-    
 }

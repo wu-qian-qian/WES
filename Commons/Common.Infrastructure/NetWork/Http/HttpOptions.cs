@@ -1,7 +1,9 @@
-﻿namespace Common.Infrastructure.Net.Http;
+﻿namespace Common.Infrastructure.NetWork.Http;
 
 public sealed class HttpOptions
 {
+    public Action<string>? HttpLogHandler;
+
     /// <summary>
     ///     每一次重试都调用
     /// </summary>
@@ -14,8 +16,6 @@ public sealed class HttpOptions
     public string Name { get; set; }
 
     public bool EnablePolicy { get; set; }
-
-    public Action<string>? HttpLogHandler;
 
     /// <summary>
     ///     重试次数

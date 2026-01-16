@@ -1,7 +1,7 @@
 ﻿using Common.Application.MediatR.Messaging;
 using Common.Domain;
 
-namespace S7.Application.Events.WriteBuffer;
+namespace S7.Application.Handlers.WriteBuffer;
 
 public class WriteBufferCommandHandler : ICommandHandler<WriteBufferCommand>
 {

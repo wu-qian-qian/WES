@@ -7,24 +7,24 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Exceptions\" />
-        <Folder Include="NET\Other\" />
+        <Folder Include="Exceptions\"/>
+        <Folder Include="NET\Other\"/>
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Common.Domain\Common.Domain.csproj" />
-        <ProjectReference Include="..\Common\Common.csproj" />
+        <ProjectReference Include="..\Common.Domain\Common.Domain.csproj"/>
+        <ProjectReference Include="..\Common\Common.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="AutoMapper" Version="13.0.1" />
-        <PackageReference Include="FluentValidation" Version="11.11.0" />
-        <PackageReference Include="MediatR" Version="12.2.0" />
+        <PackageReference Include="AutoMapper" Version="13.0.1"/>
+        <PackageReference Include="FluentValidation" Version="11.11.0"/>
+        <PackageReference Include="MediatR" Version="12.2.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
-          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-          <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1" />
+        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1"/>
     </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
+    "net8.0": {
       "AutoMapper/13.0.1": {
         "type": "package",
         "dependencies": {
@@ -773,7 +773,7 @@
       },
       "Wcs.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Common.Domain": "1.0.0"
         },
@@ -1944,7 +1944,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0": [
+    "net8.0": [
       "Common.Application >= 1.0.0",
       "S7.Application >= 1.0.0",
       "Wcs.Domain >= 1.0.0"
@@ -1957,11 +1957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\Wcs.Application.csproj",
+      "projectUniqueName": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\Wcs.Application.csproj",
       "projectName": "Wcs.Application",
-      "projectPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\Wcs.Application.csproj",
+      "projectPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\Wcs.Application.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\obj\\",
+      "outputPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1972,24 +1972,24 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net10.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0": {
-          "targetAlias": "net10.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj": {
-              "projectPath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj"
+            "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+              "projectPath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj"
             },
-            "D:\\1234\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
-              "projectPath": "D:\\1234\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
+            "D:\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+              "projectPath": "D:\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
             },
-            "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
-              "projectPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj"
+            "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
+              "projectPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj"
             }
           }
         }
@@ -2002,13 +2002,13 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net10.0": {
-        "targetAlias": "net10.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -2020,6 +2020,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }

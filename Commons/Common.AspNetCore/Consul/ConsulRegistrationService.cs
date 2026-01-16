@@ -5,9 +5,9 @@ namespace Common.AspNetCore.Consul;
 
 public class ConsulRegistrationService : IHostedService
 {
+    private readonly ConsulOptions _consulOptions;
     private readonly IHostApplicationLifetime _lifetime;
     private ConsulClient _consulClient;
-    private readonly ConsulOptions _consulOptions;
 
     public ConsulRegistrationService(IHostApplicationLifetime lifetime, ConsulOptions consulOptions)
     {
@@ -19,13 +19,13 @@ public class ConsulRegistrationService : IHostedService
     {
         _consulClient = new ConsulClient(c => { c.Address = new Uri($"http://{_consulOptions.ConsulAddress}:8500"); });
 
-        var registration = new AgentServiceRegistration()
+        var registration = new AgentServiceRegistration
         {
             ID = _consulOptions.ServiceId,
             Name = _consulOptions.ServiceName,
             Address = _consulOptions.ConsulAddress, // ⚠️ 关键，使用 IP 避免中文 Node
             Port = _consulOptions.Port,
-            Check = new AgentServiceCheck()
+            Check = new AgentServiceCheck
             {
                 HTTP = $"http://{_consulOptions.ServiceAddress}:5001/health", // 关键：使用容器名称
                 Interval = TimeSpan.FromSeconds(10),

@@ -6,7 +6,7 @@ namespace Common.AspNetCore.Authorization;
 public static class AuthorizationConfiguration
 {
     /// <summary>
-    /// 鉴权的注入
+    ///     鉴权的注入
     /// </summary>
     /// <param name="serviceCollection"></param>
     /// <param name="act">鉴权细节处理</param>

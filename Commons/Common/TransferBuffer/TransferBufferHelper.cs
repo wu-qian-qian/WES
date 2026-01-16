@@ -38,6 +38,23 @@ public static class TransferBufferHelper
         return result;
     }
 
+    /// <summary>
+    ///     将byte 1，2，3，4
+    ///     将他输出为01020304
+    ///     转换为16进制
+    /// </summary>
+    /// <param name="bytes"></param>
+    /// <returns></returns>
+    public static string ByteArrayToString(byte[] bytes)
+    {
+        return BitConverter.ToString(bytes).Replace("-", "");
+    }
+
+    public static byte[] StringToByteArray(string value)
+    {
+        return Convert.FromHexString(value);
+    }
+
     #region PLC的Word类型对应ushort 此处为Plc Word类型操作
 
     /// <summary>
@@ -278,21 +295,4 @@ public static class TransferBufferHelper
     }
 
     #endregion
-
-    /// <summary>
-    /// 将byte 1，2，3，4
-    /// 将他输出为01020304
-    /// 转换为16进制
-    /// </summary>
-    /// <param name="bytes"></param>
-    /// <returns></returns>
-    public static string ByteArrayToString(byte[] bytes)
-    {
-        return BitConverter.ToString(bytes).Replace("-", "");
-    }
-
-    public static byte[] StringToByteArray(string value)
-    {
-        return Convert.FromHexString(value);
-    }
 }

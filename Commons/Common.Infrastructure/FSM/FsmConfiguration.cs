@@ -1,6 +1,6 @@
-﻿using Common.Application.FSM;
+﻿using System.Reflection;
+using Common.Application.FSM;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
 
 namespace Common.Infrastructure.FSM;
 

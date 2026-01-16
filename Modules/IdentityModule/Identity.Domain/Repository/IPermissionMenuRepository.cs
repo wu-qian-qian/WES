@@ -1,6 +1,8 @@
 using Common.Domain.Repository;
-namespace Identity.Domain;
-public interface IPermissionMenuRepository:IRepository<PermissionMenu>
+using Identity.Domain.Entities;
+
+namespace Identity.Domain.Repository;
+
+public interface IPermissionMenuRepository : IRepository<PermissionMenu>
 {
-    
 }

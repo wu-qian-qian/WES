@@ -1,6 +1,6 @@
 ﻿using Common.Application.MediatR.Messaging;
 
-namespace S7.Application.Events.ReadBuffer;
+namespace S7.Application.Handlers.ReadBuffer;
 
 public class ReadBufferCommand : ICommand
 {

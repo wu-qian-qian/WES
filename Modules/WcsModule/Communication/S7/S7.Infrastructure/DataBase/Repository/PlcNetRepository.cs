@@ -1,8 +1,10 @@
 using Common.Infrastructure.EF;
-using S7.Domain;
-namespace S7.Infrastructure.DataBase;
+using S7.Domain.Entities;
+using S7.Domain.Repository;
 
-public class PlcNetRepository : IEntityRepository<PlcNetConfig, PLCDBContext>,IPlcNetRepository
+namespace S7.Infrastructure.DataBase.Repository;
+
+public class PlcNetRepository : IEntityRepository<PlcNetConfig, PLCDBContext>, IPlcNetRepository
 {
     public PlcNetRepository(PLCDBContext dbContext) : base(dbContext)
     {

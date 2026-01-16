@@ -1,6 +1,8 @@
 using Common.Domain.Repository;
-namespace Identity.Domain;
-public interface IRolePermissionRepository:IRepository<RolePermission>
+using Identity.Domain.Entities;
+
+namespace Identity.Domain.Repository;
+
+public interface IRolePermissionRepository : IRepository<RolePermission>
 {
-    
 }

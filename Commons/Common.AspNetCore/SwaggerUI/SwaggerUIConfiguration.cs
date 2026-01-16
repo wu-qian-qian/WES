@@ -2,7 +2,6 @@
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-
 namespace Common.AspNetCore.SwaggerUI;
 
 internal static class SwaggerUIConfiguration
@@ -25,7 +24,7 @@ internal static class SwaggerUIConfiguration
     }
 
     /// <summary>
-    /// SwaggerUI 添加鉴权请求
+    ///     SwaggerUI 添加鉴权请求
     /// </summary>
     /// <param name="c"></param>
     public static void AddSwaggerUIAuthorizationHeard(this SwaggerGenOptions c)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rG3VqCtxwug=",
+  "dgSpecHash": "g+4AH9rTEIw=",
   "success": true,
-  "projectFilePath": "D:\\1234\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+  "projectFilePath": "D:\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OI6xzoCFHFw=",
+  "dgSpecHash": "/2Tn9br3ws4=",
   "success": true,
-  "projectFilePath": "D:\\1234\\Commons\\Common.Application\\Common.Application.csproj",
+  "projectFilePath": "D:\\WES\\Commons\\Common.Application\\Common.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",

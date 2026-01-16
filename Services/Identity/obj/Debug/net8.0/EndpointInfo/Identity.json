@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Swagger.UI",
+    "description": "API UI",
+    "version": "V1.1"
+  },
+  "paths": {
+    "/user/add-user": {
+      "post": {
+        "tags": [
+          "UserService"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

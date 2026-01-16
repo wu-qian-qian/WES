@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {
+    "net8.0": {
       "MassTransit/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19,40 +19,28 @@
           "System.Threading.Channels": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/MassTransit.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MassTransit.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MassTransit.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MassTransit.dll": {}
         }
       },
       "MassTransit.Abstractions/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MassTransit.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MassTransit.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/MassTransit.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/MassTransit.Abstractions.dll": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/3.1.18": {
@@ -61,14 +49,10 @@
           "Microsoft.Extensions.Primitives": "3.1.18"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
@@ -95,27 +79,19 @@
           "Microsoft.Extensions.Options": "3.1.18"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
         }
       },
       "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.18": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/3.1.18": {
@@ -124,14 +100,10 @@
           "Microsoft.Extensions.Primitives": "3.1.18"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Hosting.Abstractions/3.1.18": {
@@ -143,27 +115,19 @@
           "Microsoft.Extensions.Logging.Abstractions": "3.1.18"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/3.1.18": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Options/3.1.18": {
@@ -173,14 +137,10 @@
           "Microsoft.Extensions.Primitives": "3.1.18"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/3.1.18": {
@@ -297,14 +257,10 @@
       "System.Threading.Channels/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Threading.Channels.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Threading.Channels.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -814,7 +770,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0": [
+    "net8.0": [
       "Common.Presentation >= 1.0.0"
     ]
   },
@@ -825,11 +781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\Wcs.Presentation.csproj",
+      "projectUniqueName": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\Wcs.Presentation.csproj",
       "projectName": "Wcs.Presentation",
-      "projectPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\Wcs.Presentation.csproj",
+      "projectPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\Wcs.Presentation.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\1234\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\obj\\",
+      "outputPath": "D:\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -840,18 +796,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net10.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0": {
-          "targetAlias": "net10.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
-              "projectPath": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj"
+            "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj": {
+              "projectPath": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj"
             }
           }
         }
@@ -864,13 +820,13 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net10.0": {
-        "targetAlias": "net10.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -882,6 +838,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }

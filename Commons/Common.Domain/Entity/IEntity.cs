@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Common.Domain.Entity;
 
-namespace Common.Domain.Entity
+public abstract class IEntity<T>
 {
-   public abstract class  IEntity<T>
-    {
-        public T Id { get;init;  }
-    }
+    public T Id { get; init; }
 }

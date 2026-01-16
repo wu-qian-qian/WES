@@ -1,7 +1,7 @@
-﻿using Common.Application.NET.Other.Config;
+﻿using Common.Application.NetWork.Other.Config;
 using Common.Domain;
 
-namespace Common.Application.NET.Other.Base;
+namespace Common.Application.NetWork.Other.Base;
 
 public interface INet
 {

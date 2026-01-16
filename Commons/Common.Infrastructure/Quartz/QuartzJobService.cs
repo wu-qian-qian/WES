@@ -11,7 +11,7 @@ public class QuartzJobService(ISchedulerFactory _schedulerFactory) : IQuartzJobS
     public async Task CraetJobAsync(JobOptions jobConfig)
     {
         var scheduler = await _schedulerFactory.GetScheduler();
-        if (typeof(BaseJob).IsAssignableFrom(jobConfig.JobType) == false)
+        if (!typeof(BaseJob).IsAssignableFrom(jobConfig.JobType))
             throw new ArgumentException("job必须继承自BaseJob");
         var jobBuilder = JobBuilder.Create(jobConfig.JobType)
             .WithIdentity(jobConfig.JobName)
@@ -25,7 +25,7 @@ public class QuartzJobService(ISchedulerFactory _schedulerFactory) : IQuartzJobS
             .Build();
         await scheduler.ScheduleJob(jobDetail, trigger);
 
-        if (jobConfig.IsStart == false)
+        if (!jobConfig.IsStart)
             await scheduler.PauseJob(new JobKey(jobConfig.JobName));
         else
             await scheduler.ResumeJob(new JobKey(jobConfig.JobName));

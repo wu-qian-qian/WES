@@ -4,8 +4,8 @@ using Common.Domain.Event;
 namespace Common.Infrastructure.DecoratorEvent;
 
 /// <summary>
-/// 相当于一个装饰器
-/// 可以做一些其他处理
+///     相当于一个装饰器
+///     可以做一些其他处理
 /// </summary>
 /// <param name="decorated">真正的业务实现</param>
 /// <typeparam name="TDomainEvent"></typeparam>

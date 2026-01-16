@@ -1,16 +1,16 @@
-﻿using Common.Application.Log;
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
+using Common.Application.Log;
 using Common.Domain.Log;
 using Microsoft.AspNetCore.Http;
-using System.Diagnostics;
-using System.Text.RegularExpressions;
 
 namespace Common.AspNetCore.Middleware;
 
 public class GlobalLogMiddleware
 {
+    private readonly ILogService _logService;
     private readonly RequestDelegate _next;
     private readonly Stopwatch _stopwatch;
-    private readonly ILogService _logService;
 
     public GlobalLogMiddleware(RequestDelegate next, ILogService logService)
     {
@@ -28,7 +28,7 @@ public class GlobalLogMiddleware
         var requestData = string.Empty;
         var contentType = context.Request.ContentType;
         var isFileResponse = MiddlewareHelper.IsFileResponse(contentType);
-        if (isFileResponse == false) //如果请求流不为文件
+        if (!isFileResponse) //如果请求流不为文件
         {
             var containsGet = Regex.IsMatch(context.Request.Path, "get");
             containsGet = containsGet && Regex.IsMatch(context.Request.Path, "hub");

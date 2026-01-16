@@ -1,4 +1,4 @@
-﻿namespace Common.Application.NET.Other.Config;
+﻿namespace Common.Application.NetWork.Other.Config;
 
 public interface IWriteConfig
 {

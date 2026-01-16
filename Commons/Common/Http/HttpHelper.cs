@@ -15,7 +15,7 @@ public static class HttpHelper
     private static async Task SaveToFileAsync(this HttpResponseMessage httpRequest, string path,
         CancellationToken cancellationToken = default)
     {
-        if (httpRequest.IsSuccessStatusCode == false)
+        if (!httpRequest.IsSuccessStatusCode)
             throw new ArgumentException($"状态码移除{nameof(httpRequest)}");
         using var info = new FileStream(path, FileMode.CreateNew);
         await httpRequest.Content.CopyToAsync(info, cancellationToken);

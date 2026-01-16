@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xor9iMcwRcA=",
+  "dgSpecHash": "F0kfkEHnwZI=",
   "success": true,
-  "projectFilePath": "D:\\1234\\Commons\\Common.Presentation\\Common.Presentation.csproj",
+  "projectFilePath": "D:\\WES\\Commons\\Common.Presentation\\Common.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\masstransit\\8.0.0\\masstransit.8.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\masstransit.abstractions\\8.0.0\\masstransit.abstractions.8.0.0.nupkg.sha512",

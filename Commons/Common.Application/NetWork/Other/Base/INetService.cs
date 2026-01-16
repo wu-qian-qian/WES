@@ -1,8 +1,8 @@
-﻿using Common.Application.NET.Other.Config;
+﻿using System.Collections.Concurrent;
+using Common.Application.NetWork.Other.Config;
 using Common.Domain;
-using System.Collections.Concurrent;
 
-namespace Common.Application.NET.Other.Base;
+namespace Common.Application.NetWork.Other.Base;
 
 public interface INetService
 {

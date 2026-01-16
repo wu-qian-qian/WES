@@ -1,6 +1,8 @@
 using Common.Domain.Repository;
-namespace Identity.Domain;
-public interface IUserRoleRepository:IRepository<UserRole>
+using Identity.Domain.Entities;
+
+namespace Identity.Domain.Repository;
+
+public interface IUserRoleRepository : IRepository<UserRole>
 {
-    
 }

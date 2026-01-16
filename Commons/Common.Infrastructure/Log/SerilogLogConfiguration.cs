@@ -7,7 +7,7 @@ namespace Common.Infrastructure.Log;
 public static class SerilogLogConfiguration
 {
     /// <summary>
-    /// 自定义规则配置
+    ///     自定义规则配置
     /// </summary>
     /// <param name="serviceCollection"></param>
     /// <param name="logConfiguration"></param>
@@ -33,7 +33,7 @@ public static class SerilogLogConfiguration
             .Enrich.FromLogContext()
             // 系统日志
             .WriteTo.Logger(l => l
-                .Filter.ByIncludingOnly(e => e.Properties.ContainsKey("Category") == false)
+                .Filter.ByIncludingOnly(e => !e.Properties.ContainsKey("Category"))
                 .WriteTo.File("Logs/systems/system-.log", rollingInterval: RollingInterval.Day))
             // 业务日志
             .WriteTo.Logger(l => l

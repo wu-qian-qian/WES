@@ -3,7 +3,7 @@
 namespace Common.Infrastructure.EventBus.Manager;
 
 /// <summary>
-/// 无返回的事件总线管理中心
+///     无返回的事件总线管理中心
 /// </summary>
 internal sealed partial class EventManager
 {

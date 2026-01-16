@@ -1,4 +1,4 @@
-namespace Common.Infrastructure.Jwt;
+namespace Common.Infrastructure.Token;
 
 public sealed class JWTOptions
 {
@@ -12,22 +12,22 @@ public sealed class JWTOptions
     }
 
     /// <summary>
-    /// 令牌颁发者
+    ///     令牌颁发者
     /// </summary>
     public string Issuer { get; set; }
 
     /// <summary>
-    /// 受众
+    ///     受众
     /// </summary>
     public string Audience { get; set; }
 
     /// <summary>
-    /// 编码密钥
+    ///     编码密钥
     /// </summary>
     public string Key { get; set; }
 
     /// <summary>
-    /// 过期时间
+    ///     过期时间
     /// </summary>
     public int ExpireSeconds { get; set; }
 }

@@ -1,17 +1,18 @@
 ﻿using Common.Domain.Entity;
 using S7.Domain.Enums;
 
-namespace S7.Domain;
+namespace S7.Domain.Entities;
 
 /// <summary>
-/// dotnet new classlib -n MyMathLibrary
+///     dotnet new classlib -n MyMathLibrary
 /// </summary>
-public class PlcNetConfig:BaseEntity
+public class PlcNetConfig : BaseEntity
 {
     public PlcNetConfig()
     {
-        Id=Guid.NewGuid();
+        Id = Guid.NewGuid();
     }
+
     public string Ip { get; protected set; }
 
     public int Port { get; protected set; }
@@ -53,14 +54,16 @@ public class PlcNetConfig:BaseEntity
     public string? WriteHeart { get; set; }
 
     public ICollection<PlcEntityItem> PlcEntityItems { get; set; }
+
     /// <summary>
-    ///    /// 重试次数
+    ///     /// 重试次数
     /// </summary>
-    public int MaxRetries { get; set; }=3;
+    public int MaxRetries { get; set; } = 3;
+
     /// <summary>
-    ///   /// 间隔时间
+    ///     /// 间隔时间
     /// </summary>
-    public int DelayMs { get; set; }=3000;
+    public int DelayMs { get; set; } = 3000;
 
     public void UpdateIp(string ip)
     {

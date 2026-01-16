@@ -1,29 +1,19 @@
-﻿using Common.Domain;
-using Common.Domain.Entity;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Security;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Common.Domain.Entity;
 
-namespace Identity.Domain
+namespace Identity.Domain.Entities;
+
+/// <summary>
+///     权限表
+/// </summary>
+public class Permission : IEntity<Guid>
 {
-    /// <summary>
-    /// 权限表
-    /// </summary>
-    public class Permission:IEntity<Guid>
+    public Permission()
     {
-        public Permission() 
-        {
-            Id = Guid.NewGuid();
-        }
-
-        public string PermissionCode { get; set;  }
-
-        public ICollection<PermissionMenu> PermissionMenus { get; set; }
-        public ICollection<RolePermission> RolePermissions { get; set; }
+        Id = Guid.NewGuid();
     }
+
+    public string PermissionCode { get; set; }
+
+    public ICollection<PermissionMenu> PermissionMenus { get; set; }
+    public ICollection<RolePermission> RolePermissions { get; set; }
 }

@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Common.Encoding;
 
-namespace Common.Infrastructure.Net.Http;
+namespace Common.Infrastructure.NetWork.Http;
 
 public class HttpLoggingHandler : DelegatingHandler
 {
@@ -50,10 +50,7 @@ public class HttpLoggingHandler : DelegatingHandler
                 request.Content =
                     new StringContent(requestBody, requestEncoding, requestMediaType);
             }
-            else
-            {
-                // TODO
-            }
+            // TODO
         }
         else
         {

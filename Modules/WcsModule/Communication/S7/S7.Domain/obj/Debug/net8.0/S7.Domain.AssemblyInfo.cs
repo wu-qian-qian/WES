@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("S7.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("S7.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e101fdc1e0e98292ab028b0c8381c2df44112828")]
-[assembly: System.Reflection.AssemblyProductAttribute("S7.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("S7.Application")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b638a0ed9650047d6296966d9fece2fbca97f990")]
+[assembly: System.Reflection.AssemblyProductAttribute("S7.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("S7.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -18,3 +18,5 @@
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/obj/Debug/net8.0/refint/S7.Application.dll
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/obj/Debug/net8.0/S7.Application.pdb
 /workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/obj/Debug/net8.0/ref/S7.Application.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/bin/Debug/net8.0/S7.Domain.dll
+/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/bin/Debug/net8.0/S7.Domain.pdb

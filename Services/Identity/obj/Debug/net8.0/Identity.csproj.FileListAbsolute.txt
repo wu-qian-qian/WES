@@ -200,3 +200,5 @@
 /workspaces/WES/Services/Identity/obj/Debug/net8.0/Identity.pdb
 /workspaces/WES/Services/Identity/obj/Debug/net8.0/Identity.genruntimeconfig.cache
 /workspaces/WES/Services/Identity/obj/Debug/net8.0/ref/Identity.dll
+/workspaces/WES/Services/Identity/bin/Debug/net8.0/MassTransit.dll
+/workspaces/WES/Services/Identity/bin/Debug/net8.0/MassTransit.Abstractions.dll

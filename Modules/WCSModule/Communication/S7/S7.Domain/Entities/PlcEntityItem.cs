@@ -24,7 +24,8 @@ public class PlcEntityItem : BaseEntity
 
     /// <summary>
     ///     PLC的byte的偏移量
-    /// </summary>
+    /// db3.2 -- S7DataTypeEnum的特性直
+    /// </summary> 
     public int DataOffset { get; set; }
 
     /// <summary>

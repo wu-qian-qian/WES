@@ -1,5 +1,6 @@
 ﻿using Common.Application.NET.Other.Config;
-using S7.Net;
+using S7.Domain.Enums;
+
 
 namespace S7.Application.Abstractions.Data;
 
@@ -19,10 +20,9 @@ public class ReadModel : IReadConfig
     /// Byte 结束位
     /// </summary>
     public int DBCount { get; set; }
-    /// <summary>
-    /// bit 位
-    /// </summary>
-    public byte? DBBit { get; set; }
 
-    public DataType S7BlockType { get; set; }
+/// <summary>
+/// 数据块的类型
+/// </summary>
+    public S7BlockTypeEnum S7BlockType { get; set; }
 }

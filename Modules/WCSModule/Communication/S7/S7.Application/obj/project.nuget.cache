@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "useejb/x2X4=",
+  "dgSpecHash": "2u+0lTjgkMs=",
   "success": true,
   "projectFilePath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Application/S7.Application.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,6 @@
     "/home/codespace/.nuget/packages/quartz/3.8.1/quartz.3.8.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/quartz.extensions.dependencyinjection/3.8.1/quartz.extensions.dependencyinjection.3.8.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/quartz.extensions.hosting/3.8.1/quartz.extensions.hosting.3.8.1.nupkg.sha512",
-    "/home/codespace/.nuget/packages/s7netplus/0.20.0/s7netplus.0.20.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/sharpziplib/1.4.2/sharpziplib.1.4.2.nupkg.sha512",
     "/home/codespace/.nuget/packages/sixlabors.fonts/1.0.1/sixlabors.fonts.1.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/sixlabors.imagesharp/2.1.10/sixlabors.imagesharp.2.1.10.nupkg.sha512",

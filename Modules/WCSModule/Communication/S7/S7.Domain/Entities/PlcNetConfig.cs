@@ -52,7 +52,16 @@ public class PlcNetConfig:BaseEntity
     /// </summary>
     public string? WriteHeart { get; set; }
 
-    public ICollection<PlcEntityItem> PlcEntityItems { get; set; } 
+    public ICollection<PlcEntityItem> PlcEntityItems { get; set; }
+    /// <summary>
+    ///    /// 重试次数
+    /// </summary>
+    public int MaxRetries { get; set; }=3;
+    /// <summary>
+    ///   /// 间隔时间
+    /// </summary>
+    public int DelayMs { get; set; }=3000;
+
     public void UpdateIp(string ip)
     {
         Ip = ip;

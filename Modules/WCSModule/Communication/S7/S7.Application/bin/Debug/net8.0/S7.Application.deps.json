@@ -9,7 +9,7 @@
       "S7.Application/1.0.0": {
         "dependencies": {
           "Common.Application": "1.0.0",
-          "S7netplus": "0.20.0"
+          "S7.Domain": "1.0.0"
         },
         "runtime": {
           "S7.Application.dll": {}
@@ -276,14 +276,6 @@
           }
         }
       },
-      "S7netplus/0.20.0": {
-        "runtime": {
-          "lib/net7.0/S7.Net.dll": {
-            "assemblyVersion": "0.20.0.0",
-            "fileVersion": "0.20.0.0"
-          }
-        }
-      },
       "SharpZipLib/1.4.2": {
         "runtime": {
           "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
@@ -461,6 +453,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "S7.Domain/1.0.0": {
+        "dependencies": {
+          "Common.Domain": "1.0.0"
+        },
+        "runtime": {
+          "S7.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -631,13 +634,6 @@
       "path": "quartz.extensions.hosting/3.8.1",
       "hashPath": "quartz.extensions.hosting.3.8.1.nupkg.sha512"
     },
-    "S7netplus/0.20.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XAubZ076bhWHQZlnBkzwQO4WxqF5ofwhrkDxfBhGbeD1JC1jBDn3EbWIqMLW6+G0RsxzxirSjLERCQZPfjwGdw==",
-      "path": "s7netplus/0.20.0",
-      "hashPath": "s7netplus.0.20.0.nupkg.sha512"
-    },
     "SharpZipLib/1.4.2": {
       "type": "package",
       "serviceable": true,
@@ -726,6 +722,11 @@
       "sha512": ""
     },
     "Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "S7.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

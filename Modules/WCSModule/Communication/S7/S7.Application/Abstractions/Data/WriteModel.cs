@@ -1,5 +1,6 @@
 ﻿using Common.Application.NET.Other.Config;
-using S7.Net;
+using S7.Domain.Enums;
+
 
 
 namespace S7.Application.Abstractions.Data;
@@ -8,7 +9,7 @@ public class WriteModel : IReadConfig
 {
     public string Ip { get; set; }
 
-    public DataType S7BlockType { get; set; }
+    public S7BlockTypeEnum S7BlockType { get; set; }
 
     public int DBAddress { get; set; }
 

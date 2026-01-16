@@ -21,13 +21,13 @@
     <Project Path="Modules\WCSModule\Communication\S7\S7.Domain\S7.Domain.csproj" />
     <Project Path="Modules\WCSModule\Communication\S7\S7.Infrastructure\S7.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/Modules/WCSModule/"/>
-  <Folder Name="/Modules/WCSModule/WcsBusiness/" />
-    <Project Path="Modules\WCSModule\WcsBusiness\Wcs.Application\Wcs.Application.csproj" />
-    <Project Path="Modules\WCSModule\WcsBusiness\Wcs.Domain\Wcs.Domain.csproj" />
-    <Project Path="Modules\WCSModule\WcsBusiness\Wcs.Infrastructure\Wcs.Infrastructure.csproj" />
-    <Project Path="Modules\WCSModule\WcsBusiness\Wcs.Presentation\Wcs.Presentation.csproj" />
+  <Folder Name="/Modules/WCSModule/WcsBusiness/">
+    <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Application/Wcs.Application.csproj" />
+    <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj" />
+    <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Infrastructure/Wcs.Infranstructure.csproj" />
+    <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Presentation/Wcs.Presentation.csproj" />
   </Folder>
+
 
   <Folder Name="/Serivices/">
     <Project Path="Services/Identity/Identity.csproj" />

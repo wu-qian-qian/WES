@@ -32,8 +32,7 @@
       "System.Threading.Thread.EnableAutoreleasePool": false,
       "System.Linq.Expressions.CanEmitObjectArrayDelegate": false,
       "Microsoft.AspNetCore.SignalR.Hub.IsCustomAwaitableSupported": false,
-      "Microsoft.AspNetCore.Mvc.ApiExplorer.IsEnhancedModelMetadataSupported": false,
-      "Microsoft.AspNetCore.Components.Endpoints.NavigationManager.DisableThrowNavigationException": false
+      "Microsoft.AspNetCore.Mvc.ApiExplorer.IsEnhancedModelMetadataSupported": false
     }
   }
 }

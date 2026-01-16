@@ -9,13 +9,13 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace S7.Infrastructure.DataBase
 {
-    public class WcsDBContext : BaseDbContext
+    public class PLCDBContext : BaseDbContext
     {
         public const string SchemasTable = "PLC";
      
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public WcsDBContext(DbContextOptions options, IHttpContextAccessor httpContextAccessor, IDomainEventDispatcher domainEventDispatcher) 
+        public PLCDBContext(DbContextOptions options, IHttpContextAccessor httpContextAccessor, IDomainEventDispatcher domainEventDispatcher) 
         : base(options, domainEventDispatcher)
         {
             _httpContextAccessor = httpContextAccessor;

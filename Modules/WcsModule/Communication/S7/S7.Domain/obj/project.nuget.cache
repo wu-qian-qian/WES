@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45YKwgUAJiU=",
+  "dgSpecHash": "dNtRpq2eIAk=",
   "success": true,
-  "projectFilePath": "/workspaces/WES/Modules/WCSModule/Communication/S7/S7.Domain/S7.Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\1234\\Modules\\WCSModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

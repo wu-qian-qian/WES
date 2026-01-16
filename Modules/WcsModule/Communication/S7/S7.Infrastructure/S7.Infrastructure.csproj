@@ -7,15 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\S7.Application\S7.Application.csproj" />
       <ProjectReference Include="..\S7.Domain\S7.Domain.csproj" />
       <ProjectReference Include="..\..\..\..\..\Commons\Common.Infrastructure\Common.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="DataBase\" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
       <PackageReference Include="S7netplus" Version="0.20.0" />
       <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -43,7 +43,7 @@ public class PlcEntityItem : BaseEntity
     public int Index { get; set; }
 
     /// <summary>
-    ///     字段名称
+    ///    描述
     /// </summary>
     public string? Description { get; set; }
 
@@ -62,6 +62,9 @@ public class PlcEntityItem : BaseEntity
     /// </summary>
     public string DeviceName { get; set; }
 
+/// <summary>
+/// 是否启用
+/// </summary>
     public bool IsUse { get; set; }
 
     /// <summary>

@@ -28,6 +28,7 @@ public abstract class BaseDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.AddSoftDeletionGlobalFilter();
+        modelBuilder.AddStringMaxFilter();
     }
     public override async Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess,
         CancellationToken cancellationToken = default)

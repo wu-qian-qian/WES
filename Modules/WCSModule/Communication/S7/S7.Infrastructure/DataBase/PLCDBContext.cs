@@ -26,7 +26,8 @@ namespace S7.Infrastructure.DataBase
         {
             base.OnModelCreating(modelBuilder);
             //关联关系配置
-          
+           modelBuilder.PlcNetConfiguration();
+           modelBuilder.PlcEntityItemConfiguration();
         }
 
     

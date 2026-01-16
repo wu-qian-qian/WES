@@ -27,7 +27,7 @@ public static class DomainConfiguration
             entity.HasIndex(p=>p.DeviceName).IsUnique();
             entity.Property(e => e.Name).IsRequired().HasMaxLength(20);
             entity.Property(e => e.Ip).IsRequired().HasMaxLength(20);
-            entity.Property(e => e.Description).IsRequired(false).HasMaxLength(50);
+            entity.Property(e => e.Description).HasMaxLength(50);
             entity.Property(p => p.LastModifierUser).HasMaxLength(20);
         });
     }

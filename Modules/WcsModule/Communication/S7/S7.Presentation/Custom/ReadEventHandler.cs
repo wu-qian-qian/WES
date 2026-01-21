@@ -1,7 +1,6 @@
 using Common.Application.EventBus;
 using Common.Domain;
 using MediatR;
-using NPOI.SS.Formula.Functions;
 using S7.Application.Handlers;
 using S7.CustomEvents;
 
@@ -10,10 +9,11 @@ namespace S7.Presentationl;
 public class ReadEventHandler(ISender _sender)
 : IEventHandler<ReadIntegrationEvent, Result<IEnumerable<ReadModel>>>
 {
-    public async Task<Result<IEnumerable<ReadModel>>> Handle(ReadIntegrationEvent @event, CancellationToken cancellationToken = default)
+    public async Task<Result<IEnumerable<ReadModel>>> Handle(ReadIntegrationEvent @event
+    , CancellationToken cancellationToken = default)
     {
-        Result<IEnumerable<ReadModel>> result=default;
-        var resultModel=await _sender.Send(new ReadBufferCommand{DeviceName=@event.DeviceName});
+        Result<IEnumerable<ReadModel>>? result=default;
+        var resultModel=await _sender.Send(new ReadBufferCommand{DeviceName=@event.DeviceName},cancellationToken);
         List<ReadModel> readModels=new();
         if (resultModel.IsSuccess)
         {

@@ -7,7 +7,7 @@ public static class InfrastructureConfiguration
 {
     public static IServiceCollection AddInfrastructureConfiguration(this IServiceCollection descriptors)
     {
-        descriptors.AddSingleton<IS7AnalysisService,S7AnalysisService>();
+        descriptors.AddSingleton<IReadModelBuildService,ReadModelBuildService>();
         return descriptors;
     }
 }

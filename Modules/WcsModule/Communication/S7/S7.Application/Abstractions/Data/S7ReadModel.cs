@@ -3,7 +3,7 @@ using S7.Domain.Enums;
 
 namespace S7.Application.Abstractions.Data;
 
-public class ReadModel : IReadConfig
+public class S7ReadModel : IReadConfig
 {
     /// <summary>
     ///     DB 地址

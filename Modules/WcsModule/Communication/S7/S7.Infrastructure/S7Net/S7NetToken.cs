@@ -12,7 +12,7 @@ public class S7NetToken : INet
 {
     private readonly Action<string>? _logAciont;
 
-    public S7NetToken(NetModel netConfig, Action<string> logAciont = null)
+    public S7NetToken(S7NetModel netConfig, Action<string> logAciont = null)
     {
         _netConfig = netConfig;
         _logAciont = logAciont;
@@ -77,7 +77,7 @@ public class S7NetToken : INet
     public async Task<Result<byte[]>> ReadAsync(IReadConfig input)
     {
         Result<byte[]>? result = default;
-        if (input is ReadModel readModel)
+        if (input is S7ReadModel readModel)
             try
             {
                 var bufferBlock = await
@@ -98,7 +98,7 @@ public class S7NetToken : INet
     public async Task<Result> WriteAsync(IWriteConfig input)
     {
         Result? result = default;
-        if (input is WriteModel writeModel)
+        if (input is S7WriteModel writeModel)
         {
             if (writeModel.IsBit == false)
             {

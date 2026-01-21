@@ -6,14 +6,14 @@ using S7.Domain.Repository;
 namespace S7.Application.Handlers.GetPlcNet;
 
 public class GetPlcNetCommandHandler(IPlcNetRepository _plcNetRepository)
-    : ICommandHandler<GetPlcNetCommand, IEnumerable<NetModel>>
+    : ICommandHandler<GetPlcNetCommand, IEnumerable<S7NetModel>>
 {
-    public async Task<Result<IEnumerable<NetModel>>> Handle(GetPlcNetCommand request,
+    public async Task<Result<IEnumerable<S7NetModel>>> Handle(GetPlcNetCommand request,
         CancellationToken cancellationToken)
     {
-        IEnumerable<NetModel> plcNets = (await _plcNetRepository.GetQueryableAsync())
+        IEnumerable<S7NetModel> plcNets = (await _plcNetRepository.GetQueryableAsync())
             .Where(x => x.IsUse)
-            .Select(x => new NetModel
+            .Select(x => new S7NetModel
             {
                 Ip = x.Ip,
                 Rack = x.Rack,

@@ -3,7 +3,7 @@ using S7.Domain.Enums;
 
 namespace S7.Application.Abstractions.Data;
 
-public class WriteModel : IReadConfig
+public class S7WriteModel : IReadConfig
 {
     public S7BlockTypeEnum S7BlockType { get; set; }
 

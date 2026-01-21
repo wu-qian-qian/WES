@@ -9,8 +9,16 @@ using S7.Domain.Repository;
 
 namespace S7.Application.Handlers;
 
-public class ReadBufferCommandHandler(INetService _netService,IPlcEntityRepository _plcEntityRepository
-,IS7AnalysisService _analysisService)
+/// <summary>
+/// 可以进行拆分 
+/// 添加 2个事件用来读取 和 解析
+/// 该事件只做db访问处理 
+/// </summary>
+/// <param name="_netService"></param>
+/// <param name="_plcEntityRepository"></param>
+/// <param name="_modelService"></param>
+public class ReadBufferCommandHandler(INetService _netService
+,IReadModelBuildService _modelService)
     : ICommandHandler<ReadBufferCommand,IEnumerable<EntityModel>>
 {
     /// <summary>
@@ -24,37 +32,26 @@ public class ReadBufferCommandHandler(INetService _netService,IPlcEntityReposito
     public async Task<Result<IEnumerable<EntityModel>>> Handle(ReadBufferCommand request, CancellationToken cancellationToken)
     {
         Result<IEnumerable<EntityModel>>? result = default;
-            var plcEntity = (await _plcEntityRepository.GetQueryableAsync())
-            .Where(p => p.DeviceName == request.DeviceName && p.IsUse).ToArray();
-            //按照 ip 和 db 快进行区分
-        var plcEntityGroups = plcEntity.GroupBy(p => new { p.Ip, p.DBAddress, p.S7BlockType });
+        string msg=string.Empty;
         List<EntityModel> entityModels=new List<EntityModel>();
-        foreach (var plcEntityGroup in plcEntityGroups)
+        var readModels=await _modelService.ReadPlcModelBuildAsync(request.DeviceName);
+        foreach(var item in readModels)
         {
-            var read = new ReadModel();
-            read.Ip = plcEntityGroup.Key.Ip;
-            read.DBAddress = plcEntityGroup.Key.DBAddress;
-            read.S7BlockType = plcEntityGroup.Key.S7BlockType;
-            read.DBStart = plcEntityGroup.MinBy(p => p.Index).DataOffset;
-            var dataType = plcEntityGroup.MaxBy(p => p.Index)?.S7DataType;
-            var index = dataType?.GetEnumAttribute<S7DataTypeAttribute>()?.DataSize;
-            read.DBCount = plcEntityGroup.MaxBy(p => p.Index).DataOffset + index.Value;
-            var readResult = await _netService.ReadAsync(read);
-            if (readResult.IsSuccess)
+            var tempResult=await _netService.ReadAsync(item);
+            if (tempResult.IsSuccess == false)
             {
-                entityModels.AddRange(await _analysisService.AnalysisAsync(readResult.Value,plcEntityGroup.ToArray()));
+                entityModels.Clear();
+                msg=tempResult.Message;
+                break;
             }
-            else
-            {
-                Result.Error<IEnumerable<EntityModel>>(readResult.Message);
-            }
-
+            string key=request.DeviceName+item.DBAddress+item.Ip+item.S7BlockType;
+            entityModels.AddRange(await _modelService.ReadEntityModelBuildAsync(tempResult.Value,key));
         }
-        if (entityModels.Count > 0&&result==null)
+        if (entityModels.Count > 0)
         {
             result=Result.Success<IEnumerable<EntityModel>>(entityModels);
         }
-        return result ?? Result.Error<IEnumerable<EntityModel>>("读取失败");
+        return result ?? Result.Error<IEnumerable<EntityModel>>($"读取失败--{msg}");
     }
 
 }

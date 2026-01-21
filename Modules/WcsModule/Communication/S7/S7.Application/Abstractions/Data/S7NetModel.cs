@@ -3,7 +3,7 @@ using S7.Domain.Enums;
 
 namespace S7.Application.Abstractions.Data;
 
-public class NetModel : INetConfig
+public class S7NetModel : INetConfig
 {
     /// <summary>
     ///     Plc类型

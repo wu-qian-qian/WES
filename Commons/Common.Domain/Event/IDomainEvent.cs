@@ -1,5 +1,8 @@
 ﻿namespace Common.Domain.Event;
 
+/// <summary>
+/// 装饰器 事件总线
+/// </summary>
 public interface IDomainEvent
 {
     /// <summary>

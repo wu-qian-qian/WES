@@ -35,7 +35,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.DotNet.ILCompiler/8.0.21": {
+      "Microsoft.DotNet.ILCompiler/8.0.22": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
@@ -411,7 +411,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.21": {
+      "Microsoft.NET.ILLink.Tasks/8.0.22": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1365,10 +1365,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.DotNet.ILCompiler/8.0.21": {
-      "sha512": "K7I0tRjOejpz3SfJMWsDFIev3shM1x7ZSmWq2xlQeWenJUr4Qz/vmppA2GOORQ3l+rovDBL/5AN0ZTMmmMoNXw==",
+    "Microsoft.DotNet.ILCompiler/8.0.22": {
+      "sha512": "4SDEQzYp3d9yVu0iQRFMV4HJCTjDvCt2AclSxMGXZSva5VrdoatwDg5nQVSD42ZuzBY5Y+BzgaexNbwb0/3gHw==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/8.0.21",
+      "path": "microsoft.dotnet.ilcompiler/8.0.22",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1387,7 +1387,7 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.8.0.21.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.8.0.22.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
@@ -1996,10 +1996,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.21": {
-      "sha512": "s8H5PZQs50OcNkaB6Si54+v3GWM7vzs6vxFRMlD3aXsbM+aPCtod62gmK0BYWou9diGzmo56j8cIf/PziijDqQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.22": {
+      "sha512": "MhcMithKEiyyNkD2ZfbDZPmcOdi0GheGfg8saEIIEfD/fol3iHmcV8TsZkD4ZYz5gdUuoX4YtlVySUU7Sxl9SQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.21",
+      "path": "microsoft.net.illink.tasks/8.0.22",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2013,7 +2013,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.21.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.22.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -2422,39 +2422,32 @@
     "net8.0": [
       "Consul >= 1.7.14.9",
       "Microsoft.CodeAnalysis.NetAnalyzers >= 8.0.0",
-      "Microsoft.DotNet.ILCompiler >= 8.0.21",
+      "Microsoft.DotNet.ILCompiler >= 8.0.22",
       "Microsoft.Extensions.Http.Polly >= 10.0.1",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.21",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.22",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.23.0",
       "Steeltoe.Discovery.Consul >= 4.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WES\\Services\\WCS\\WCS.csproj",
+      "projectUniqueName": "/workspaces/WES/Services/WCS/WCS.csproj",
       "projectName": "WCS",
-      "projectPath": "D:\\WES\\Services\\WCS\\WCS.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\WES\\Services\\WCS\\obj\\",
+      "projectPath": "/workspaces/WES/Services/WCS/WCS.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/WES/Services/WCS/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2473,7 +2466,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2492,7 +2485,7 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.21, )",
+            "version": "[8.0.22, )",
             "autoReferenced": true
           },
           "Microsoft.Extensions.Http.Polly": {
@@ -2502,7 +2495,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.21, )",
+            "version": "[8.0.22, )",
             "autoReferenced": true
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
@@ -2527,8 +2520,20 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[8.0.21, 8.0.21]"
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
+            "version": "[8.0.22, 8.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -2539,7 +2544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

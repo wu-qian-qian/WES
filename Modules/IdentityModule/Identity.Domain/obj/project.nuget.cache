@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7u1ZjyXMiZI=",
+  "dgSpecHash": "slvPwPseofs=",
   "success": true,
-  "projectFilePath": "D:\\WES\\Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

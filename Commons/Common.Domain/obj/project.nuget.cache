@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sGeR0tJRF10=",
+  "dgSpecHash": "97sJVkx11uI=",
   "success": true,
-  "projectFilePath": "D:\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+  "projectFilePath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\8.0.0\\microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512"
+    "/home/codespace/.nuget/packages/microsoft.codeanalysis.netanalyzers/8.0.0/microsoft.codeanalysis.netanalyzers.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

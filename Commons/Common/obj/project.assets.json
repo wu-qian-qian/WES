@@ -5,53 +5,41 @@
       "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
         },
         "runtime": {
-          "lib/net6.0/BouncyCastle.Cryptography.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {}
         }
       },
       "Enums.NET/5.0.0": {
         "type": "package",
         "compile": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
       "ExtendedNumerics.BigDecimal/2025.1001.2.129": {
         "type": "package",
         "compile": {
-          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {}
         },
         "runtime": {
-          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/ExtendedNumerics.BigDecimal.dll": {}
         }
       },
       "MathNet.Numerics.Signed/5.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MathNet.Numerics.dll": {}
         },
         "runtime": {
-          "lib/net6.0/MathNet.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/MathNet.Numerics.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.NetAnalyzers/8.0.0": {
@@ -64,14 +52,10 @@
       "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/5.0.0": {
@@ -86,14 +70,10 @@
       "Newtonsoft.Json/13.0.4": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         }
       },
       "NPOI/2.7.4": {
@@ -112,30 +92,30 @@
         },
         "compile": {
           "lib/net8.0/NPOI.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OOXML.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OpenXml4Net.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OpenXmlFormats.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net8.0/NPOI.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OOXML.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OpenXml4Net.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           },
           "lib/net8.0/NPOI.OpenXmlFormats.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
@@ -143,26 +123,22 @@
         "type": "package",
         "compile": {
           "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },
       "SixLabors.Fonts/1.0.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {}
         }
       },
       "SixLabors.ImageSharp/2.1.10": {
@@ -172,40 +148,28 @@
           "System.Text.Encoding.CodePages": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.1": {
         "type": "package",
         "compile": {
-          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -223,14 +187,10 @@
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "compile": {
-          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {}
         },
         "runtime": {
-          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -242,14 +202,10 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
@@ -261,14 +217,10 @@
       "ZString/2.6.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/ZString.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/ZString.dll": {}
         },
         "runtime": {
-          "lib/net7.0/ZString.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/ZString.dll": {}
         }
       }
     }
@@ -1393,31 +1345,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WES\\Commons\\Common\\Common.csproj",
+      "projectUniqueName": "/workspaces/WES/Commons/Common/Common.csproj",
       "projectName": "Common",
-      "projectPath": "D:\\WES\\Commons\\Common\\Common.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\WES\\Commons\\Common\\obj\\",
+      "projectPath": "/workspaces/WES/Commons/Common/Common.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/WES/Commons/Common/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1436,7 +1381,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1468,12 +1413,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

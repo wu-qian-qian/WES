@@ -7,6 +7,9 @@ public class S7DataTypeAttribute : Attribute
     {
         DataSize = dataSize;
     }
-
+    /// <summary>
+    /// 数据长度 
+    /// 最长为255
+    /// </summary>
     public byte DataSize { get; set; }
 }

@@ -2,7 +2,6 @@ using System.Collections.Concurrent;
 using System.Text;
 using Common.Helper;
 using Common.TransferBuffer;
-using NPOI.SS.Formula.Functions;
 using S7.Application.Abstractions.Data;
 using S7.Application.Handlers;
 using S7.Application.Services;
@@ -16,6 +15,7 @@ public class ReadModelBuildService : IReadModelBuildService
 {
     /// <summary>
     /// 用来缓存 读取db块的数据模型
+    /// 设备名+DB块地址+IP+数据块类型
     /// </summary>
     private static ConcurrentDictionary<string,IEnumerable<S7ReadModel>> _readModeMap=new();
     /// <summary>
@@ -97,8 +97,18 @@ public class ReadModelBuildService : IReadModelBuildService
         }
         return Task.CompletedTask;
     }
-     private static string TransferBufferToData(byte[] buffer, int offset, byte? bitOffset, S7DataTypeEnum s7DataType,
-     byte? array)
+
+/// <summary>
+/// 数据类型的转换
+/// </summary>
+/// <param name="buffer"></param>
+/// <param name="offset"></param>
+/// <param name="bitOffset"></param>
+/// <param name="s7DataType"></param>
+/// <param name="array"></param>
+/// <returns></returns>
+/// <exception cref="ArgumentException"></exception>
+    private static string TransferBufferToData(byte[] buffer, int offset, byte? bitOffset, S7DataTypeEnum s7DataType,byte? array)
     {
      var result = string.Empty;
      switch (s7DataType)

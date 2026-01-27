@@ -71,6 +71,10 @@ public class PlcEntityItem : BaseEntity
     public bool IsUse { get; set; }
 
     /// <summary>
+    /// 是否为写入信号 
+    /// </summary>
+    public bool IsWrite{get;set;}
+    /// <summary>
     ///     网络配置
     /// </summary>
     public Guid NetGuid { get; set; }

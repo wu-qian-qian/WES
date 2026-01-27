@@ -48,14 +48,10 @@
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/FluentValidation.dll": {}
         },
         "runtime": {
-          "lib/net8.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
+          "lib/net8.0/FluentValidation.dll": {}
         }
       },
       "MathNet.Numerics.Signed/5.0.0": {
@@ -606,6 +602,19 @@
         },
         "runtime": {
           "bin/placeholder/Common.Domain.dll": {}
+        }
+      },
+      "Identity.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Common.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Identity.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Identity.Domain.dll": {}
         }
       }
     }
@@ -1570,11 +1579,17 @@
       "type": "project",
       "path": "../../../Commons/Common.Domain/Common.Domain.csproj",
       "msbuildProject": "../../../Commons/Common.Domain/Common.Domain.csproj"
+    },
+    "Identity.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Identity.Domain/Identity.Domain.csproj",
+      "msbuildProject": "../Identity.Domain/Identity.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Common.Application >= 1.0.0"
+      "Common.Application >= 1.0.0",
+      "Identity.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1604,6 +1619,9 @@
           "projectReferences": {
             "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
               "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
+            },
+            "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj": {
+              "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj"
             }
           }
         }

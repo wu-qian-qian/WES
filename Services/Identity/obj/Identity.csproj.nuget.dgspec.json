@@ -613,6 +613,9 @@
             "projectReferences": {
               "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
                 "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
+              },
+              "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj": {
+                "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj"
               }
             }
           }
@@ -760,17 +763,11 @@
               "/workspaces/WES/Commons/Common.Infrastructure/Common.Infrastructure.csproj": {
                 "projectPath": "/workspaces/WES/Commons/Common.Infrastructure/Common.Infrastructure.csproj"
               },
-              "/workspaces/WES/Commons/Common.Presentation/Common.Presentation.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Presentation/Common.Presentation.csproj"
-              },
               "/workspaces/WES/Modules/IdentityModule/Identity.Application/Identity.Application.csproj": {
                 "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Application/Identity.Application.csproj"
               },
               "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj": {
                 "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Domain/Identity.Domain.csproj"
-              },
-              "/workspaces/WES/Modules/IdentityModule/Identity.Presentation/Identity.Presentation.csproj": {
-                "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Presentation/Identity.Presentation.csproj"
               }
             }
           }
@@ -935,6 +932,9 @@
               },
               "/workspaces/WES/Modules/IdentityModule/Identity.Infrastructure/Identity.Infrastructure.csproj": {
                 "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Infrastructure/Identity.Infrastructure.csproj"
+              },
+              "/workspaces/WES/Modules/IdentityModule/Identity.Presentation/Identity.Presentation.csproj": {
+                "projectPath": "/workspaces/WES/Modules/IdentityModule/Identity.Presentation/Identity.Presentation.csproj"
               }
             }
           }

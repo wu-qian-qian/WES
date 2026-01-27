@@ -25,6 +25,7 @@
     <ItemGroup>
         <ProjectReference Include="..\..\Commons\Common.AspNetCore\Common.AspNetCore.csproj"/>
         <ProjectReference Include="..\..\Modules\IdentityModule\Identity.Infrastructure\Identity.Infrastructure.csproj"/>
+        <ProjectReference Include="..\..\Modules\IdentityModule\Identity.Presentation\Identity.Presentation.csproj"/>
     </ItemGroup>
 
 

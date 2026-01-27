@@ -10,8 +10,6 @@
         <ProjectReference Include="..\..\..\Commons\Common.Infrastructure\Common.Infrastructure.csproj"/>
         <ProjectReference Include="..\Identity.Application\Identity.Application.csproj"/>
         <ProjectReference Include="..\Identity.Domain\Identity.Domain.csproj"/>
-        <ProjectReference Include="..\Identity.Presentation\Identity.Presentation.csproj"/>
-        <ProjectReference Include="..\..\..\Commons\Common.Presentation\Common.Presentation.csproj"/>
     </ItemGroup>
 
     <ItemGroup>

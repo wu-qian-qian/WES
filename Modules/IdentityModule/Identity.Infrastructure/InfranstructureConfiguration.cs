@@ -1,10 +1,8 @@
 ﻿using Common.Infrastructure.DecoratorEvent;
 using Common.Infrastructure.DependencyInjection;
 using Common.Infrastructure.MediatR;
-using Common.Presentation;
 using Identity.Application;
 using Identity.Infrastructure.DataBase;
-using Identity.Presentation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
@@ -32,7 +30,6 @@ public static class InfranstructureConfiguration
                 builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable + HistoryRepository.DefaultTableName));
         });
         services.AddMediatRConfiguration([typeof(ApplicationConfiguration).Assembly]);
-        services.AddEndpoints(typeof(AssemblyReference).Assembly);
         return services;
     }
 }

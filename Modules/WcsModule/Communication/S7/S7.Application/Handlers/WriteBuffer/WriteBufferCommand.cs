@@ -6,5 +6,5 @@ public class WriteBufferCommand : ICommand
 {
     public string DeviceName { get; set; }
 
-    public Dictionary<string, string> DBNameToDataValue { get; set; }
+    public IReadOnlyDictionary<string,string> DBNameToDataValue { get; set; }
 }

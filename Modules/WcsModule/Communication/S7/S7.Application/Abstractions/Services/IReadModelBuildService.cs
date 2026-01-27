@@ -4,6 +4,12 @@ using S7.Domain.Entities;
 using S7.Domain.Repository;
 
 namespace S7.Application.Services;
+
+/// <summary>
+/// 读取模型构建器
+/// 主要用来构建PLC 读取的配置
+/// plc 数据转换
+/// </summary>
 public interface IReadModelBuildService
 {
     /// <summary>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p0ezurkFMfg=",
+  "dgSpecHash": "HXDSADk6R5k=",
   "success": true,
   "projectFilePath": "/workspaces/WES/Modules/IdentityModule/Identity.Infrastructure/Identity.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,8 @@
     "/home/codespace/.nuget/packages/mathnet.numerics.signed/5.0.0/mathnet.numerics.signed.5.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

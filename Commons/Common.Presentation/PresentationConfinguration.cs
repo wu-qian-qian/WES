@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Common.Presentation;
 
-public static class EndpointExtensions
+public static class PresentationConfinguration
 {
     /// <summary>
     ///     注入API 端点

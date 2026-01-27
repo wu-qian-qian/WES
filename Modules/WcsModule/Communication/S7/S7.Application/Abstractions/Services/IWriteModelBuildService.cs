@@ -7,7 +7,12 @@ public interface IWriteModelBuildService
 {
     Task<IEnumerable<S7WriteModel>> PlcWriteModelBuildAsync(string deviceName,IReadOnlyDictionary<string,string> keyValues);
 
-    Task<byte[]> DataTranferBuffer(string data);
-
+/// <summary>
+/// 緩存加載
+/// 可使用定時刷 
+/// 程序啓動時刷
+/// </summary>
+/// <param name="plcEntityItems"></param>
+/// <returns></returns>
     Task LoadAsync(IEnumerable<PlcEntityItem> plcEntityItems);
 }

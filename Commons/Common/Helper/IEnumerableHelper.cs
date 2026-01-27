@@ -26,4 +26,23 @@ public static class IEnumerableHelper
         list.OrderByDescending(predicate);
         return list.Skip(skinCount).Take(total);
     }
+
+    public static string ToJoinedString<T>(this IEnumerable<T> list, char separator = ',')
+    {
+        return string.Join(separator, list);
+    }
+
+    // 反向：string → T[]（.NET 7+）
+    public static IEnumerable<T> ToArray<T>(this string str, char separator = ',') where T : IParsable<T>
+    {
+        if (string.IsNullOrWhiteSpace(str))
+            return [];
+            
+        return Array.ConvertAll(str.Split(separator), s => T.Parse(s.Trim(), null));
+    }
+
+    public static IEnumerable<T> StringToArray<T>(this string str)
+{
+    return Array.ConvertAll(str.Split(','), s => (T)Convert.ChangeType(s.Trim(), typeof(T)));
+}
 }

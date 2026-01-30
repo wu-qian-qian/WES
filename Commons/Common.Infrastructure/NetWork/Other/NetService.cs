@@ -44,7 +44,7 @@ public class NetService : INetService
     public async Task<Result> AddConnectAsync(INet input)
     {
         var result = await input.ConnectAsync();
-        if (result.IsSuccess) NetMap.TryAdd(input._netConfig.Ip, input);
+        if (result.IsSuccess) NetMap.AddOrUpdate(input._netConfig.Ip, input,(key,value)=>value=input);
         return result;
     }
 }

@@ -49,7 +49,8 @@ public static class AspNetCoreConfiguration
         AddAuthenticationConfiguration(services,options.JWTOptions.Issuer,options.JWTOptions.Audience,options.JWTOptions.Key);
         AddAuthorizationConfiguration(services,options.PermissionCode,options.AuthorizationAction);
         AddConfigurationService(services,options.Configurations);
-        services.AddInfranstructureConfiguration(applicationAss);
+        options.ModulesOption.ApplicationAssemblyArr = applicationAss;
+        services.AddInfranstructureConfiguration(options.ModulesOption);
         return app;
     }
 

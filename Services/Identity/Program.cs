@@ -5,7 +5,7 @@ using Identity.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 //NetCore
-builder.AddAspNetCore();
+//builder.AddAspNetCore();
 //基础设施
 builder.Services.AddInfranstructureConfiguration(builder.Configuration);
 //表示层

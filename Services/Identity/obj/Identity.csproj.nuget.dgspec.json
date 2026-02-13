@@ -126,11 +126,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
-              },
-              "/workspaces/WES/Commons/Common/Common.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common/Common.csproj"
+              "/workspaces/WES/Commons/Common.Infrastructure/Common.Infrastructure.csproj": {
+                "projectPath": "/workspaces/WES/Commons/Common.Infrastructure/Common.Infrastructure.csproj"
               }
             }
           }
@@ -167,7 +164,7 @@
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.1.2, )"
+              "version": "[8.0.1, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",

@@ -14,13 +14,12 @@ public static class SerilogLogConfiguration
     /// <param name="logConfigActions"></param>
     /// <returns></returns>
     public static IServiceCollection AddSeriLogConfiguration(this IServiceCollection serviceCollection,
-        LoggerConfiguration logConfiguration,
         params Action<LoggerConfiguration>[] logConfigActions)
     {
-        // var loggerConfiguration=new LoggerConfiguration()
-        //     .MinimumLevel.Information()
-        //     .Enrich.FromLogContext();
-        foreach (var configAction in logConfigActions) logConfiguration.WriteTo.Logger(configAction);
+        var loggerConfiguration=new LoggerConfiguration()
+            .MinimumLevel.Information()
+            .Enrich.FromLogContext();
+        foreach (var configAction in logConfigActions) loggerConfiguration.WriteTo.Logger(configAction);
         serviceCollection.AddSingleton<ILogService, SeriLogService>();
         return serviceCollection;
     }

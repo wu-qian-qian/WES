@@ -1,4 +1,5 @@
-﻿using Common.Domain;
+﻿using Common.Application.Quartz;
+using Common.Domain;
 using Microsoft.Extensions.DependencyInjection;
 using Quartz;
 
@@ -27,7 +28,7 @@ public static class QuatrzJobConfiguration
             configure.AwaitApplicationStarted = true;
             configure.WaitForJobsToComplete = true;
         });
-
+        serviceCollection.AddSingleton<IQuartzJobService, QuartzJobService>();
         return serviceCollection;
     }
 }

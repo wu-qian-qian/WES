@@ -6,6 +6,7 @@ namespace Common.AspNetCore.HostedService;
 
 /// <summary>
 ///     主要用来初始化配置服务
+///  可以配置成循环执行这样某一些配置可以动态更新
 /// </summary>
 public class InitielizeConfigurationService(
     IServiceScopeFactory _scopeFactory,

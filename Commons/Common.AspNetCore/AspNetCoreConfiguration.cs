@@ -1,7 +1,10 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Reflection;
+using System.Text.Json.Serialization;
 using Common.AspNetCore.Authentication;
+using Common.AspNetCore.Authorization;
 using Common.AspNetCore.HostedService;
 using Common.AspNetCore.SwaggerUI;
+using Common.Infrastructure;
 using Common.JsonExtension;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -11,9 +14,13 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace Common.AspNetCore;
 
+/// <summary>
+/// 只属Web配置
+/// </summary>
 public static class AspNetCoreConfiguration
 {
-    public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app)
+    public static WebApplicationBuilder AddAspNetCore(this WebApplicationBuilder app,AspNetCoreOptions options,
+    params Assembly[] applicationAss)
     {
         //Add AspNetCore related services here
         //json格式设置
@@ -39,6 +46,10 @@ public static class AspNetCoreConfiguration
         //HttpContext 注入
         services.AddHttpContextAccessor();
         services.AddSwaggerUIConfiguration();
+        AddAuthenticationConfiguration(services,options.JWTOptions.Issuer,options.JWTOptions.Audience,options.JWTOptions.Key);
+        AddAuthorizationConfiguration(services,options.PermissionCode,options.AuthorizationAction);
+        AddConfigurationService(services,options.Configurations);
+        services.AddInfranstructureConfiguration(applicationAss);
         return app;
     }
 
@@ -50,7 +61,7 @@ public static class AspNetCoreConfiguration
     /// <param name="audience"></param>
     /// <param name="key"></param>
     /// <returns></returns>
-    public static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services
+    private static IServiceCollection AddAuthenticationConfiguration(IServiceCollection services
         , string issuer, string audience, string key)
     {
         services.AddAuthenticationConfiguration(issuer, audience, key);
@@ -65,16 +76,21 @@ public static class AspNetCoreConfiguration
     /// <param name="serviceCollection"></param>
     /// <param name="act"></param>
     /// <returns></returns>
-    public static IServiceCollection AddAuthorizationConfiguration(this IServiceCollection serviceCollection,
-        Action<AuthorizationOptions>? act = null)
+    private static IServiceCollection AddAuthorizationConfiguration(this IServiceCollection serviceCollection
+    ,IEnumerable<string> permissionCodes,Action<AuthorizationOptions>? act = null)
     {
         if (act == null)
+        {
             act = options =>
             {
-                //options.AddPolicy("ServiceA.Read", policy =>
-                //policy.Requirements.Add(new PermissionRequirement("ServiceA.Read")));
+              foreach(var item in permissionCodes)
+                {
+                options.AddPolicy(item, policy =>
+                policy.Requirements.Add(new PermissionRequirement(item)));
+                }
             };
-        serviceCollection.AddAuthorization(act);
+            AuthorizationConfiguration.AddAuthorizationConfiguration(serviceCollection,act);
+        }   
         return serviceCollection;
     }
 
@@ -86,13 +102,16 @@ public static class AspNetCoreConfiguration
     /// <param name="services"></param>
     /// <param name="configurations"></param>
     /// <returns></returns>
-    public static IServiceCollection AddConfigurationService(this IServiceCollection services,
+    private static IServiceCollection AddConfigurationService(this IServiceCollection services,
         params Func<IServiceScope, Task>[] configurations)
     {
+        if (configurations != null && configurations.Any())
+        {
         var configurationService = new ConfigurationOptions();
         configurationService.AddConfiguration(configurations);
         services.AddSingleton(configurationService);
         services.AddHostedService<InitielizeConfigurationService>();
+        }
         return services;
     }
 }

@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Common.AspNetCore.Authorization;
 
-public static class AuthorizationConfiguration
+internal static class AuthorizationConfiguration
 {
     /// <summary>
     ///     鉴权的注入

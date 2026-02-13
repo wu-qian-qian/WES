@@ -1,0 +1,16 @@
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/bin/Debug/net8.0/Wcs.Presentation.deps.json
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/bin/Debug/net8.0/Wcs.Presentation.dll
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/bin/Debug/net8.0/Wcs.Presentation.pdb
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/bin/Debug/net8.0/Common.Presentation.dll
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/bin/Debug/net8.0/Common.Presentation.pdb
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.csproj.AssemblyReference.cache
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.AssemblyInfoInputs.cache
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.AssemblyInfo.cs
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.csproj.CoreCompileInputs.cache
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.sourcelink.json
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Pres.C8B91483.Up2Date
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.dll
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/refint/Wcs.Presentation.dll
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/Wcs.Presentation.pdb
+/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Presentation/obj/Debug/net8.0/ref/Wcs.Presentation.dll

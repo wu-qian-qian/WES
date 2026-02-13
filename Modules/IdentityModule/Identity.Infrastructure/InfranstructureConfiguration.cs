@@ -21,15 +21,12 @@ public static class InfranstructureConfiguration
     public static IServiceCollection AddInfranstructureConfiguration(this IServiceCollection services
         , IConfiguration configuration)
     {
-        services.AddDecoratorConfiguration(typeof(ApplicationConfiguration).Assembly);
-        services.AddDependyConfiguration([typeof(InfranstructureConfiguration).Assembly]);
         services.AddDbContext<IdentityDBContext>(options =>
         {
             var connStr = configuration.GetConnectionString("default");
             options.UseSqlServer(connStr, builder =>
                 builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable + HistoryRepository.DefaultTableName));
         });
-        services.AddMediatRConfiguration([typeof(ApplicationConfiguration).Assembly]);
         return services;
     }
 }

@@ -10,3 +10,15 @@ D:/1234/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.dll
 D:/1234/Commons/Common.Domain/obj/Debug/net8.0/refint/Common.Domain.dll
 D:/1234/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.pdb
 D:/1234/Commons/Common.Domain/obj/Debug/net8.0/ref/Common.Domain.dll
+/workspaces/WES/Commons/Common.Domain/bin/Debug/net8.0/Common.Domain.deps.json
+/workspaces/WES/Commons/Common.Domain/bin/Debug/net8.0/Common.Domain.dll
+/workspaces/WES/Commons/Common.Domain/bin/Debug/net8.0/Common.Domain.pdb
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.AssemblyInfoInputs.cache
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.AssemblyInfo.cs
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.csproj.CoreCompileInputs.cache
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.sourcelink.json
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.dll
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/refint/Common.Domain.dll
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/Common.Domain.pdb
+/workspaces/WES/Commons/Common.Domain/obj/Debug/net8.0/ref/Common.Domain.dll

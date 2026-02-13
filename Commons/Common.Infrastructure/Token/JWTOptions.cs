@@ -4,9 +4,7 @@ public sealed class JWTOptions
 {
     public JWTOptions()
     {
-        Issuer = nameof(Issuer);
-        Audience = nameof(Audience);
-        Key = Guid.NewGuid().ToString("N");
+
         //默认30天过期时间
         ExpireSeconds = 2592000;
     }

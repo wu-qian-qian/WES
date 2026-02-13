@@ -41,7 +41,6 @@ public static class NetConfiguration
         {
             serviceCollection.AddHttpClient();
         }
-
         return serviceCollection;
     }
 

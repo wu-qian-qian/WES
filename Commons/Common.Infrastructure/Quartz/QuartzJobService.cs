@@ -8,6 +8,13 @@ namespace Common.Infrastructure.Quartz;
 
 public class QuartzJobService(ISchedulerFactory _schedulerFactory) : IQuartzJobService
 {
+    
+    /// <summary>
+    /// CORE表达式
+    /// </summary>
+    /// <param name="jobConfig"></param>
+    /// <returns></returns>
+    /// <exception cref="ArgumentException"></exception>
     public async Task CraetJobAsync(JobOptions jobConfig)
     {
         var scheduler = await _schedulerFactory.GetScheduler();
@@ -36,13 +43,22 @@ public class QuartzJobService(ISchedulerFactory _schedulerFactory) : IQuartzJobS
         var scheduler = await _schedulerFactory.GetScheduler();
         var allJobKeys = await scheduler.GetJobKeys(GroupMatcher<JobKey>.AnyGroup());
         if (allJobKeys.Any(p => p.Name == jobName))
-            await scheduler.ResumeJob(new JobKey(jobName));
+        {
+            var state = await scheduler.GetTriggerState(new TriggerKey(jobName + "Trigger"));
+            if (state == TriggerState.Paused)
+                 await scheduler.ResumeJob(new JobKey(jobName));
+        }     
     }
 
     public async Task StopJobAsync(string jobName)
     {
         var scheduler = await _schedulerFactory.GetScheduler();
-        var jobKey = new JobKey(jobName);
-        await scheduler.PauseJob(jobKey);
+        var allJobKeys = await scheduler.GetJobKeys(GroupMatcher<JobKey>.AnyGroup());
+        if (allJobKeys.Any(p => p.Name == jobName))
+        {
+            var state = await scheduler.GetTriggerState(new TriggerKey(jobName + "Trigger"));
+            if (!(state == TriggerState.Paused))
+                await scheduler.PauseJob(new JobKey(jobName));
+        }
     }
 }

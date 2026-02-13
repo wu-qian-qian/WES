@@ -2,6 +2,8 @@
 
 public interface IFsmManager
 {
-    ValueTask EnterStatus(string key, string json, CancellationToken token = default);
+    Type TryGetState(string key);
+    IFSM RegistrationFsm(string owner);
+    ValueTask SwitchStatus(string owner,string key, string json, CancellationToken token = default);
     void AddStates(string key, Type status);
 }

@@ -9,4 +9,6 @@
 /// <param name="IsStart"></param>
 /// <param name="Timer"></param>
 /// <param name="TimerOut"></param>
-public record JobOptions(Type JobType, string JobName, string JobDes, bool IsStart, int Timer, int TimerOut);
+public record JobOptions(string JobType, string JobName, string JobDes, bool IsStart, int Timer, int TimerOut,bool isRepeat = true);
+
+public record JobCronOptions(string JobType, string JobName, string JobDes, bool IsStart, string Cron, int TimerOut);

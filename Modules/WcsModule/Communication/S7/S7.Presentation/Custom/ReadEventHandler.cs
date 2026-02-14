@@ -7,7 +7,7 @@ using S7.CustomEvents;
 namespace S7.Presentationl;
 
 public class ReadEventHandler(ISender _sender)
-: IEventHandler<ReadIntegrationEvent, Result<IEnumerable<ReadModel>>>
+: IIntegrationEventHandler<ReadIntegrationEvent, Result<IEnumerable<ReadModel>>>
 {
     public async Task<Result<IEnumerable<ReadModel>>> Handle(ReadIntegrationEvent @event
     , CancellationToken cancellationToken = default)

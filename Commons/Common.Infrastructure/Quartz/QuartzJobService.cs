@@ -85,6 +85,19 @@ public class QuartzJobService(ISchedulerFactory _schedulerFactory) : IQuartzJobS
         if (!jobConfig.IsStart)
             await scheduler.PauseJob(new JobKey(jobConfig.JobName));
     }
+
+    public async Task DeleteJobAsync(string jobName)
+    {
+        var scheduler = await _schedulerFactory.GetScheduler();
+        var allJobKeys = await scheduler.GetJobKeys(GroupMatcher<JobKey>.AnyGroup());
+        if (allJobKeys.Any(p => p.Name == jobName))
+        {
+            var state = await scheduler.GetTriggerState(new TriggerKey(jobName + "Trigger"));
+            if (state == TriggerState.Paused)
+                 await scheduler.DeleteJob(new JobKey(jobName));
+        }
+    }
+
     public async Task StartJobAsync(string jobName)
     {
         var scheduler = await _schedulerFactory.GetScheduler();

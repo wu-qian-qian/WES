@@ -11,10 +11,10 @@ public static class EventBusConfiguration
         Assembly[] assArray)
     {
         var eventManager = GetEventTypes(assArray, serviceCollection);
-        serviceCollection.AddSingleton<IEventBus>(sp =>
+        serviceCollection.AddSingleton<IIntegrationEventBus>(sp =>
         {
             var serviceScope = sp.GetRequiredService<IServiceScopeFactory>();
-            return new Bus.EventBus(eventManager, serviceScope);
+            return new Bus.IntegrationEventBus(eventManager, serviceScope);
         });
         return serviceCollection;
     }
@@ -39,7 +39,7 @@ public static class EventBusConfiguration
 
         var handlerTypes = allTypeList.Where(t => !t.IsAbstract && !t.IsInterface)
             .Where(t => t.GetInterfaces().Any(i => i.IsGenericType &&
-                                                   i.GetGenericTypeDefinition() == typeof(IEventHandler<,>))).ToArray();
+                                                   i.GetGenericTypeDefinition() == typeof(IIntegrationEventHandler<,>))).ToArray();
 
         // 构建事件类型 -> 处理器类型列表 的映射
         var eventToHandlers = new Dictionary<string, Type>();
@@ -47,7 +47,7 @@ public static class EventBusConfiguration
         foreach (var handlerType in handlerTypes)
         {
             var interfaces = handlerType.GetInterfaces()
-                .Where(i => i.IsGenericType && i.GetGenericTypeDefinition() == typeof(IEventHandler<,>));
+                .Where(i => i.IsGenericType && i.GetGenericTypeDefinition() == typeof(IIntegrationEventHandler<,>));
 
             if (!interfaces.Any() || interfaces.Count() > 1)
                 throw new ArgumentException($"{handlerType.FullName} 必须实现且只能实现一个 IEventHandler<TEvent, TResponse> 接口");
@@ -74,7 +74,7 @@ public static class EventBusConfiguration
             //IEventHandler<item>接口的处理器类型
             var handlers = allTypeList
                 .Where(t => t is { IsAbstract: false, IsInterface: false } &&
-                            t.IsAssignableTo(typeof(IEventHandler<>).MakeGenericType(item)))
+                            t.IsAssignableTo(typeof(IIntegrationEventHandler<>).MakeGenericType(item)))
                 .ToArray();
             if (handlers.Length == 0 || handlers.Length > 1) continue;
 

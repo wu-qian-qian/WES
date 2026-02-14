@@ -5,12 +5,12 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Common.Infrastructure.EventBus.Bus;
 
-internal sealed class EventBus : IEventBus
+internal sealed class IntegrationEventBus : IIntegrationEventBus
 {
     private readonly EventManager _eventManager;
     private readonly IServiceProvider _serviceProvider;
 
-    public EventBus(EventManager eventManager, IServiceScopeFactory serviceScopeFactory)
+    public IntegrationEventBus(EventManager eventManager, IServiceScopeFactory serviceScopeFactory)
     {
         _eventManager = eventManager ?? throw new ArgumentNullException(nameof(eventManager));
         _serviceProvider = serviceScopeFactory.CreateScope().ServiceProvider;
@@ -92,7 +92,7 @@ internal sealed class EventBus : IEventBus
             var handel = _eventManager.GetHandlerForEvent(eventName);
             var scop = _serviceProvider.CreateScope();
             var handler = scop.ServiceProvider.GetService(handel);
-            if (handler is IEventHandler<T> eventHandler)
+            if (handler is IIntegrationEventHandler<T> eventHandler)
                 await eventHandler.Handle(integrationEvent, cancellationToken);
         }
     }

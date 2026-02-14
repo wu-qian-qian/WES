@@ -7,7 +7,7 @@ using S7.CustomEvents;
 namespace S7.Presentationl;
 
 public class UpdateEntityCacheHandler(ISender _sender)
-: IEventHandler<UpdateEntityCacheEvent, Result>
+: IIntegrationEventHandler<UpdateEntityCacheEvent, Result>
 {
     public async Task<Result> Handle(UpdateEntityCacheEvent @event
     , CancellationToken cancellationToken = default)

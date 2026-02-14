@@ -6,6 +6,7 @@ namespace Common.Infrastructure.DecoratorEvent;
 /// <summary>
 ///     相当于一个装饰器
 ///     可以做一些其他处理
+///    例如：幂等性检查、日志记录、异常处理等
 /// </summary>
 /// <param name="decorated">真正的业务实现</param>
 /// <typeparam name="TDomainEvent"></typeparam>

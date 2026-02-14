@@ -45,7 +45,7 @@ internal sealed partial class EventManager
             _handlerDelegates.GetOrAdd(stringKey, _ =>
             {
                 // 构造接口类型：IEventHandler<eventType, responseType>
-                var interfaceType = typeof(IEventHandler<,>)
+                var interfaceType = typeof(IIntegrationEventHandler<,>)
                     .MakeGenericType(eventType, responseType);
 
                 if (!interfaceType.IsAssignableFrom(handlerType))

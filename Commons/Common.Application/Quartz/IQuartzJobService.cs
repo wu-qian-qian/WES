@@ -12,4 +12,6 @@ public interface IQuartzJobService
     public Task StartJobAsync(string jobName);
 
     public Task StopJobAsync(string jobName);
+
+    public Task DeleteJobAsync(string jobName);
 }

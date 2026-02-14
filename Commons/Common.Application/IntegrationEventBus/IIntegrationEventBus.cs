@@ -1,9 +1,9 @@
 ﻿namespace Common.Application.EventBus;
 
 /// <summary>
-///     事件总线接口
+///    集成 事件总线接口
 /// </summary>
-public interface IEventBus
+public interface IIntegrationEventBus
 {
     Task PublishAsync<T>(T integrationEvent, CancellationToken cancellationToken = default)
         where T : IIntegrationEvent;

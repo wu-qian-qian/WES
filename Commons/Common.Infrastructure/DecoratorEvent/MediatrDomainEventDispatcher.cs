@@ -4,6 +4,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Common.Infrastructure.DecoratorEvent;
 
+/// <summary>
+///  领域事件分发器，通过DI容器获取所有处理该事件的处理器，并调用它们的Handle方法
+/// </summary>
 public class MediatrDomainEventDispatcher : IDomainEventDispatcher
 {
     private readonly IServiceProvider _serviceProvider;

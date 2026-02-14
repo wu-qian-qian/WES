@@ -8,7 +8,7 @@ using S7.CustomEvents;
 namespace S7.Presentationl;
 
 public class WriteEventHandler(ISender _sender)
-: IEventHandler<WriteIntegrationEvent, Result>
+: IIntegrationEventHandler<WriteIntegrationEvent, Result>
 {
     public async Task<Result> Handle(WriteIntegrationEvent @event
     , CancellationToken cancellationToken = default)

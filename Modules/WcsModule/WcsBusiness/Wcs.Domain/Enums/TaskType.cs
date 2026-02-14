@@ -28,3 +28,12 @@ public enum DeviceTaskTypeEnum
    Elevator,
    Stacker,
 }
+
+/// <summary>
+/// 任务系统类型枚举
+/// </summary>
+public  enum TaskSystemTypeEnum
+{
+    WCS,
+    WMS,
+}

@@ -27,6 +27,11 @@ namespace Wcs.Domain.Entities
        /// 设备类型
        /// </summary>
        public DeviceTypeEnum DeviceType { get; set; }
+
+       /// <summary>
+       /// 同一任务模板可以对应不同的区域编码， 以实现不同区域的流量管控
+       /// 如一层输送 2层输送
+       /// </summary>
        public string RegionCode { get; set; }
     }
 }

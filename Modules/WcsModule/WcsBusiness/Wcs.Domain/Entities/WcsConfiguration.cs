@@ -6,9 +6,9 @@ namespace Wcs.Domain.Entities;
 /// WCS系统配置实体类
 /// 如策略 优先 等其他配置
 /// </summary>
-public class WcsConfigutation:DomainEntity
+public class WcsConfiguration:DomainEntity
 {
-  public WcsConfigutation():base(Guid.NewGuid())
+  public WcsConfiguration():base(Guid.NewGuid())
   {
   }
   public string Key { get; set; }

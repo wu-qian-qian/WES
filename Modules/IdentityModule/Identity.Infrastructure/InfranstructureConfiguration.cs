@@ -1,8 +1,4 @@
-﻿using Common.Infrastructure.DecoratorEvent;
-using Common.Infrastructure.DependencyInjection;
-using Common.Infrastructure.MediatR;
-using Identity.Application;
-using Identity.Infrastructure.DataBase;
+﻿using Identity.Infrastructure.DataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;

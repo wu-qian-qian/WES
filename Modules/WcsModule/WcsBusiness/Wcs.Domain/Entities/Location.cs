@@ -12,6 +12,10 @@ public class Location:BaseEntity
     {
         Id=Guid.NewGuid();
     }
+
+    /// <summary>
+    /// 上游映射编码
+    /// </summary>
     public string Code { get; set; }
     public string Description { get; set; }
 

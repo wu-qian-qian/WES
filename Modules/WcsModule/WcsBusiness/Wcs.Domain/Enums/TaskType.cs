@@ -11,21 +11,48 @@ public enum TaskTypeEnum
 }
 public enum TaskStatusTypeEnum
 {
+    /// <summary>
+    /// 创建
+    /// </summary>
     [Description("已创建")]
     Craeted,
+    /// <summary>
+    /// 待执行
+    /// </summary>
     [Description("待执行")]
     Pending,
+    /// <summary>
+    /// 执行中
+    /// </summary>
     [Description("执行中")]
     InProgress,
+    /// <summary>
+    /// 已完成
+    /// </summary>
     [Description("已完成")]
     Completed,
+    /// <summary>
+    /// 已取消
+    /// </summary>
     [Description("已取消")]
     Canceled
 }
 public enum DeviceTaskTypeEnum
 {
+     /// <summary>
+    /// 输送机
+    /// </summary>
+    [Description("输送机")]
    Conveyor,
+    /// <summary>
+    /// 提升机
+    /// </summary>
+    [Description("提升机")]
    Elevator,
+    /// <summary>
+    /// 堆垛机
+    /// </summary>
+    [Description("堆垛机")]
    Stacker,
 }
 
@@ -34,6 +61,14 @@ public enum DeviceTaskTypeEnum
 /// </summary>
 public  enum TaskSystemTypeEnum
 {
+        /// <summary>
+        /// Wcs系统
+        /// </summary>
+        [Description("Wcs系统")]
     WCS,
+    /// <summary>
+    /// WMS系统
+    /// </summary>
+    [Description("WMS系统")]
     WMS,
 }

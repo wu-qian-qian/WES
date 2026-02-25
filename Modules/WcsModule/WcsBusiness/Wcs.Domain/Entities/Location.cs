@@ -1,5 +1,11 @@
 using Common.Domain.Entity;
 namespace Wcs.Domain.Entities;
+
+
+/// <summary>
+/// 位置表
+/// 包含货位， 设备坐标,上位机机编码对应下位机编码关系
+/// </summary>
 public class Location:BaseEntity
 {
     public Location()

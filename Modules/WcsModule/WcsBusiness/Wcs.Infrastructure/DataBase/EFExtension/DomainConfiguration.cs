@@ -41,9 +41,9 @@ public static class DomainConfiguration
 
     public static void TaskDetailConfigConfiguration(this ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<TaskDetailConfig>(entity =>
+        modelBuilder.Entity<TaskTemplate>(entity =>
         {
-           entity.ToTable(nameof(TaskDetailConfig), WcsDBContext.SchemasTable);
+           entity.ToTable(nameof(TaskTemplate), WcsDBContext.SchemasTable);
            entity.HasKey(e => e.Id);
 
            entity.HasIndex(e => e.TaskTemplateCode);
@@ -83,7 +83,7 @@ public static class DomainConfiguration
             entity.HasIndex(e => e.TaskCode);
             entity.Property(e => e.TaskCode).IsRequired().HasMaxLength(32);
             entity.Property(e => e.ContainerCode).IsRequired().HasMaxLength(32);
-            entity.Property(e => e.TemplateCode).IsRequired().HasMaxLength(32);
+            entity.Property(e => e.TaskTemplateCode).IsRequired().HasMaxLength(32);
             entity.HasMany(e => e.Details)
                 .WithOne(d => d.WcsTaskInfo)
                 .HasForeignKey(d => d.WcsTaskInfo)
@@ -99,7 +99,32 @@ public static class DomainConfiguration
         {
            entity.ToTable(nameof(WcsTaskInfoDetail), WcsDBContext.SchemasTable);
            entity.HasKey(e => e.Id);
-           
+           entity.Property(e => e.DeviceName).IsRequired().HasMaxLength(32);
+        });
+    }
+
+     public static void RoadWayConfiguration(this ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<RoadWay>(entity =>
+        {
+           entity.ToTable(nameof(RoadWay), WcsDBContext.SchemasTable);
+           entity.HasKey(e => e.Id);
+            entity.Property(e => e.CurrentDeviceCode).IsRequired().HasMaxLength(32);
+            entity.Property(e => e.TargetDeviceCode).IsRequired().HasMaxLength(32);
+            entity.Property(e => e.TargetDeviceCode).IsRequired().HasMaxLength(32);
+                entity.HasOne(e => e.Region)
+                    .WithMany()
+                    .HasForeignKey(e => e.RegionId);
+        });
+    }
+
+    public static void RegionConfiguration(this ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Region>(entity =>
+        {
+           entity.ToTable(nameof(Region), WcsDBContext.SchemasTable);
+           entity.HasKey(e => e.Id);
+            entity.Property(e => e.RegionCode).IsRequired().HasMaxLength(32);
         });
     }
 }

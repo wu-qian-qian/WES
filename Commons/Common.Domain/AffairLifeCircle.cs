@@ -23,6 +23,7 @@ public struct AffairLifeCircle
         Processed = 2,
         Complate = 3,
         Cancel = 4,
-        Fault = 5
+        Fault = 5,
+        Retry=6,
     }
 }

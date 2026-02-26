@@ -5,7 +5,7 @@ using Wcs.Domain.Entities;
 using Wcs.Domain.Repositories;
 namespace Wcs.Infrastructure.DataBase.Repositories;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IWcsTaskInfoRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(IWcsTaskInfoRepository))]
 public class WcsTaskInfoRepository : IEntityRepository<WcsTaskInfo, WcsDBContext>, IWcsTaskInfoRepository
 {
     public WcsTaskInfoRepository(WcsDBContext dbContext) : base(dbContext)

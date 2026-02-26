@@ -3,7 +3,9 @@ using Common.Domain.Entity;
 namespace Wcs.Domain.Entities;
 
 /// <summary>
-///   该设备类型的设备可以在直接那些目标点之间移动
+///   该设备类型的设备可以在直接那些目标点之间移动  ，这里的路线是每一个设备--》下一个设备  如果该设备没有下一设备就不该存在这条数据
+///   如入库输送--堆垛机接货输送   
+///    堆垛机接货输送--堆垛机执行
 /// </summary>
 public class RoadWay : BaseEntity
 {
@@ -23,35 +25,11 @@ public class RoadWay : BaseEntity
      /// </summary>
     public string TargetDeviceCode { get; set; }
 
-    /// <summary>
-    /// 是否限流
-    /// </summary>
-    public bool IsLimit { get; set; }
-
-    /// <summary>
-    /// 限流数量
-    /// </summary>
-    public int LimitCount { get; set; }
-
-        /// <summary>
-        /// 当前数量
-        /// </summary>
-    public int CurrentCount { get; set; }
-
-
-   public string Description { get; set; }
+   
+   public string? Description { get; set; }
 
    public bool IsActive { get; set; }
 
-   public void AddLimitCount()
-   {
-       CurrentCount++;
-   }
-    public void ReduceLimitCount()
-    {
-         if (CurrentCount > 0)
-         {
-              CurrentCount--;
-         }
-    }
+    public Guid RegionId { get; set; }
+    public Region Region { get; set; }
 }

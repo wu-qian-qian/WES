@@ -5,7 +5,7 @@ using Wcs.Domain.Entities;
 using Wcs.Domain.Repositories;
 namespace Wcs.Infrastructure.DataBase.Repositories;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(ILocationRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(ILocationRepository))]
 public class LocationRepository : IEntityRepository<Location, WcsDBContext>, ILocationRepository
 {
     public LocationRepository(WcsDBContext dbContext) : base(dbContext)

@@ -18,7 +18,7 @@ public static class AttrubiteInjectionService
         foreach (var assembly in assemblies)
         foreach (var type in assembly.GetTypes().Where(p => p.IsClass && !p.IsAbstract))
         {
-            var att = type.GetCustomAttribute<DIAttrubite>();
+            var att = type.GetCustomAttribute<DIAttribute>();
             if (att != null)
                 switch (att.LifeTime)
                 {

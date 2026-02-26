@@ -5,10 +5,10 @@ using Wcs.Domain.Entities;
 using Wcs.Domain.Repositories;
 namespace Wcs.Infrastructure.DataBase.Repositories;
 
-[DIAttribute(DILifeTimeEnum.Scoped, typeof(IDeviceRepository))]
-public class DeviceRepository : IEntityRepository<Device, WcsDBContext>, IDeviceRepository
+[DI(DILifeTimeEnum.Scoped, typeof(IRegionRepository))]
+public class RegionRepository : IEntityRepository<Region, WcsDBContext>, IRegionRepository
 {
-    public DeviceRepository(WcsDBContext dbContext) : base(dbContext)
+    public RegionRepository(WcsDBContext dbContext) : base(dbContext)
     {
     }
 }

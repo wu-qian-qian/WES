@@ -4,6 +4,12 @@ namespace Wcs.Domain.Entities;
 /// <summary>
 /// 子任务 
 /// 由主任务通过任务任务模板进行匹配生成
+/// 
+/// 状态机将数据写入PLC后任务变为执行中
+/// 然后发送一个WcsEvent事件
+/// 由消费者取定时消费这个WcsEvent事件
+/// 
+/// 该事件主要是来判断任务是否完成，如果完成了则触发当前状态机的完成状态 实现逻辑闭环
 /// </summary>
 public class WcsTaskInfoDetail:BaseEntity
 {
@@ -12,11 +18,7 @@ public class WcsTaskInfoDetail:BaseEntity
         Id=Guid.NewGuid();
         TaskStatusType= TaskStatusTypeEnum.Craeted;
     }
-    /// <summary>
-    /// 任务模板编码， 关联TaskDetailConfig表的TaskTemplateCode字段
-    /// 设备类型+任务模板编码+子任务状态 为一个状态机状态
-    /// </summary>
-    public string TaskTemplateCode { get; set; }
+  
     public int Index { get; set; }
 
     /// <summary>
@@ -32,7 +34,7 @@ public class WcsTaskInfoDetail:BaseEntity
     /// <summary>
     /// 任务是由什么设备执行
     /// </summary>
-    public DeviceTaskTypeEnum DeviceTaskType { get;private set; }
+    public DeviceTypeEnum DeviceTaskType { get;private set; }
 
     /// <summary>
     /// 只有待执行， 执行中 ，已完成 3种状态
@@ -48,7 +50,9 @@ public class WcsTaskInfoDetail:BaseEntity
     /// <returns></returns>
     public string GetFSMValue()
     {
-        return $"{DeviceTaskType}_{TaskTemplateCode}_{TaskStatusType}";
+       // return $"{DeviceTaskType}_{TaskTemplateCode}_{TaskStatusType}";
+       //TODO
+       return string.Empty;
     }
     public void OnPending()
     {

@@ -37,25 +37,6 @@ public enum TaskStatusTypeEnum
     [Description("已取消")]
     Canceled
 }
-public enum DeviceTaskTypeEnum
-{
-     /// <summary>
-    /// 输送机
-    /// </summary>
-    [Description("输送机")]
-   Conveyor,
-    /// <summary>
-    /// 提升机
-    /// </summary>
-    [Description("提升机")]
-   Elevator,
-    /// <summary>
-    /// 堆垛机
-    /// </summary>
-    [Description("堆垛机")]
-   Stacker,
-}
-
 /// <summary>
 /// 任务系统类型枚举
 /// </summary>

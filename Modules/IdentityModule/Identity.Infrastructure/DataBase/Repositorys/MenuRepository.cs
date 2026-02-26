@@ -6,7 +6,7 @@ using Identity.Domain.Repository;
 
 namespace Identity.Infrastructure.DataBase.Repositorys;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IMenuRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(IMenuRepository))]
 public class MenuRepository : IEntityRepository<Menu, IdentityDBContext>, IMenuRepository
 {
     public MenuRepository(IdentityDBContext dbContext) : base(dbContext)

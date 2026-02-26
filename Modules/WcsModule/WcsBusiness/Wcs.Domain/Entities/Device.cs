@@ -12,6 +12,8 @@ namespace Wcs.Domain.Entities
         
         public DeviceTypeEnum DeviceType { get; set; }
 
+        
+
         /// <summary>
         /// 配置信息，格式可以是JSON字符串
         /// </summary>

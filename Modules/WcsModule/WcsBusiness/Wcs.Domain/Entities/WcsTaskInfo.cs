@@ -27,7 +27,11 @@ public class WcsTaskInfo : DomainEntity
     /// 终点位置
     /// </summary>
     public string? EndLocation { get; set; }
-    public string TemplateCode { get; set; }
+     /// <summary>
+    /// 任务模板编码， 关联TaskDetailConfig表的TaskTemplateCode字段
+    /// 设备类型+任务模板编码+子任务状态 为一个状态机状态
+    /// </summary>
+    public string TaskTemplateCode { get; set; }
 
     /// <summary>
     /// 任务序列号

@@ -6,7 +6,7 @@ using S7.Domain.Repository;
 
 namespace S7.Infrastructure.DataBase.Repository;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IPlcNetRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(IPlcNetRepository))]
 public class PlcNetRepository : IEntityRepository<PlcNetConfig, PLCDBContext>, IPlcNetRepository
 {
     public PlcNetRepository(PLCDBContext dbContext) : base(dbContext)

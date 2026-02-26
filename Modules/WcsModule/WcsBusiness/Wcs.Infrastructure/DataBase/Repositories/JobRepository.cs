@@ -5,7 +5,7 @@ using Wcs.Domain.Entities;
 using Wcs.Domain.Repositories;
 namespace Wcs.Infrastructure.DataBase.Repositories;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IJobRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(IJobRepository))]
 public class JobRepository : IEntityRepository<Job, WcsDBContext>, IJobRepository
 {
     public JobRepository(WcsDBContext dbContext) : base(dbContext)

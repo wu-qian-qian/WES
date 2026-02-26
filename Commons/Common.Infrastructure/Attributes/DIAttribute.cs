@@ -3,9 +3,9 @@
 namespace Common.Infrastructure.Attributes;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, Inherited = false)]
-public class DIAttrubite : Attribute
+public class DIAttribute : Attribute
 {
-    public DIAttrubite(DILifeTimeEnum lifeTime, Type baseType)
+    public DIAttribute(DILifeTimeEnum lifeTime, Type baseType)
     {
         LifeTime = lifeTime;
         BaseType = baseType;

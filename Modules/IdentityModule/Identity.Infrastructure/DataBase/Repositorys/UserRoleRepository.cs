@@ -6,7 +6,7 @@ using Identity.Domain.Repository;
 
 namespace Identity.Infrastructure.DataBase.Repositorys;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IUserRoleRepository))]
+[DIAttribute(DILifeTimeEnum.Scoped, typeof(IUserRoleRepository))]
 public class UserRoleRepository : IEntityRepository<UserRole, IdentityDBContext>, IUserRoleRepository
 {
     public UserRoleRepository(IdentityDBContext dbContext) : base(dbContext)

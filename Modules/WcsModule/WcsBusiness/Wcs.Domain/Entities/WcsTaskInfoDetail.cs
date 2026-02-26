@@ -1,5 +1,6 @@
 using Common.Domain.Entity;
 
+namespace Wcs.Domain.Entities;
 /// <summary>
 /// 子任务 
 /// 由主任务通过任务任务模板进行匹配生成
@@ -24,9 +25,9 @@ public class WcsTaskInfoDetail:BaseEntity
     public Guid TaskInfoId { get; set; }
 
     
-    public string StartLocation { get; set; }
+    public string? StartLocation { get; set; }
 
-    public string EndLocation { get; set; }
+    public string? EndLocation { get; set; }
 
     /// <summary>
     /// 任务是由什么设备执行
@@ -39,11 +40,12 @@ public class WcsTaskInfoDetail:BaseEntity
     public TaskStatusTypeEnum TaskStatusType{get;set;}
 
     public string DeviceName { get; set; }
+    public WcsTaskInfo WcsTaskInfo { get; set; }
 
-/// <summary>
-/// 根据设备类型，任务模板编码，任务状态生成一个状态机的状态值
-/// </summary>
-/// <returns></returns>
+    /// <summary>
+    /// 根据设备类型，任务模板编码，任务状态生成一个状态机的状态值
+    /// </summary>
+    /// <returns></returns>
     public string GetFSMValue()
     {
         return $"{DeviceTaskType}_{TaskTemplateCode}_{TaskStatusType}";
@@ -61,5 +63,14 @@ public class WcsTaskInfoDetail:BaseEntity
     public void OnCompleted()
     {
         TaskStatusType = TaskStatusTypeEnum.Completed;
+    }
+
+    /// <summary>
+    /// 是否需要申请终点
+    /// </summary>
+    /// <returns></returns>
+    public bool IsApplyEndLocation()
+    {
+       return string.IsNullOrEmpty(EndLocation);
     }
 }

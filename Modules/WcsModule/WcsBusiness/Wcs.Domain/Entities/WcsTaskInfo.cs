@@ -22,11 +22,11 @@ public class WcsTaskInfo : DomainEntity
     /// <summary>
     /// 起点位置
     /// </summary>
-    public string StartLocation { get; set; }
+    public string? StartLocation { get; set; }
     /// <summary>
     /// 终点位置
     /// </summary>
-    public string EndLocation { get; set; }
+    public string? EndLocation { get; set; }
     public string TemplateCode { get; set; }
 
     /// <summary>

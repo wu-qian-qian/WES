@@ -15,7 +15,7 @@ public class WcsEvent : BaseEntity
     public Guid EventId { get; set; }
     public string Content{get;set;}
 
-    public string Description { get; set; }
+    public string? Description { get; set; }
 
     public LifeCircleType LifeCircle { get; set; }
 

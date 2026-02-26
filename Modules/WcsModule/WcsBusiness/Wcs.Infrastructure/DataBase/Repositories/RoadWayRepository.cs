@@ -5,10 +5,10 @@ using Wcs.Domain.Entities;
 using Wcs.Domain.Repositories;
 namespace Wcs.Infrastructure.DataBase.Repositories;
 
-[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IRegionRepository))]
-public class RegionRepository : IEntityRepository<Region, WcsDBContext>, IRegionRepository
+[DIAttrubite(DILifeTimeEnum.Scoped, typeof(IRoadWayRepository))]
+public class RoadWayRepository : IEntityRepository<RoadWay, WcsDBContext>, IRoadWayRepository
 {
-    public RegionRepository(WcsDBContext dbContext) : base(dbContext)
+    public RoadWayRepository(WcsDBContext dbContext) : base(dbContext)
     {
     }
 }

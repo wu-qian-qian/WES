@@ -21,10 +21,8 @@ public class Location:BaseEntity
 
     
     /// <summary>
-    /// 位置信息，如坐标，目标编号等
-    /// 公式位排-列-层
-    /// 如：1-2-3 表示1排2列3层
-    /// 编码则为 1001 目标位置
+    /// 编码的坐标
+    /// 某些编码无坐标
     /// </summary>
     public string? Position { get; set; }
 

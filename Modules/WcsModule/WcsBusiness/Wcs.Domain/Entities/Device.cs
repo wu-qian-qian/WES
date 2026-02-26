@@ -12,13 +12,15 @@ namespace Wcs.Domain.Entities
         
         public DeviceTypeEnum DeviceType { get; set; }
 
+        /// <summary>
+        /// 配置信息，格式可以是JSON字符串
+        /// </summary>
         public string DeviceConfiguration { get; set; }
 
         public string DeviceDescription { get; set; }
 
         public bool IsActive { get; set; }
 
-        public string RegionCode { get; set; }
 
         /// <summary>
         /// 通知上层系统激活或禁用
@@ -51,11 +53,10 @@ namespace Wcs.Domain.Entities
         /// <param name="name"></param>
         /// <param name="description"></param>
         /// <param name="regionCode"></param>
-        public void Update(string name, string description,string regionCode)
+        public void Update(string name, string description)
         {
             Name = name;
             DeviceDescription = description;
-            RegionCode = regionCode;
         }
     }
 }

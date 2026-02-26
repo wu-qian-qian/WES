@@ -37,6 +37,12 @@ public static class EFExtension
             .SelectMany(t => t.GetProperties())
             .Where(p => p.ClrType == typeof(string) && p.GetMaxLength() == null);
 
-        foreach (var property in stringProperties) property.SetMaxLength(maxLength);
+        foreach (var property in stringProperties)
+        {
+            property.SetMaxLength(maxLength);
+            property.SetIsUnicode(false); //如果不需要存储Unicode字符，可以设置为false以节省空间
+          //  property.IsNullable = true; 
+        }
+        
     }
 }

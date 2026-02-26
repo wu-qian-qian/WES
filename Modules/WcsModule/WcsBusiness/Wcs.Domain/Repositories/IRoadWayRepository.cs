@@ -1,7 +1,7 @@
 using Common.Domain.Repository;
 using Wcs.Domain.Entities;
 namespace Wcs.Domain.Repositories;
-public interface IRegionRepository:IRepository<Region>
+public interface IRoadWayRepository:IRepository<RoadWay>
 {
    
 }

@@ -5,6 +5,7 @@ using Common.Infrastructure.EF;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Wcs.Domain.Entities;
 
 namespace Wcs.Infrastructure.DataBase;
 
@@ -14,6 +15,9 @@ public class WcsDBContext : BaseDbContext
 
     private readonly IHttpContextAccessor _httpContextAccessor;
 
+
+
+
     public WcsDBContext(DbContextOptions options, IHttpContextAccessor httpContextAccessor,
         IDomainEventDispatcher domainEventDispatcher)
         : base(options, domainEventDispatcher)
@@ -21,11 +25,24 @@ public class WcsDBContext : BaseDbContext
         _httpContextAccessor = httpContextAccessor;
     }
 
+    public DbSet<Device> Devices{get;set;}
+    public DbSet<Job> Jobs{get;set;}
 
+    public DbSet<Location> Locations{get;set;}
+
+    public DbSet<Region> Regions{get;set;}
+    public DbSet<RoadWay> RoadWays{get;set;}
+    public DbSet<TaskTemplate> TaskTemplates{get;set;}
+    public DbSet<WcsConfiguration> WcsConfigurations{get;set;}
+    public DbSet<WcsEvent> WcsEvents{get;set;}
+    public DbSet<WcsTaskInfo> WcsTaskInfos{get;set;}
+    public DbSet<WcsTaskInfoDetail> WcsTaskInfoDetails{get;set;}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         //关联关系配置
+        modelBuilder.Configuration();
+        
     }
 
 

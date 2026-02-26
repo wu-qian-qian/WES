@@ -32,6 +32,11 @@ public class WcsEvent : BaseEntity
 
     public int Retry{get;set;}
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="timer">最好使用随机抖动</param>
+    /// <returns></returns>
     public bool TryRetry(int timer=10)
     {
         if (Retry < MaxRetry)

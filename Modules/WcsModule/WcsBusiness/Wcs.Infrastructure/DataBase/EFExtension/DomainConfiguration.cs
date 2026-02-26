@@ -4,6 +4,20 @@ using Wcs.Domain.Entities;
 namespace Wcs.Infrastructure.DataBase;
 public static class DomainConfiguration
 {
+
+   public static void Configuration(this ModelBuilder modelBuilder)
+    {
+        modelBuilder.DeviceConfiguration();
+         modelBuilder.JobConfiguration();
+         modelBuilder.LocationConfiguration();
+         modelBuilder.TaskTemplateConfiguration();
+         modelBuilder.WcsConfigurationConfiguration();
+         modelBuilder.WcsEventConfiguration();
+         modelBuilder.WcsTaskInfoConfiguration();
+        modelBuilder.WcsTaskInfoDetailConfiguration();
+        modelBuilder.RoadWayConfiguration();
+        modelBuilder.RegionConfiguration();
+    }
     public static void DeviceConfiguration(this ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Device>(entity =>
@@ -39,7 +53,7 @@ public static class DomainConfiguration
         });
     }
 
-    public static void TaskDetailConfigConfiguration(this ModelBuilder modelBuilder)
+    public static void TaskTemplateConfiguration(this ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<TaskTemplate>(entity =>
         {

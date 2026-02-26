@@ -5,6 +5,7 @@ using Common.Infrastructure.EF;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using S7.Domain.Entities;
 using S7.Infrastructure.DataBase.EFExtension;
 
 namespace S7.Infrastructure.DataBase;
@@ -22,6 +23,9 @@ public class PLCDBContext : BaseDbContext
         _httpContextAccessor = httpContextAccessor;
     }
 
+    public DbSet<PlcEntityItem> PlcEntityItems{get;set;}
+
+    public DbSet<PlcNetConfig> PlcNetConfigs{get;set;}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -32,6 +32,7 @@
   <Folder Name="/Modules/WCSModule/WcsDevice/">
         <Project Path="Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj" />
         <Project Path="Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj" />
+        <Project Path="Modules/WcsModule/WcsDevice/Pipeline/Pipeline.csproj" />
     </Folder>
 
     <Folder Name="/Serivices/">

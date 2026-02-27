@@ -1,3 +1,4 @@
+using Common.JsonExtension;
 using System.Linq.Expressions;
 
 
@@ -8,7 +9,7 @@ namespace Device.Application;
 /// </summary>
 /// <typeparam name="TConfig"></typeparam>
 /// <typeparam name="TDBEntity"></typeparam>
-public abstract class BaseDevice<TConfig, TDBEntity> : IDevice<TConfig>
+public abstract class BaseDevice<TConfig, TDBEntity,TWcsTask> : IDevice<TConfig>
     where TConfig : BaseDeviceConfig where TDBEntity : BaseDBEntity, new()
 {
     protected BaseDevice(bool enable)
@@ -21,7 +22,7 @@ public abstract class BaseDevice<TConfig, TDBEntity> : IDevice<TConfig>
     ///     信号量
     /// </summary>
     public abstract TDBEntity DBEntity { get; protected set; }
-
+    public abstract TWcsTask WcsTask { get; protected set; }
     /// <summary>
     ///     是否启动
     /// </summary>
@@ -43,7 +44,7 @@ public abstract class BaseDevice<TConfig, TDBEntity> : IDevice<TConfig>
     /// <returns></returns>
     public  bool IsNewStart()
     {
-        return Enable;
+        return Enable&&WcsTask==null;
     }
 
     /// <summary>
@@ -52,9 +53,17 @@ public abstract class BaseDevice<TConfig, TDBEntity> : IDevice<TConfig>
     /// <param name="config"></param>
     public virtual void SetConfig(string config)
     {
-       // Config = config.ParseJson<TConfig>();
+        Config = config.ParseJson<TConfig>();
     }
 
+    public void SetWcsTask(TWcsTask task)
+    {
+        WcsTask = task;
+    }
+    public void Clear()
+    {
+        WcsTask = default(TWcsTask);
+    }
     /// <summary>
     ///     创建出键值对
     /// </summary>

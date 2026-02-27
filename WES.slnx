@@ -29,7 +29,10 @@
         <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Infrastructure/Wcs.Infranstructure.csproj" />
         <Project Path="Modules/WcsModule/WcsBusiness/Wcs.Presentation/Wcs.Presentation.csproj" />
     </Folder>
-
+  <Folder Name="/Modules/WCSModule/WcsDevice/">
+        <Project Path="Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj" />
+        <Project Path="Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj" />
+    </Folder>
 
     <Folder Name="/Serivices/">
         <Project Path="Services/Identity/Identity.csproj" />

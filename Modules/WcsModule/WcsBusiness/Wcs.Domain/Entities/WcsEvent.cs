@@ -1,5 +1,5 @@
 using Common.Domain.Entity;
-using static Common.Domain.AffairLifeCircle;
+
 
 namespace Wcs.Domain.Entities;
 public class WcsEvent : BaseEntity
@@ -21,7 +21,7 @@ public class WcsEvent : BaseEntity
 
     public string? Description { get; set; }
 
-    public LifeCircleType LifeCircle { get; set; }
+    public EventLifeCircleType LifeCircle { get; set; }
 
     /// <summary>
     /// 重试时间
@@ -42,7 +42,7 @@ public class WcsEvent : BaseEntity
         if (Retry < MaxRetry)
         {
             Retry++;
-            LifeCircle=LifeCircleType.Retry;
+            LifeCircle=EventLifeCircleType.Retry;
             RetryTime=DateTime.Now.AddSeconds(timer);
             return true;
         }

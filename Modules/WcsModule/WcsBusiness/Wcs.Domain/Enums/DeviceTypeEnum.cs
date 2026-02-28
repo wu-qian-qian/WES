@@ -1,7 +1,6 @@
 public enum DeviceTypeEnum
 {
-    StockPortIn=1,
-    StockPortOut=2,
+   PipeLine,
 }
 public enum PipeLineTypeEnume
 {

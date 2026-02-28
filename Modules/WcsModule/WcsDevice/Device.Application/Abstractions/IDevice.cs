@@ -13,7 +13,7 @@ public interface IDevice
     ///     设置DB实体
     /// </summary>
     /// <param name="dBEntity"></param>
-    void SetDBEntiry(BaseDBEntity dBEntity);
+    void SetDBEntiry(IDBEntity dBEntity);
 
     bool IsNewStart();
 }

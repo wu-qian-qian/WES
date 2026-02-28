@@ -10,7 +10,7 @@ public class CreatDBEntity
     {
         _properMap = new Dictionary<string, PropertyInfo[]?>();
     }
-    public static T CreatEntity<T>(KeyValuePair<string,string>[] plcBuffers) where T : BaseDBEntity, new()
+    public static T CreatEntity<T>(KeyValuePair<string,string>[] plcBuffers) where T : IDBEntity, new()
     {
         var type = typeof(T);
         var t = new T();
@@ -30,7 +30,7 @@ public class CreatDBEntity
         return t;
     }
     private static readonly SemaphoreSlim _semaphoreSlim = new(1, 1);
-    public void AddDbEntity<T>() where T : BaseDBEntity
+    public void AddDbEntity<T>() where T : IDBEntity
     {
         _semaphoreSlim.Wait();
         try

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Wcs.Domain.Entities;
 
-namespace Conveyor
+namespace Pipeline
 {
     internal class PipeLineDevice : BaseDevice<PipeLineConfig, PipeLineDBEntity, WcsTaskInfoDetail>
     {
@@ -15,8 +15,12 @@ namespace Conveyor
             Name = name;
         }
 
+        public PipeLineTypeEnume CurrentPipelineType{get;private set;}
         public override PipeLineDBEntity DBEntity { get; protected set; }
         public override PipeLineConfig Config { get; protected set; }
         public override WcsTaskInfoDetail WcsTask { get; protected set; }
+
+        public void SetCurrentPiplineType(PipeLineTypeEnume currentPipelineType)
+        =>this.CurrentPipelineType=currentPipelineType;
     }
 }

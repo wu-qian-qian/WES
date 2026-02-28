@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Device.CustomEvents")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Wcs.CustomEvent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37a2a713cab0eeedf7ad39c0b276a6a75e280478")]
-[assembly: System.Reflection.AssemblyProductAttribute("Device.CustomEvents")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Device.CustomEvents")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e32b25d4d571f28f2c6a27bef8c40cd1ad585dd6")]
+[assembly: System.Reflection.AssemblyProductAttribute("Wcs.CustomEvent")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Wcs.CustomEvent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

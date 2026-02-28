@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conveyor
+namespace Pipeline
 {
     internal class PipeLineJob : BaseJob
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conveyor
+namespace Pipeline
 {
     public class PipeLineConfig:BaseDeviceConfig
     {

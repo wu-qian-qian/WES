@@ -10,6 +10,5 @@
   <ProjectReference Include="..\..\Communication\S7\S7.CustomEvents\S7.CustomEvents.csproj" />
   <ProjectReference Include="..\..\WcsBusiness\Wcs.Domain\Wcs.Domain.csproj" />
   <ProjectReference Include="..\Device.Application\Device.Application.csproj" />
-  <ProjectReference Include="..\Device.CustomEvents\Device.CustomEvents.csproj" />
 </ItemGroup>
 </Project>

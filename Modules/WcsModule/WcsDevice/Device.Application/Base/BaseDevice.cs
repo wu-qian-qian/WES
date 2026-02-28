@@ -10,7 +10,7 @@ namespace Device.Application;
 /// <typeparam name="TConfig"></typeparam>
 /// <typeparam name="TDBEntity"></typeparam>
 public abstract class BaseDevice<TConfig, TDBEntity,TWcsTask> : IDevice<TConfig>
-    where TConfig : BaseDeviceConfig where TDBEntity : BaseDBEntity, new()
+    where TConfig : BaseDeviceConfig where TDBEntity : IDBEntity, new()
 {
     protected BaseDevice(bool enable)
     {
@@ -106,7 +106,7 @@ public abstract class BaseDevice<TConfig, TDBEntity,TWcsTask> : IDevice<TConfig>
     ///     设置DB实体
     /// </summary>
     /// <param name="dBEntity"></param>
-    public void SetDBEntiry(BaseDBEntity dBEntity)
+    public void SetDBEntiry(IDBEntity dBEntity)
     {
         DBEntity = (TDBEntity)dBEntity;
     }

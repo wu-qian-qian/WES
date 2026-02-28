@@ -1,8 +1,8 @@
 using Device.Application;
 
-namespace Conveyor
+namespace Pipeline
 {
-    public class PipeLineDBEntity : BaseDBEntity
+    public class PipeLineDBEntity : IDBEntity
     {
         public string RTask { get; set; }
 

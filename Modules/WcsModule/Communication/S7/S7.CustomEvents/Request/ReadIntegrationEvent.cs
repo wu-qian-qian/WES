@@ -7,3 +7,4 @@ public class ReadIntegrationEvent:IIntegrationEvent<Result<IEnumerable<ReadModel
 {   
     public string DeviceName{get;set;}
 }
+ 

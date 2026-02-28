@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj": {}
+    "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvent/Device.CustomEvent.csproj": {}
   },
   "projects": {
-    "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj": {
+    "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvent/Device.CustomEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj",
-        "projectName": "Device.CustomEvents",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj",
+        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvent/Device.CustomEvent.csproj",
+        "projectName": "Device.CustomEvent",
+        "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvent/Device.CustomEvent.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/obj/",
+        "outputPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvent/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

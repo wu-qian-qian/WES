@@ -545,16 +545,6 @@
           "bin/placeholder/Device.Application.dll": {}
         }
       },
-      "Device.CustomEvents/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Device.CustomEvents.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Device.CustomEvents.dll": {}
-        }
-      },
       "S7.CustomEvents/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1418,11 +1408,6 @@
       "path": "../Device.Application/Device.Application.csproj",
       "msbuildProject": "../Device.Application/Device.Application.csproj"
     },
-    "Device.CustomEvents/1.0.0": {
-      "type": "project",
-      "path": "../Device.CustomEvents/Device.CustomEvents.csproj",
-      "msbuildProject": "../Device.CustomEvents/Device.CustomEvents.csproj"
-    },
     "S7.CustomEvents/1.0.0": {
       "type": "project",
       "path": "../../Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj",
@@ -1438,7 +1423,6 @@
     "net10.0": [
       "Common.Application >= 1.0.0",
       "Device.Application >= 1.0.0",
-      "Device.CustomEvents >= 1.0.0",
       "S7.CustomEvents >= 1.0.0",
       "Wcs.Domain >= 1.0.0"
     ]
@@ -1479,9 +1463,6 @@
             },
             "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj": {
               "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj"
-            },
-            "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj": {
-              "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.CustomEvents/Device.CustomEvents.csproj"
             }
           }
         }

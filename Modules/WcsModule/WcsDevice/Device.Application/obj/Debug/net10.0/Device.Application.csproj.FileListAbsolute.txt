@@ -1,0 +1,16 @@
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/bin/Debug/net10.0/Device.Application.deps.json
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/bin/Debug/net10.0/Device.Application.dll
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/bin/Debug/net10.0/Device.Application.pdb
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/bin/Debug/net10.0/Common.dll
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/bin/Debug/net10.0/Common.pdb
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.csproj.AssemblyReference.cache
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.AssemblyInfoInputs.cache
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.AssemblyInfo.cs
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.csproj.CoreCompileInputs.cache
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.sourcelink.json
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.A.97846DB6.Up2Date
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.dll
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/refint/Device.Application.dll
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/Device.Application.pdb
+/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/Debug/net10.0/ref/Device.Application.dll

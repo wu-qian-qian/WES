@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Device.CustomEvent/1.0.0": {
+        "runtime": {
+          "Device.CustomEvent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Device.CustomEvent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,5 +1,6 @@
 ﻿using System.Security.Claims;
 using Common.Application.DecoratorEvent;
+using Common.Application.UnitOfWork;
 using Common.Domain.Entity;
 using Common.Infrastructure.EF;
 using Identity.Domain;
@@ -11,7 +12,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Identity.Infrastructure.DataBase;
 
-public class IdentityDBContext : BaseDbContext
+public class IdentityDBContext : BaseDbContext,IUnitOfWork
 {
     public const string SchemasTable = "Identity";
 

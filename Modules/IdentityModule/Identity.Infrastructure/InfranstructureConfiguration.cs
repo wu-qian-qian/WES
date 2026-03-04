@@ -1,4 +1,5 @@
-﻿using Identity.Infrastructure.DataBase;
+﻿using Common.Application.UnitOfWork;
+using Identity.Infrastructure.DataBase;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,7 @@ public static class InfranstructureConfiguration
             options.UseSqlServer(connStr, builder =>
                 builder.MigrationsHistoryTable(IdentityDBContext.SchemasTable + HistoryRepository.DefaultTableName));
         });
+        services.AddScoped<IUnitOfWork>(sp => sp.GetRequiredService<IdentityDBContext>());
         return services;
     }
 }

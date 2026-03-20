@@ -1,0 +1,649 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "projectName": "Common.Application",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              },
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Quartz.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectName": "Common.Domain",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
+        "projectName": "S7.Application",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj"
+              },
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
+        "projectName": "S7.CustomEvents",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+        "projectName": "S7.Domain",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj",
+        "projectName": "S7.Presentation.Tests",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
+              },
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj"
+              },
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.6, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj",
+        "projectName": "S7.Presentation",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
+              },
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

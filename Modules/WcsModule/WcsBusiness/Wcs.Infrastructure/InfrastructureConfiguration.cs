@@ -1,6 +1,5 @@
 ﻿
 
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Wcs.Infranstructure;
 

@@ -1,18 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Program\\WES\\WES-Git\\",
+  "WorkspaceRootPath": "D:\\Program\\TRAE\\Wes\\WES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.infrastructure\\decoratorevent\\decoratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\decoratorevent\\decoratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.infrastructure\\decoratorevent\\idempotentdomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\decoratorevent\\idempotentdomaineventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.infrastructure\\decoratorevent\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\decoratorevent\\mediatrdomaineventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\identitymodule\\identity.infrastructure\\database\\efextension\\domainconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\database\\efextension\\domainconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.infrastructure\\integrationeventbus\\eventbusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D20C0A-377C-7166-725C-9317D553CA1F}|Commons\\Common.Infrastructure\\Common.Infrastructure.csproj|solutionrelative:commons\\common.infrastructure\\integrationeventbus\\eventbusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C17BB08-626F-B9E6-5348-E6EC35EC566E}|Commons\\Common.Application\\Common.Application.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.application\\integrationeventbus\\iintegrationeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C17BB08-626F-B9E6-5348-E6EC35EC566E}|Commons\\Common.Application\\Common.Application.csproj|solutionrelative:commons\\common.application\\integrationeventbus\\iintegrationeventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C17BB08-626F-B9E6-5348-E6EC35EC566E}|Commons\\Common.Application\\Common.Application.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.application\\integrationeventbus\\iintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C17BB08-626F-B9E6-5348-E6EC35EC566E}|Commons\\Common.Application\\Common.Application.csproj|solutionrelative:commons\\common.application\\integrationeventbus\\iintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|d:\\program\\trae\\wes\\wes\\commons\\common.domain\\entity\\domainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71F26001-5F8A-10F7-D74E-C54482B65C43}|Commons\\Common.Domain\\Common.Domain.csproj|solutionrelative:commons\\common.domain\\entity\\domainentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80113F7C-0170-6383-8635-E429DE7790C9}|Services\\WCS\\WCS.csproj|d:\\program\\trae\\wes\\wes\\services\\wcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80113F7C-0170-6383-8635-E429DE7790C9}|Services\\WCS\\WCS.csproj|solutionrelative:services\\wcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\identitymodule\\identity.infrastructure\\infranstructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\infranstructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\identitymodule\\identity.infrastructure\\identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\s7.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|solutionrelative:modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\s7.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|solutionrelative:modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84AB0A94-97C7-08DE-B109-A5ABF95306A8}|Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj|d:\\program\\trae\\wes\\wes\\modules\\wcsmodule\\communication\\s7\\s7.presentation.tests\\readeventhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84AB0A94-97C7-08DE-B109-A5ABF95306A8}|Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\S7.Presentation.Tests.csproj|solutionrelative:modules\\wcsmodule\\communication\\s7\\s7.presentation.tests\\readeventhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|d:\\program\\trae\\wes\\wes\\modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\services\\readmodelbuildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716AFFDF-B9A2-ADB8-D3FE-F1578AB4D838}|Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj|solutionrelative:modules\\wcsmodule\\communication\\s7\\s7.infrastructure\\services\\readmodelbuildservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,54 +74,272 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IdentityDBContext.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
               "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T08:42:39.083Z",
+              "WhenOpened": "2026-03-13T05:58:38.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "DecoratorConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\DecoratorConfiguration.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\DecoratorEvent\\DecoratorConfiguration.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\DecoratorConfiguration.cs",
+              "RelativeToolTip": "Commons\\Common.Infrastructure\\DecoratorEvent\\DecoratorConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T08:39:20.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T05:47:18.094Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Title": "IdempotentDomainEventHandler.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\IdempotentDomainEventHandler.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\DecoratorEvent\\IdempotentDomainEventHandler.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\IdempotentDomainEventHandler.cs",
+              "RelativeToolTip": "Commons\\Common.Infrastructure\\DecoratorEvent\\IdempotentDomainEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T08:35:47.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T05:47:16.119Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MediatrDomainEventDispatcher.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
+              "RelativeToolTip": "Commons\\Common.Infrastructure\\DecoratorEvent\\MediatrDomainEventDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:47:14.618Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomainConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\EFExtension\\DomainConfiguration.cs",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\EFExtension\\DomainConfiguration.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\EFExtension\\DomainConfiguration.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\EFExtension\\DomainConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T02:57:55.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventBusConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\IntegrationEventBus\\EventBusConfiguration.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Infrastructure\\IntegrationEventBus\\EventBusConfiguration.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Infrastructure\\IntegrationEventBus\\EventBusConfiguration.cs",
+              "RelativeToolTip": "Commons\\Common.Infrastructure\\IntegrationEventBus\\EventBusConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:43:55.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IIntegrationEventBus.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventBus.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventBus.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventBus.cs",
+              "RelativeToolTip": "Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:43:43.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IIntegrationEventHandler.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventHandler.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventHandler.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventHandler.cs",
+              "RelativeToolTip": "Commons\\Common.Application\\IntegrationEventBus\\IIntegrationEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T05:43:41.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DomainEntity.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Entity\\DomainEntity.cs",
+              "RelativeDocumentMoniker": "Commons\\Common.Domain\\Entity\\DomainEntity.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Entity\\DomainEntity.cs",
+              "RelativeToolTip": "Commons\\Common.Domain\\Entity\\DomainEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:35:01.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Services\\WCS\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\WCS\\Program.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Services\\WCS\\Program.cs",
+              "RelativeToolTip": "Services\\WCS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:03:04.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InfranstructureConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\InfranstructureConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:00:58.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Identity.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-13T02:52:01.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "S7.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+              "RelativeToolTip": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\S7.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-13T02:51:50.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InfrastructureConfiguration.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\InfrastructureConfiguration.cs",
+              "RelativeDocumentMoniker": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\InfrastructureConfiguration.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\InfrastructureConfiguration.cs",
+              "RelativeToolTip": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\InfrastructureConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T02:50:24.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReadEventHandlerTests.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\ReadEventHandlerTests.cs",
+              "RelativeDocumentMoniker": "Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\ReadEventHandlerTests.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\ReadEventHandlerTests.cs",
+              "RelativeToolTip": "Modules\\WcsModule\\Communication\\S7\\S7.Presentation.Tests\\ReadEventHandlerTests.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwBcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T09:57:23.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReadModelBuildService.cs",
+              "DocumentMoniker": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\Services\\ReadModelBuildService.cs",
+              "RelativeDocumentMoniker": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\Services\\ReadModelBuildService.cs",
+              "ToolTip": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\Services\\ReadModelBuildService.cs",
+              "RelativeToolTip": "Modules\\WcsModule\\Communication\\S7\\S7.Infrastructure\\Services\\ReadModelBuildService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T08:33:37.715Z"
             }
           ]
         }

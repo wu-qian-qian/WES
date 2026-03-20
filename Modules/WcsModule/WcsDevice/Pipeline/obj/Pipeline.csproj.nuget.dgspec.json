@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/WES/Modules/WcsModule/WcsDevice/Pipeline/Pipeline.csproj": {}
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Pipeline\\Pipeline.csproj": {}
   },
   "projects": {
-    "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj",
         "projectName": "Common.Application",
-        "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common.Application/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               },
-              "/workspaces/WES/Commons/Common/Common.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common/Common.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -85,41 +91,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common.Domain/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -162,41 +164,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Commons/Common/Common.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common/Common.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "/workspaces/WES/Commons/Common/Common.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -247,49 +245,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
         "projectName": "S7.CustomEvents",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -320,49 +314,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
         "projectName": "Wcs.Domain",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -393,49 +383,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\Device.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\Device.Application.csproj",
         "projectName": "Device.Application",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\Device.Application.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common/Common.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common/Common.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -471,7 +457,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -749,39 +735,45 @@
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/WcsDevice/Pipeline/Pipeline.csproj": {
+    "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Pipeline\\Pipeline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/WcsDevice/Pipeline/Pipeline.csproj",
+        "projectUniqueName": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Pipeline\\Pipeline.csproj",
         "projectName": "Pipeline",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Pipeline/Pipeline.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Pipeline/obj/",
+        "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Pipeline\\Pipeline.csproj",
+        "packagesPath": "C:\\Users\\BangQCP01\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Pipeline\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BangQCP01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj"
               },
-              "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/WcsBusiness/Wcs.Domain/Wcs.Domain.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsBusiness\\Wcs.Domain\\Wcs.Domain.csproj"
               },
-              "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/WcsDevice/Device.Application/Device.Application.csproj"
+              "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\Device.Application.csproj": {
+                "projectPath": "D:\\Program\\TRAE\\Wes\\WES\\Modules\\WcsModule\\WcsDevice\\Device.Application\\Device.Application.csproj"
               }
             }
           }
@@ -817,7 +809,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

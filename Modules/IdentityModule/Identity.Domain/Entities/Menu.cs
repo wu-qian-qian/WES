@@ -2,6 +2,7 @@
 
 namespace Identity.Domain.Entities;
 
+
 public class Menu : IEntity<Guid>
 {
     public Menu()

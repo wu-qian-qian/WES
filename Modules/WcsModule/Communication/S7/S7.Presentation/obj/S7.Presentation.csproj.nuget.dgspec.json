@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Presentation/S7.Presentation.csproj": {}
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj": {}
   },
   "projects": {
-    "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj",
         "projectName": "Common.Application",
-        "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common.Application/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               },
-              "/workspaces/WES/Commons/Common/Common.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common/Common.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -45,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -85,41 +91,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common.Domain/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -138,7 +140,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -154,41 +156,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Commons/Common/Common.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Commons/Common/Common.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "/workspaces/WES/Commons/Common/Common.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Commons/Common/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -207,7 +205,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -239,52 +237,48 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/S7.Application.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/S7.Application.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
         "projectName": "S7.Application",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/S7.Application.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Application/Common.Application.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Application/Common.Application.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/S7.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/S7.Domain.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj"
               }
             }
           }
@@ -299,7 +293,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -323,49 +317,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
         "projectName": "S7.CustomEvents",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -380,7 +370,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -396,49 +386,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/S7.Domain.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/S7.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
         "projectName": "S7.Domain",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/S7.Domain.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Domain/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj": {
-                "projectPath": "/workspaces/WES/Commons/Common.Domain/Common.Domain.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -453,7 +439,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -469,52 +455,48 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Presentation/S7.Presentation.csproj": {
+    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Presentation/S7.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj",
         "projectName": "S7.Presentation",
-        "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Presentation/S7.Presentation.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Presentation/obj/",
+        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\S7.Presentation.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Presentation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/S7.Application.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.Application/S7.Application.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj"
               },
-              "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj": {
-                "projectPath": "/workspaces/WES/Modules/WcsModule/Communication/S7/S7.CustomEvents/S7.CustomEvents.csproj"
+              "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj": {
+                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.CustomEvents\\S7.CustomEvents.csproj"
               }
             }
           }
@@ -529,7 +511,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -545,22 +527,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

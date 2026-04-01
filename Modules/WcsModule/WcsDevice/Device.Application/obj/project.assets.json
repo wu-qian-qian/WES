@@ -15,12 +15,12 @@
         "type": "package",
         "compile": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         },
         "runtime": {
           "lib/net7.0/Enums.NET.dll": {
-            "related": ".pdb;.xml"
+            "related": ".pdb"
           }
         }
       },

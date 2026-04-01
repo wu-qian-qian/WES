@@ -12,3 +12,5 @@
 # 针对于 visual studio 编译器中可忽略的文件
 /.vs
 
+*.cache
+*.editorconfig

@@ -22,13 +22,7 @@ internal class Update : IEndpoint
                 ParentId = dto.ParentId,
                 Sort = dto.Sort
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.Menu);
     }
 }

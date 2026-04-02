@@ -1,4 +1,4 @@
-using Common.Presentation;
+﻿using Common.Presentation;
 using Identity.Application.Menu.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -21,13 +21,7 @@ internal class Add : IEndpoint
                 ParentId = dto.ParentId,
                 Sort = dto.Sort ?? 0
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.Menu);
     }
 }

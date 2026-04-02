@@ -15,11 +15,7 @@ internal class Get : IEndpoint
         {
             var query = new GetRoleQuery { Id = id };
             var result = await sender.Send(query);
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.Role);
     }
 }

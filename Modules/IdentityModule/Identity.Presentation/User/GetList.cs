@@ -15,11 +15,7 @@ internal class GetList : IEndpoint
         {
             var query = new GetUserListQuery();
             var result = await sender.Send(query);
-            if (!result.IsSuccess)
-            {
-                return Results.Problem(result.Message);
-            }
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.User);
     }
 }

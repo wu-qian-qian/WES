@@ -20,11 +20,7 @@ internal class Add : IEndpoint
             };
 
             var result = await sender.Send(command);
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.Role);
     }
 }

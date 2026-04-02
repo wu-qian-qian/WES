@@ -18,13 +18,7 @@ internal class Add : IEndpoint
                 RoleId = dto.RoleId,
                 PermissionId = dto.PermissionId
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.RolePermission);
     }
 }

@@ -14,8 +14,8 @@ internal class Delete : IEndpoint
         app.MapDelete("user/{id:guid}", async (ISender sender, Guid id) =>
         {
             var command = new DeleteUserCommand { Id = id };
-            await sender.Send(command);
-            return Results.Ok();
+            var result = await sender.Send(command);
+            return result;
         }).WithTags(AssemblyReference.User);
     }
 }

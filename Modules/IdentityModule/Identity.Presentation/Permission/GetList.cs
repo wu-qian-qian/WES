@@ -14,12 +14,7 @@ internal class GetList : IEndpoint
         app.MapGet("permission", async (ISender sender) =>
         {
             var result = await sender.Send(new GetPermissionListQuery());
-            if (!result.IsSuccess)
-            {
-                return Results.Problem(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.Permission);
     }
 }

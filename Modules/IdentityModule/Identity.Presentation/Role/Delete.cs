@@ -15,11 +15,7 @@ internal class Delete : IEndpoint
         {
             var command = new DeleteRoleCommand { Id = id };
             var result = await sender.Send(command);
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.Role);
     }
 }

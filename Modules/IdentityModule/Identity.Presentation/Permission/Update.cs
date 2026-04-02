@@ -18,13 +18,7 @@ internal class Update : IEndpoint
                 Id = id,
                 PermissionCode = dto.PermissionCode
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.Permission);
     }
 }

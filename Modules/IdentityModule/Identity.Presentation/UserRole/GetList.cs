@@ -14,12 +14,7 @@ internal class GetList : IEndpoint
         app.MapGet("user-role", async (ISender sender) =>
         {
             var result = await sender.Send(new GetUserRoleListQuery());
-            if (!result.IsSuccess)
-            {
-                return Results.Problem(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.UserRole);
     }
 }

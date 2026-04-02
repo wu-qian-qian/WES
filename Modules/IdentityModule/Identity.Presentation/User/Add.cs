@@ -21,8 +21,8 @@ internal class Add : IEndpoint
                 IsEnabled = dto.IsEnabled
             };
 
-            var userId = await sender.Send(command);
-            return Results.Ok(new { Id = userId });
+            var result = await sender.Send(command);
+            return result;
         }).WithTags(AssemblyReference.User);
     }
 }

@@ -18,13 +18,7 @@ internal class Add : IEndpoint
                 UserId = dto.UserId,
                 RoleId = dto.RoleId
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.UserRole);
     }
 }

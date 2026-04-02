@@ -18,13 +18,7 @@ internal class Add : IEndpoint
                 PermissionId = dto.PermissionId,
                 MenuId = dto.MenuId
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.PermissionMenu);
     }
 }

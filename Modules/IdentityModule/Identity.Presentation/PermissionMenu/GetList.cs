@@ -14,12 +14,7 @@ internal class GetList : IEndpoint
         app.MapGet("permission-menu", async (ISender sender) =>
         {
             var result = await sender.Send(new GetPermissionMenuListQuery());
-            if (!result.IsSuccess)
-            {
-                return Results.Problem(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.PermissionMenu);
     }
 }

@@ -19,13 +19,7 @@ internal class Update : IEndpoint
                 UserId = dto.UserId,
                 RoleId = dto.RoleId
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.UserRole);
     }
 }

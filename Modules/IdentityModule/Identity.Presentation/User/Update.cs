@@ -22,8 +22,8 @@ internal class Update : IEndpoint
                 IsEnabled = dto.IsEnabled
             };
 
-            await sender.Send(command);
-            return Results.Ok();
+            var result = await sender.Send(command);
+            return result;
         }).WithTags(AssemblyReference.User);
     }
 }

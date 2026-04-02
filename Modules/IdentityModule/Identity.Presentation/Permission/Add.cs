@@ -17,13 +17,7 @@ internal class Add : IEndpoint
             {
                 PermissionCode = dto.PermissionCode ?? string.Empty
             });
-
-            if (!result.IsSuccess)
-            {
-                return Results.BadRequest(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.Permission);
     }
 }

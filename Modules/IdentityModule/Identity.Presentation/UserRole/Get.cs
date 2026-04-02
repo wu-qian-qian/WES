@@ -14,12 +14,7 @@ internal class Get : IEndpoint
         app.MapGet("user-role/{id:guid}", async (ISender sender, Guid id) =>
         {
             var result = await sender.Send(new GetUserRoleQuery { Id = id });
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok(result.Value);
+            return result;
         }).WithTags(AssemblyReference.UserRole);
     }
 }

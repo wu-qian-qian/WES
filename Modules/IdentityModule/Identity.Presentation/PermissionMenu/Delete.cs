@@ -14,12 +14,7 @@ internal class Delete : IEndpoint
         app.MapDelete("permission-menu/{id:guid}", async (ISender sender, Guid id) =>
         {
             var result = await sender.Send(new DeletePermissionMenuCommand { Id = id });
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.PermissionMenu);
     }
 }

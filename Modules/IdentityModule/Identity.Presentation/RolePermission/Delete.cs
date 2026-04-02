@@ -14,12 +14,7 @@ internal class Delete : IEndpoint
         app.MapDelete("role-permission/{id:guid}", async (ISender sender, Guid id) =>
         {
             var result = await sender.Send(new DeleteRolePermissionCommand { Id = id });
-            if (!result.IsSuccess)
-            {
-                return Results.NotFound(result.Message);
-            }
-
-            return Results.Ok();
+            return result;
         }).WithTags(AssemblyReference.RolePermission);
     }
 }

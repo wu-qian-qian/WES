@@ -1,18 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Program\\WES\\WES-Git\\",
+  "WorkspaceRootPath": "D:\\Program\\WES\\WES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|d:\\program\\wes\\wes\\modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4343A54A-1AB5-BED7-69E7-D332A8AD9BE8}|Modules\\IdentityModule\\Identity.Infrastructure\\Identity.Infrastructure.csproj|solutionrelative:modules\\identitymodule\\identity.infrastructure\\database\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|d:\\program\\wes\\wes-git\\modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E354B9A-E3F1-2362-81CF-863529AE3D7B}|Modules\\IdentityModule\\Identity.Domain\\Identity.Domain.csproj|solutionrelative:modules\\identitymodule\\identity.domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +20,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "IdentityDBContext.cs",
-              "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "DocumentMoniker": "D:\\Program\\WES\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
               "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
-              "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ToolTip": "D:\\Program\\WES\\WES\\Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Infrastructure\\DataBase\\IdentityDBContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T08:42:39.083Z",
               "EditorCaption": ""
@@ -42,34 +44,24 @@
               "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "RelativeDocumentMoniker": "..\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
               "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
+              "RelativeToolTip": "..\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T08:39:20.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T08:39:20.303Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Permission.cs",
               "DocumentMoniker": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeDocumentMoniker": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "RelativeDocumentMoniker": "..\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
               "ToolTip": "D:\\Program\\WES\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
-              "RelativeToolTip": "Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
+              "RelativeToolTip": "..\\WES-Git\\Modules\\IdentityModule\\Identity.Domain\\Permission.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T08:35:47.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2025-12-31T08:35:47.778Z"
             }
           ]
         }

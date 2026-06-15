@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {}
+    "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+    "D:\\Program\\WES\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES\\Commons\\Common.Application\\Common.Application.csproj",
         "projectName": "Common.Application",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common.Application\\Common.Application.csproj",
+        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES\\Commons\\Common.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               },
-              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj"
+              "D:\\Program\\WES\\WES\\Commons\\Common\\Common.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common\\Common.csproj"
               }
             }
           }
@@ -51,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -96,24 +97,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+    "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
         "projectName": "Common.Domain",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj",
+        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -122,6 +123,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,7 +142,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -161,24 +163,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj": {
+    "D:\\Program\\WES\\WES\\Commons\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES\\Commons\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES\\Commons\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -187,6 +189,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -205,7 +208,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -242,24 +245,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
+    "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
         "projectName": "S7.Application",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\S7.Application.csproj",
+        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -268,17 +271,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Application\\Common.Application.csproj"
+              "D:\\Program\\WES\\WES\\Commons\\Common.Application\\Common.Application.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common.Application\\Common.Application.csproj"
               },
-              "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj"
+              "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj"
               }
             }
           }
@@ -293,7 +297,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -322,24 +326,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
+    "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+        "projectUniqueName": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
         "projectName": "S7.Domain",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\obj\\",
+        "projectPath": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\S7.Domain.csproj",
+        "packagesPath": "C:\\Users\\吴\\.nuget\\packages\\",
+        "outputPath": "D:\\Program\\WES\\WES\\Modules\\WcsModule\\Communication\\S7\\S7.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\吴\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -348,14 +352,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
+              "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj": {
+                "projectPath": "D:\\Program\\WES\\WES\\Commons\\Common.Domain\\Common.Domain.csproj"
               }
             }
           }
@@ -370,7 +375,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -391,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

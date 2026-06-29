@@ -41,11 +41,7 @@ public class PlcEntityItem : BaseEntity
     public S7BlockTypeEnum S7BlockType { get; set; }
 
     /// <summary>
-    ///     PLC索引
-    /// </summary>
-    public int Index { get; set; }
 
-    /// <summary>
     ///     描述
     /// </summary>
     public string? Description { get; set; }

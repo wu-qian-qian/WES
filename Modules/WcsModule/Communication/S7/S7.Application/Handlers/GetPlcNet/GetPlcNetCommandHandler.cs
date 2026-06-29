@@ -5,10 +5,10 @@ using S7.Domain.Repository;
 
 namespace S7.Application.Handlers.GetPlcNet;
 
-public class GetPlcNetCommandHandler(IPlcNetRepository _plcNetRepository)
-    : ICommandHandler<GetPlcNetCommand, IEnumerable<S7NetModel>>
+public class GetPlcNetQueryHandler(IPlcNetRepository _plcNetRepository)
+    : IQueryHandler<GetPlcNetQuery, IEnumerable<S7NetModel>>
 {
-    public async Task<Result<IEnumerable<S7NetModel>>> Handle(GetPlcNetCommand request,
+    public async Task<Result<IEnumerable<S7NetModel>>> Handle(GetPlcNetQuery request,
         CancellationToken cancellationToken)
     {
         IEnumerable<S7NetModel> plcNets = (await _plcNetRepository.GetQueryableAsync())

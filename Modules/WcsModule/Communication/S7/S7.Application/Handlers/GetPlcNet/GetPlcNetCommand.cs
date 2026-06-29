@@ -3,6 +3,6 @@ using S7.Application.Abstractions.Data;
 
 namespace S7.Application.Handlers.GetPlcNet;
 
-public class GetPlcNetCommand : ICommand<IEnumerable<S7NetModel>>
+public class GetPlcNetQuery : IQuery<IEnumerable<S7NetModel>>
 {
 }
